@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>注意股處置風險工作台</title>
+    <link rel="stylesheet" href="./styles.css?v=20260515-01" />
+  </head>
+  <body>
+    <nav class="page-tabs">
+      <a href="./index.html" class="active">工作台</a>
+      <a href="./board.html">集點看板</a>
+    </nav>
+    <main class="shell">
+      <section class="mast">
+        <div>
+          <p class="eyebrow">TWSE / OTC NOTICE RISK</p>
+          <h1>注意股處置風險工作台</h1>
+        </div>
+        <div class="meta">
+          <span id="generatedAt">載入中</span>
+          <span id="asOf"></span>
+          <select id="historySelect" class="history-select" title="查看歷史預測紀錄">
+            <option value="">最新預測</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="summary-grid" id="summaryGrid"></section>
+
+      <section class="toolbar">
+        <div class="search-wrap">
+          <span>⌕</span>
+          <input id="searchInput" type="search" placeholder="搜尋代碼、名稱、產業、觸發類別" />
+        </div>
+        <select id="riskFilter">
+          <option value="all">全部</option>
+          <option value="triggered">估計日觸發處置</option>
+          <option value="near">尚差 1 點內</option>
+          <option value="active">估計日處置中</option>
+        </select>
+      </section>
+
+      <section class="layout">
+        <div class="table-panel" id="tableGroups"></div>
+
+        <aside class="detail-panel" id="detailPanel">
+          <div class="empty">選一檔股票查看門檻。</div>
+        </aside>
+      </section>
+    </main>
+    <script src="./app.js?v=20260515-02"></script>
+  </body>
+</html>

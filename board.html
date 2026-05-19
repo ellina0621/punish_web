@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>集點看板 — 注意股處置風險</title>
+    <link rel="stylesheet" href="./board.css?v=20260515-12" />
+  </head>
+  <body>
+    <nav class="page-tabs">
+      <a href="./index.html">工作台</a>
+      <a href="./board.html" class="active">集點看板</a>
+    </nav>
+    <main class="b-shell">
+      <header class="b-mast">
+        <div>
+          <p class="b-eyebrow">TWSE / OTC NOTICE RISK — DOT BOARD</p>
+          <h1 class="b-title">集點看板</h1>
+        </div>
+        <div class="b-meta">
+          <span id="generatedAt">載入中</span>
+          <span id="asOf"></span>
+          <select id="historySelect" class="history-select" title="查看歷史預測紀錄">
+            <option value="">最新預測</option>
+          </select>
+        </div>
+      </header>
+      <div class="b-search-bar">
+        <span class="b-search-icon">⌕</span>
+        <input id="boardSearch" type="search" placeholder="輸入代號或名稱快速查詢…" autocomplete="off" />
+        <kbd>ESC</kbd>
+      </div>
+      <div id="searchResult" style="display:none"></div>
+      <div id="boardContent"></div>
+    </main>
+    <script src="./board.js?v=20260515-28"></script>
+  </body>
+</html>
