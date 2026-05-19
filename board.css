@@ -261,6 +261,7 @@ table.bt tr:hover { background: rgba(255, 255, 255, 0.03); }
 .b-pbadge-down    { background: rgba(52, 211, 153, 0.15);  color: #34d399; }
 .b-pbadge-halt    { background: rgba(251, 191, 36, 0.15);  color: #fbbf24; }
 .b-pbadge-neutral { background: rgba(255, 255, 255, 0.05); color: #666; border-color: #444; }
+.b-pbadge-zone    { background: rgba(248, 113, 113, 0.15); color: #f87171; }
 
 /* ── Chips ──────────────────────────────────────────────── */
 .b-chip {

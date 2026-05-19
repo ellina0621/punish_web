@@ -46,23 +46,28 @@ function mktTag(r) {
 //   0  — "跌停仍觸" (threshold ≤ limit-down, ANY tomorrow's close triggers it)
 //   0  — price already above threshold (k6 case, condition met)
 //   otherwise — absolute distance from close to threshold
-function thresholdGap(r, thresholdPrice) {
+function thresholdGap(r, thresholdPrice, direction) {
   const price = Number(thresholdPrice);
   if (!Number.isFinite(price)) return Infinity;
   const prev  = Number(r["prev_close_for_eval"] ?? r["5_12收盤價"]);
   const close = Number(r["5_12收盤價"]);
+  // already in zone: direction=down AND threshold > close → condition currently met
+  if (direction === "down" && Number.isFinite(close) && close < price) return 0;
   if (Number.isFinite(prev) && prev > 0 && (price - prev) / prev * 100 <= -11) return 0;
   if (Number.isFinite(close) && close >= price) return 0;
   return Number.isFinite(close) ? Math.abs(price - close) : Infinity;
 }
 
-function priceBadge(r, target) {
+function priceBadge(r, target, direction) {
   const prev = Number(r["prev_close_for_eval"] ?? r["5_12收盤價"]);
   const price = Number(target);
   if (!Number.isFinite(prev) || prev <= 0 || !Number.isFinite(price))
     return `<span class="b-pbadge b-pbadge-neutral">--</span>`;
   const pct = ((price - prev) / prev) * 100;
   if (pct <= -11) return `<span class="b-pbadge b-pbadge-halt">⚠ 跌停仍觸</span>`;
+  // already in zone: direction=down AND threshold > close → condition currently satisfied
+  if (direction === "down" && pct > 0)
+    return `<span class="b-pbadge b-pbadge-zone">≤${fmt(price)}元（+${fmt(pct)}%以下觸）</span>`;
   const sign = pct > 0 ? "+" : "";
   const dir = pct > 0 ? "↑" : "↓";
   const cls = pct > 0 ? "b-pbadge-up" : "b-pbadge-down";
@@ -145,7 +150,7 @@ function conditionCol(r) {
   // Showing a lower 款②/⑥ price would be misleading — those clauses don't help.
   if (k1Only) {
     if (!Number.isFinite(k1p)) return "-";
-    return `<div class="cond-row"><span class="cond-clause">①</span>${priceBadge(r, k1p)}</div>`;
+    return `<div class="cond-row"><span class="cond-clause">①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>`;
   }
 
   // Both paths can work → show the minimum-gap clause across ①②⑥.
@@ -154,7 +159,7 @@ function conditionCol(r) {
   const k4v = Number(r["k4_turnover_volume_threshold_k"]);
   const k57p = Number(r["k5_k7_price_threshold"]);
   const candidates = [
-    ["①",      r["k1_price_threshold"], []],
+    ["①",      r["k1_price_threshold"], [], r["k1_nearest_direction"]],
     ["②",      r["k2_price_threshold"], []],
     ["⑥",      r["k6_min_price_to_trigger"],
                 (Number.isFinite(k6v) && k6v > 0) ? [`量≥${fmt(k6v)}張`] : []],
@@ -162,13 +167,50 @@ function conditionCol(r) {
     ...(Number.isFinite(k57p) ? [["③④⑤⑦", k57p,
         [...(Number.isFinite(k3v) && k3v > 0 ? [`量③≥${fmt(k3v)}張`] : []),
          ...(Number.isFinite(k4v) && k4v > 0 ? [`量④≥${fmt(k4v)}張`] : [])]]] : []),
-  ].map(([lbl, v, extras]) => [lbl, Number(v), thresholdGap(r, v), extras])
+  ].map(([lbl, v, extras, dir]) => [lbl, Number(v), thresholdGap(r, v, dir), extras, dir])
    .filter(([, v]) => Number.isFinite(v));
   if (!candidates.length) return "-";
   candidates.sort((a, b) => a[2] - b[2]);
-  const [lbl, price, , extras] = candidates[0];
+  const [lbl, price, , extras, bestDir] = candidates[0];
   const extrasHtml = extras.map(e => `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px">${e}</span>`).join("");
-  return `<div class="cond-row"><span class="cond-clause">${lbl}</span>${priceBadge(r, price)}${extrasHtml}</div>`;
+  return `<div class="cond-row"><span class="cond-clause">${lbl}</span>${priceBadge(r, price, bestDir)}${extrasHtml}</div>`;
+}
+
+// ─── k1 market/industry diff sub-block ──────────────────────────────────────
+
+function k1Detail(r, isBold) {
+  const ret5    = r["k1_prev5_return_pct"];
+  const mktAvg  = r["k1_mkt_avg"];
+  const indAvg  = r["k1_ind_avg"];
+  const mktDiff = r["k1_mkt_diff"];
+  const indDiff = r["k1_ind_diff"];
+  if (ret5 == null && mktAvg == null) return "";
+
+  const pct  = v => v != null ? `${v >= 0 ? "+" : ""}${fmt(v)}%` : "-";
+  const sign = v => v != null && v >= 0 ? "+" : "";
+
+  // directional differential: (ret - avg) × sign(ret)
+  const signRet = (ret5 != null && ret5 < 0) ? -1 : 1;
+  const mktDirDiff = mktDiff != null ? mktDiff * signRet : null;
+  const indDirDiff = indDiff != null ? indDiff * signRet : null;
+  const mktOk  = mktDirDiff != null && mktDirDiff >= 20;
+  const indOk  = indDirDiff != null && indDirDiff >= 20;
+
+  const mktNote = mktAvg != null
+    ? `<span class="b-k2-note">（大盤均${pct(mktAvg)}+20%=${fmt(mktAvg != null ? Math.round((mktAvg + (ret5 >= 0 ? 20 : -20)) * 100) / 100 : null)}%）</span>`
+    : "";
+  const indLabel = indAvg == null
+    ? `同類差 無（產業資料不足，免計）`
+    : `同類差 ${pct(indDiff)}${indDirDiff != null ? (indOk ? " ✓" : " ✗") : ""}`;
+
+  return `<div class="b-k2-detail">
+    <div class="b-k2-window ${isBold ? "b-k2-nearest" : ""}">
+      <span class="b-k2-label">5日：</span>
+      5日累積 ${pct(ret5)}
+      ｜ 全體差 ${pct(mktDiff)}${mktDiff != null ? (mktOk ? " ✓" : " ✗") : ""}${mktNote}
+      / ${indLabel}
+    </div>
+  </div>`;
 }
 
 // ─── k2 window detail sub-block ──────────────────────────────────────────────
@@ -330,8 +372,9 @@ function clauseThresholdDetail(r) {
 
   // 款① k1
   const k1p = Number(r["k1_price_threshold"]);
+  const k1dir = r["k1_nearest_direction"];
   if (Number.isFinite(k1p)) {
-    lines.push({ label: "款①", price: k1p, gap: thresholdGap(r, k1p), vols: [], notes: [], baseDate: k1bd, basePrice: k1bp });
+    lines.push({ label: "款①", price: k1p, gap: thresholdGap(r, k1p, k1dir), dir: k1dir, vols: [], notes: [], baseDate: k1bd, basePrice: k1bp, isK1: true });
   }
 
   // 款② k2
@@ -377,20 +420,20 @@ function clauseThresholdDetail(r) {
   const avg59Line = (hasK3 && Number.isFinite(k3v) && k3v > 0)
     ? `<div class="b-clause-mkt b-clause-mkt-sub">近59日均量 ${fmt(Math.round(k3v / 5))}張（原條文為近60日含當日，因此需考慮當日）</div>`
     : "";
-  const mktLine   = `<div class="b-clause-mkt">前日(${prevDate}) 量 ${prevVol} ▪ 週轉 ${prevTurn} ▪ 5日累積 ${ret5Str}</div>${avg59Line}`;
+  const mktLine   = `<div class="b-clause-mkt">前日(${prevDate}) 量 ${prevVol} ▪ 週轉 ${prevTurn}</div>${avg59Line}`;
 
   const minGap = Math.min(...lines.map(l => Number.isFinite(l.gap) ? l.gap : Infinity));
   const rowsHtml = lines.map(l => {
     const isBold = k1Only
       ? l.label === "款①"
       : (Number.isFinite(l.gap) && l.gap === minGap);
-    const priceCell = l.price != null ? priceBadge(r, l.price) : `<span class="b-date">-</span>`;
+    const priceCell = l.price != null ? priceBadge(r, l.price, l.dir) : `<span class="b-date">-</span>`;
     const baseHtml  = (l.baseDate && l.basePrice != null)
       ? `<span class="b-clause-base">基準 ${String(l.baseDate).slice(5).replace("-","/")} 收 ${fmt(l.basePrice)}</span>`
       : "";
     const volsHtml  = l.vols.map(v  => `<span class="b-chip b-chip-vol">${v}</span>`).join("");
     const notesHtml = l.notes.map(n => `<span class="b-clause-note">${n}</span>`).join("");
-    const subDetail = l.isK2 ? k2WindowsDetail(r, isBold) : l.isK6 ? k6Detail(r, isBold) : "";
+    const subDetail = l.isK1 ? k1Detail(r, isBold) : l.isK2 ? k2WindowsDetail(r, isBold) : l.isK6 ? k6Detail(r, isBold) : "";
     return `<div class="b-clause-row${isBold ? " b-clause-bold" : ""}"><span class="b-clause-label">${l.label}</span>${priceCell}${volsHtml}${notesHtml}${baseHtml}</div>${subDetail}`;
   }).join("");
   return mktLine + rowsHtml;
@@ -404,13 +447,14 @@ function near2CondCell(r) {
   if (k1Only) {
     const k1p = Number(r["k1_price_threshold"]);
     if (!Number.isFinite(k1p)) return `<span class="cond-clause">款①</span>`;
-    return `<div class="cond-row"><span class="cond-clause">款①</span>${priceBadge(r, k1p)}</div>`;
+    return `<div class="cond-row"><span class="cond-clause">款①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>`;
   }
   // All k1–k8 clauses eligible: show the one with smallest price gap
   const k57p = Number(r["k5_k7_price_threshold"]);
   const k6p  = Number(r["k6_min_price_to_trigger"]);
+  const k1dir = r["k1_nearest_direction"];
   const candidates = [
-    { label: "款①",    price: Number(r["k1_price_threshold"]),  gap: Number(r["k1_price_gap"]) },
+    { label: "款①",    price: Number(r["k1_price_threshold"]),  gap: thresholdGap(r, r["k1_price_threshold"], k1dir), dir: k1dir },
     { label: "款②",    price: Number(r["k2_price_threshold"]),  gap: Number(r["k2_price_gap"]) },
     { label: "款③④⑤⑦", price: k57p, gap: Number(r["k5_k7_price_gap"]) },
     { label: "款⑥",    price: k6p,  gap: Number.isFinite(close) && Number.isFinite(k6p) ? Math.abs(close - k6p) : Infinity },
@@ -418,7 +462,7 @@ function near2CondCell(r) {
   if (!candidates.length) return `<span class="b-date">-</span>`;
   candidates.sort((a, b) => a.gap - b.gap);
   const best = candidates[0];
-  return `<div class="cond-row"><span class="cond-clause">${best.label}</span>${priceBadge(r, best.price)}</div>`;
+  return `<div class="cond-row"><span class="cond-clause">${best.label}</span>${priceBadge(r, best.price, best.dir)}</div>`;
 }
 
 // ─── fastest disposal ────────────────────────────────────────────────────────
