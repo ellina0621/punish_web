@@ -40,6 +40,26 @@ function mktTag(r) {
     : `<span class="mkt mkt-twse">市</span>`;
 }
 
+function turnoverCell(r) {
+  const vol    = Number(r["5_12成交量千股"]);       // 張
+  const turn   = Number(r["5_12週轉率"]);            // %（已用實收資本重算）
+  const issued = Number(r["5_12已發行股數千股"]);    // 張（實收資本/10，直接輸出）
+  const date   = r["prev_close_date"]
+    ? String(r["prev_close_date"]).slice(5).replace("-", "/")
+    : "";
+  if (!Number.isFinite(vol) || !Number.isFinite(turn) || turn <= 0)
+    return `<span class="b-date">-</span>`;
+  // 優先用直接輸出的已發行股數；舊版 JSON 無此欄則反推
+  const shares = Number.isFinite(issued) && issued > 0
+    ? issued
+    : Math.round(vol * 100 / turn);
+  const dateLabel = date ? `<span class="b-date" style="font-size:10px;display:block;margin-bottom:1px">${date}</span>` : "";
+  return `<div style="font-size:12px;line-height:1.6;text-align:center">
+    ${dateLabel}<span style="font-weight:600">${fmt(turn)}%</span><br>
+    <span class="b-date" style="font-size:11px">${nf.format(vol)}張&thinsp;/&thinsp;${nf.format(shares)}張</span>
+  </div>`;
+}
+
 // ─── badges ─────────────────────────────────────────────────────────────────
 
 // Effective gap from current price to a threshold:
@@ -532,17 +552,19 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
   if (!groupRows.length) return `<div class="b-empty">目前無處置中或近期出關</div>`;
   const sk = sortState[secKey];
   const data = sorted(groupRows, sk);
-  const thd = (key, label) => {
+  const thd = (key, label, align = "") => {
     const cls = sk?.key === key ? (sk.dir > 0 ? "sort-asc" : "sort-desc") : "";
-    return `<th data-sort="${key}" class="${cls}">${label}</th>`;
+    const st  = align ? ` style="text-align:${align}"` : "";
+    return `<th data-sort="${key}" class="${cls}"${st}>${label}</th>`;
   };
-  const COLS = (isNear2 ? 13 : 12) + (hasActuals ? 1 : 0);
+  const COLS = (isNear2 ? 14 : 13) + (hasActuals ? 1 : 0);
   const actTh = hasActuals ? `<th>實際結果</th>` : "";
   const header = `<thead><tr>
     <th>所</th>
     ${thd("證券代碼","代號")}
     ${thd("證券名稱","名稱")}
     ${thd("市場產業","產業")}
+    ${thd("5_12週轉率","前日週轉","center")}
     ${thd("5_12收盤價","收盤")}
     ${actTh}
     ${isNear2 ? `<th>最可能觸發</th>` : ""}
@@ -633,6 +655,7 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
       <td class="b-code">${code}</td>
       <td>${r["證券名稱"]}</td>
       <td class="b-date" style="font-size:11px">${r["市場產業"] || r["TSE產業"] || "-"}</td>
+      <td>${turnoverCell(r)}</td>
       <td>${fmt(r["5_12收盤價"])}</td>
       ${actCell}
       ${near2Cell}
@@ -655,10 +678,11 @@ function dotTable(secKey, groupRows) {
   const sk = sortState[secKey];
   const data = sorted(groupRows, sk);
   const evalMM = payload?.eval_date?.slice(5)?.replace("-", "/") || "評估日";
-  const DOT_COLS = 11 + (hasActuals ? 1 : 0);
-  const thd = (key, label) => {
+  const DOT_COLS = 12 + (hasActuals ? 1 : 0);
+  const thd = (key, label, align = "") => {
     const cls = sk?.key === key ? (sk.dir > 0 ? "sort-asc" : "sort-desc") : "";
-    return `<th data-sort="${key}" class="${cls}">${label}</th>`;
+    const st  = align ? ` style="text-align:${align}"` : "";
+    return `<th data-sort="${key}" class="${cls}"${st}>${label}</th>`;
   };
   const actTh = hasActuals ? `<th>實際結果</th>` : "";
   const header = `<thead><tr>
@@ -666,6 +690,7 @@ function dotTable(secKey, groupRows) {
     ${thd("證券代碼","代號")}
     ${thd("證券名稱","名稱")}
     ${thd("市場產業","產業")}
+    ${thd("5_12週轉率","前日週轉","center")}
     ${thd("5_12收盤價","收盤")}
     ${actTh}
     <th>${evalMM} 最低門檻</th>
@@ -701,6 +726,7 @@ function dotTable(secKey, groupRows) {
       <td class="b-code">${code}</td>
       <td>${r["證券名稱"]}</td>
       <td class="b-date">${r["TSE產業"] || r["市場產業"] || "-"}</td>
+      <td>${turnoverCell(r)}</td>
       <td>${fmt(r["5_12收盤價"])}</td>
       ${actCell}
       <td>${conditionCol(r)}</td>
