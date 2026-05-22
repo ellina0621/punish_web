@@ -504,6 +504,15 @@ function fastestDisp(r) {
   }
 
   // 差 N 次：show the N-th next biz day from eval_date as earliest possible
+  if (remain === 1) {
+    const d = nextBizDay(payload.eval_date); // triggers today → disposal starts next biz day
+    const isSecond = r["近30天內曾處置"] || String(r["若5_12觸發_預估處置次數"] || "").includes("第二次");
+    const orderShort = isSecond ? "第2次" : "第1次";
+    const minShort   = isSecond ? "20分" : "5分";
+    const chipCls    = isSecond ? "b-chip-20min" : "b-chip-5min";
+    return `<span class="fastest"><span class="fastest-date">${mmdd(d)}</span><span class="b-muted" style="font-size:10px;margin-left:3px">最快</span><span class="b-chip ${chipCls}" style="margin-left:5px">${orderShort}${minShort}</span></span>`;
+  }
+
   if (remain === 2) {
     let d = payload.eval_date;
     d = nextBizDay(d); // 1st notice day
