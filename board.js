@@ -183,10 +183,15 @@ function conditionCol(r) {
     ["②",      r["k2_price_threshold"], []],
     ["⑥",      r["k6_min_price_to_trigger"],
                 (Number.isFinite(k6v) && k6v > 0) ? [`量≥${fmt(k6v)}張`] : []],
-    // Include ③④⑤⑦ only when their price threshold is calculable
-    ...(Number.isFinite(k57p) ? [["③④⑤⑦", k57p,
-        [...(Number.isFinite(k3v) && k3v > 0 ? [`量③≥${fmt(k3v)}張`] : []),
-         ...(Number.isFinite(k4v) && k4v > 0 ? [`量④≥${fmt(k4v)}張`] : [])]]] : []),
+    // Include ③④⑤⑦ only when their price threshold is calculable; show only easiest vol
+    ...(Number.isFinite(k57p) ? [["③④⑤⑦", k57p, (() => {
+        const has3 = Number.isFinite(k3v) && k3v > 0;
+        const has4 = Number.isFinite(k4v) && k4v > 0;
+        if (has3 && has4) return k4v <= k3v ? [`量④≥${fmt(k4v)}張`] : [`量③≥${fmt(k3v)}張`];
+        if (has4) return [`量④≥${fmt(k4v)}張`];
+        if (has3) return [`量③≥${fmt(k3v)}張`];
+        return [];
+      })()]] : []),
   ].map(([lbl, v, extras, dir]) => [lbl, Number(v), thresholdGap(r, v, dir), extras, dir])
    .filter(([, v]) => Number.isFinite(v));
   if (!candidates.length) return "-";
@@ -486,8 +491,14 @@ function near2CondCell(r) {
   if (best.label === "款③④⑤⑦") {
     const k3v = Number(r["k3_day_volume_threshold_k"]);
     const k4v = Number(r["k4_turnover_volume_threshold_k"]);
-    if (Number.isFinite(k3v) && k3v > 0) volBadges += `<span class="b-chip b-chip-vol" style="margin-left:4px">量③≥${fmt(k3v)}張</span>`;
-    if (Number.isFinite(k4v) && k4v > 0) volBadges += `<span class="b-chip b-chip-vol" style="margin-left:4px">量④≥${fmt(k4v)}張</span>`;
+    const has3 = Number.isFinite(k3v) && k3v > 0;
+    const has4 = Number.isFinite(k4v) && k4v > 0;
+    // 只顯示最容易達到（最小值）的量能門檻
+    if (has3 && has4) {
+      if (k4v <= k3v) volBadges = `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px;margin-left:4px">量④≥${fmt(k4v)}張</span>`;
+      else            volBadges = `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px;margin-left:4px">量③≥${fmt(k3v)}張</span>`;
+    } else if (has4) volBadges = `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px;margin-left:4px">量④≥${fmt(k4v)}張</span>`;
+    else if (has3)   volBadges = `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px;margin-left:4px">量③≥${fmt(k3v)}張</span>`;
   }
   return `<div class="cond-row"><span class="cond-clause">${best.label}</span>${priceBadge(r, best.price, best.dir)}${volBadges}</div>`;
 }
