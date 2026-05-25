@@ -854,6 +854,10 @@ function applyPayload(p) {
   hasActuals = rows.some(r => r.actual_close != null);
   document.getElementById("generatedAt").textContent = `產生時間 ${payload.generated_at}`;
   document.getElementById("asOf").textContent = `注意資料至 ${payload.asof_notice}，評估 ${payload.eval_date}`;
+  // default sort for disposal sections: earliest exit date first
+  ["near2_1", "near2_2", "active"].forEach(sec => {
+    if (!sortState[sec]) sortState[sec] = { key: "目前處置結束日", dir: 1 };
+  });
   render();
 }
 
