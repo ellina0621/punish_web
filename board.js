@@ -482,7 +482,14 @@ function near2CondCell(r) {
   if (!candidates.length) return `<span class="b-date">-</span>`;
   candidates.sort((a, b) => a.gap - b.gap);
   const best = candidates[0];
-  return `<div class="cond-row"><span class="cond-clause">${best.label}</span>${priceBadge(r, best.price, best.dir)}</div>`;
+  let volBadges = "";
+  if (best.label === "款③④⑤⑦") {
+    const k3v = Number(r["k3_day_volume_threshold_k"]);
+    const k4v = Number(r["k4_turnover_volume_threshold_k"]);
+    if (Number.isFinite(k3v) && k3v > 0) volBadges += `<span class="b-chip b-chip-vol" style="margin-left:4px">量③≥${fmt(k3v)}張</span>`;
+    if (Number.isFinite(k4v) && k4v > 0) volBadges += `<span class="b-chip b-chip-vol" style="margin-left:4px">量④≥${fmt(k4v)}張</span>`;
+  }
+  return `<div class="cond-row"><span class="cond-clause">${best.label}</span>${priceBadge(r, best.price, best.dir)}${volBadges}</div>`;
 }
 
 // ─── fastest disposal ────────────────────────────────────────────────────────
