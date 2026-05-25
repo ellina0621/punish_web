@@ -549,9 +549,16 @@ function getGroups() {
 function sorted(arr, sk) {
   if (!sk?.key) return arr;
   return [...arr].sort((a, b) => {
-    const av = a[sk.key], bv = b[sk.key];
-    if (typeof av === "number" && typeof bv === "number") return (av - bv) * sk.dir;
-    return String(av ?? "").localeCompare(String(bv ?? ""), "zh-Hant") * sk.dir;
+    let av = a[sk.key], bv = b[sk.key];
+    const aN = av == null || av === "" || av === "-";
+    const bN = bv == null || bv === "" || bv === "-";
+    if (aN && bN) return 0;
+    if (aN) return 1;   // null always last
+    if (bN) return -1;
+    av = Number(av); bv = Number(bv);
+    if (!isNaN(av) && !isNaN(bv)) return (av - bv) * sk.dir;
+    av = a[sk.key]; bv = b[sk.key];
+    return String(av).localeCompare(String(bv), "zh-Hant") * sk.dir;
   });
 }
 
@@ -854,9 +861,9 @@ function applyPayload(p) {
   hasActuals = rows.some(r => r.actual_close != null);
   document.getElementById("generatedAt").textContent = `產生時間 ${payload.generated_at}`;
   document.getElementById("asOf").textContent = `注意資料至 ${payload.asof_notice}，評估 ${payload.eval_date}`;
-  // default sort for disposal sections: earliest exit date first
+  // default sort for disposal sections: fewest remaining days first (already-exited = Infinity)
   ["near2_1", "near2_2", "active"].forEach(sec => {
-    if (!sortState[sec]) sortState[sec] = { key: "目前處置結束日", dir: 1 };
+    sortState[sec] = { key: "目前處置剩餘交易日", dir: 1 };
   });
   render();
 }
