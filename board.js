@@ -78,6 +78,7 @@ function thresholdGap(r, thresholdPrice, direction) {
     // "跌停仍觸" only when limit_down_price <= threshold (at limit down, price is still ≤ DOWN trigger).
     const lim = Number(r["limit_down_price"]) || (Number.isFinite(prev) && prev > 0 ? prev * 0.9 : NaN);
     if (Number.isFinite(lim) && lim <= price) return 0;
+    return Number.isFinite(close) ? Math.abs(price - close) : Infinity;
   } else {
     // UP trigger (or undefined): threshold below current → at limit down (~-10%) still above threshold.
     if (Number.isFinite(prev) && prev > 0 && (price - prev) / prev * 100 <= -11) return 0;
