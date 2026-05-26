@@ -94,13 +94,16 @@ function priceBadge(r, target, direction) {
   const pct = ((price - prev) / prev) * 100;
   if (direction === "down") {
     // DOWN trigger: stock must FALL to threshold.
-    // 跌停仍觸 only when limit_down_price <= threshold (at limit down, still triggers DOWN condition).
     const lim = Number(r["limit_down_price"]) || prev * 0.9;
     if (Number.isFinite(lim) && lim <= price)
       return `<span class="b-pbadge b-pbadge-halt">⚠ 跌停仍觸</span>`;
+    // limit_down > threshold → even at daily limit-down, k1 DOWN cannot trigger tomorrow
+    return `<span class="b-pbadge b-pbadge-neutral">不會達到</span>`;
   } else {
     // UP trigger (or undefined): threshold ≤ 11% below current → limit down still above threshold.
     if (pct <= -11) return `<span class="b-pbadge b-pbadge-halt">⚠ 跌停仍觸</span>`;
+    // threshold > 10% above current → can't reach even at daily limit-up
+    if (pct > 10) return `<span class="b-pbadge b-pbadge-neutral">不會達到</span>`;
   }
   // already in zone: direction=down AND threshold > close → condition currently satisfied
   if (direction === "down" && pct > 0)

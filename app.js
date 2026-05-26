@@ -101,13 +101,16 @@ function priceMoveFromPrev(r, target, direction) {
   const pct = ((price - prev) / prev) * 100;
   if (direction === "down") {
     // DOWN trigger: stock must FALL to threshold.
-    // 跌停仍觸 only when limit_down_price <= threshold (at limit down, still triggers DOWN condition).
     const lim = Number(r["limit_down_price"]) || prev * 0.9;
     if (Number.isFinite(lim) && lim <= price)
       return `<span class="pbadge pbadge-halt">⚠ 跌停仍觸</span>`;
+    // limit_down > threshold → even at daily limit-down, cannot trigger tomorrow
+    return `<span class="pbadge pbadge-neutral">不會達到</span>`;
   } else {
     // UP trigger (or undefined): threshold ≤ 11% below current → limit down still above threshold.
     if (pct <= -11) return `<span class="pbadge pbadge-halt">⚠ 跌停仍觸</span>`;
+    // threshold > 10% above current → can't reach even at daily limit-up
+    if (pct > 10) return `<span class="pbadge pbadge-neutral">不會達到</span>`;
   }
   const sign = pct > 0 ? "+" : "";
   const cls = pct > 0 ? "pbadge-up" : "pbadge-down";
