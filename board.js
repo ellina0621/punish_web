@@ -223,7 +223,15 @@ function conditionCol(r) {
   ].map(([lbl, v, extras, dir]) => [lbl, Number(v), thresholdGap(r, v, dir), extras, dir])
    .filter(([, v]) => Number.isFinite(v));
   if (!candidates.length) return "-";
-  candidates.sort((a, b) => a[2] - b[2]);
+  candidates.sort((a, b) => {
+    if (a[2] !== b[2]) return a[2] - b[2];
+    // tie-break within 不會達到 group: ① goes last so other clauses with volume info win
+    if (a[2] >= 1e9) {
+      if (a[0] === "①" && b[0] !== "①") return 1;
+      if (a[0] !== "①" && b[0] === "①") return -1;
+    }
+    return 0;
+  });
   const [lbl, price, , extras, bestDir] = candidates[0];
   const extrasHtml = extras.map(e => `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px">${e}</span>`).join("");
   return `<div class="cond-row"><span class="cond-clause">${lbl}</span>${priceBadge(r, price, bestDir)}${extrasHtml}</div>`;
