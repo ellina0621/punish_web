@@ -78,10 +78,14 @@ function thresholdGap(r, thresholdPrice, direction) {
     // "跌停仍觸" only when limit_down_price <= threshold (at limit down, price is still ≤ DOWN trigger).
     const lim = Number(r["limit_down_price"]) || (Number.isFinite(prev) && prev > 0 ? prev * 0.9 : NaN);
     if (Number.isFinite(lim) && lim <= price) return 0;
-    return Number.isFinite(close) ? Math.abs(price - close) : Infinity;
+    // 不會達到: even at limit-down, price stays above threshold → deprioritise but preserve ordering
+    return Number.isFinite(close) ? 1e9 + Math.abs(price - close) : Infinity;
   } else {
     // UP trigger (or undefined): threshold below current → at limit down (~-10%) still above threshold.
     if (Number.isFinite(prev) && prev > 0 && (price - prev) / prev * 100 <= -11) return 0;
+    // 不會達到: threshold > 10% above current → can't reach at limit-up
+    if (Number.isFinite(prev) && prev > 0 && (price - prev) / prev * 100 > 10)
+      return Number.isFinite(close) ? 1e9 + Math.abs(price - close) : Infinity;
   }
   if (Number.isFinite(close) && close >= price) return 0;
   return Number.isFinite(close) ? Math.abs(price - close) : Infinity;
@@ -189,9 +193,12 @@ function conditionCol(r) {
 
   // If 連3第1款 is the sole leading path, only 款① can push this stock into disposal.
   // Showing a lower 款②/⑥ price would be misleading — those clauses don't help.
-  if (k1Only) {
-    if (!Number.isFinite(k1p)) return "-";
-    return `<div class="cond-row"><span class="cond-clause">①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>`;
+  // Exception: if k1 itself is 不會達到, fall through to show the next reachable clause instead.
+  if (k1Only && Number.isFinite(k1p)) {
+    const _k1gap = thresholdGap(r, k1p, r["k1_nearest_direction"]);
+    if (_k1gap < 1e9)
+      return `<div class="cond-row"><span class="cond-clause">①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>`;
+    // k1 不會達到 → fall through to candidates sort below
   }
 
   // Both paths can work → show the minimum-gap clause across ①②⑥.
@@ -492,8 +499,12 @@ function near2CondCell(r) {
   const close = Number(r["5_12收盤價"]);
   if (k1Only) {
     const k1p = Number(r["k1_price_threshold"]);
-    if (!Number.isFinite(k1p)) return `<span class="cond-clause">款①</span>`;
-    return `<div class="cond-row"><span class="cond-clause">款①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>`;
+    if (Number.isFinite(k1p)) {
+      const _k1gap = thresholdGap(r, k1p, r["k1_nearest_direction"]);
+      if (_k1gap < 1e9)
+        return `<div class="cond-row"><span class="cond-clause">款①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>`;
+      // k1 不會達到 → fall through to candidates sort
+    }
   }
   // All k1–k8 clauses eligible: show the one with smallest price gap
   const k57p = Number(r["k5_k7_price_threshold"]);
