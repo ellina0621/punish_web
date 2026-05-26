@@ -208,7 +208,7 @@ function conditionCol(r) {
   const k57p = Number(r["k5_k7_price_threshold"]);
   const candidates = [
     ["①",      r["k1_price_threshold"], [], r["k1_nearest_direction"]],
-    ["②",      r["k2_price_threshold"], []],
+    ...(r["k2_exempt"] ? [] : [["②", r["k2_price_threshold"], []]]),
     ["⑥",      r["k6_min_price_to_trigger"],
                 (Number.isFinite(k6v) && k6v > 0) ? [`量≥${fmt(k6v)}張`] : []],
     // Include ③④⑤⑦ only when their price threshold is calculable; show only easiest vol
@@ -440,7 +440,9 @@ function clauseThresholdDetail(r) {
 
   // 款② k2
   const k2p = Number(r["k2_price_threshold"]);
-  if (Number.isFinite(k2p)) {
+  if (r["k2_exempt"]) {
+    lines.push({ label: `款②（豁免中）`, price: null, gap: Infinity, vols: [], notes: [r["k2_exempt_reason"] || "第3條第三款豁免"], baseDate: null, basePrice: null, isK2: true, exempt: true });
+  } else if (Number.isFinite(k2p)) {
     lines.push({ label: `款②${r["k2_nearest_window"] ? `(${r["k2_nearest_window"]})` : ""}`, price: k2p, gap: thresholdGap(r, k2p), vols: [], notes: [], baseDate: r["k2_nearest_base_date"], basePrice: r["k2_nearest_base_price"], isK2: true });
   }
 
@@ -520,7 +522,7 @@ function near2CondCell(r) {
   const k1dir = r["k1_nearest_direction"];
   const candidates = [
     { label: "款①",    price: Number(r["k1_price_threshold"]),  gap: thresholdGap(r, r["k1_price_threshold"], k1dir), dir: k1dir },
-    { label: "款②",    price: Number(r["k2_price_threshold"]),  gap: Number(r["k2_price_gap"]) },
+    ...(r["k2_exempt"] ? [] : [{ label: "款②", price: Number(r["k2_price_threshold"]), gap: Number(r["k2_price_gap"]) }]),
     { label: "款③④⑤⑦", price: k57p, gap: Number(r["k5_k7_price_gap"]) },
     { label: "款⑥",    price: k6p,  gap: Number.isFinite(close) && Number.isFinite(k6p) ? Math.abs(close - k6p) : Infinity },
   ].filter(c => Number.isFinite(c.price) && Number.isFinite(c.gap));
