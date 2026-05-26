@@ -73,7 +73,15 @@ function thresholdGap(r, thresholdPrice, direction) {
   const close = Number(r["5_12收盤價"]);
   // already in zone: direction=down AND threshold > close → condition currently met
   if (direction === "down" && Number.isFinite(close) && close < price) return 0;
-  if (Number.isFinite(prev) && prev > 0 && (price - prev) / prev * 100 <= -11) return 0;
+  if (direction === "down") {
+    // DOWN trigger: stock needs to FALL to threshold.
+    // "跌停仍觸" only when limit_down_price <= threshold (at limit down, price is still ≤ DOWN trigger).
+    const lim = Number(r["limit_down_price"]) || (Number.isFinite(prev) && prev > 0 ? prev * 0.9 : NaN);
+    if (Number.isFinite(lim) && lim <= price) return 0;
+  } else {
+    // UP trigger (or undefined): threshold below current → at limit down (~-10%) still above threshold.
+    if (Number.isFinite(prev) && prev > 0 && (price - prev) / prev * 100 <= -11) return 0;
+  }
   if (Number.isFinite(close) && close >= price) return 0;
   return Number.isFinite(close) ? Math.abs(price - close) : Infinity;
 }
@@ -84,7 +92,16 @@ function priceBadge(r, target, direction) {
   if (!Number.isFinite(prev) || prev <= 0 || !Number.isFinite(price))
     return `<span class="b-pbadge b-pbadge-neutral">--</span>`;
   const pct = ((price - prev) / prev) * 100;
-  if (pct <= -11) return `<span class="b-pbadge b-pbadge-halt">⚠ 跌停仍觸</span>`;
+  if (direction === "down") {
+    // DOWN trigger: stock must FALL to threshold.
+    // 跌停仍觸 only when limit_down_price <= threshold (at limit down, still triggers DOWN condition).
+    const lim = Number(r["limit_down_price"]) || prev * 0.9;
+    if (Number.isFinite(lim) && lim <= price)
+      return `<span class="b-pbadge b-pbadge-halt">⚠ 跌停仍觸</span>`;
+  } else {
+    // UP trigger (or undefined): threshold ≤ 11% below current → limit down still above threshold.
+    if (pct <= -11) return `<span class="b-pbadge b-pbadge-halt">⚠ 跌停仍觸</span>`;
+  }
   // already in zone: direction=down AND threshold > close → condition currently satisfied
   if (direction === "down" && pct > 0)
     return `<span class="b-pbadge b-pbadge-zone">≤${fmt(price)}元（+${fmt(pct)}%以下觸）</span>`;

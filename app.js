@@ -65,25 +65,50 @@ function clauseChips(value) {
 }
 
 function minPriceThreshold(r) {
+  const prev = Number(r["prev_close_for_eval"] ?? r["5_12收盤價"]);
+  // Compute effective gap from current price considering direction:
+  //   UP trigger (k2, k6 min price, k5/k7): gap = threshold - prev (positive = price needs to rise)
+  //   DOWN trigger (k1 when direction="down"): gap = prev - threshold (positive = price needs to fall)
+  //   Already-in-zone (e.g. k6 when prev >= k6_min): gap = 0
+  const k1thr = Number(r["k1_price_threshold"]);
+  const k1dir = r["k1_nearest_direction"] || "up";
+  const k1gap = Number.isFinite(k1thr) && Number.isFinite(prev) && prev > 0
+    ? (k1dir === "down" ? prev - k1thr : k1thr - prev)
+    : Infinity;
+  const k2thr = Number(r["k2_price_threshold"]);
+  const k2gap = Number.isFinite(k2thr) && Number.isFinite(prev) && prev > 0
+    ? k2thr - prev : Infinity;
+  const k6thr = Number(r["k6_min_price_to_trigger"]);
+  const k6gap = Number.isFinite(k6thr) && Number.isFinite(prev) && prev > 0
+    ? Math.max(0, k6thr - prev) : Infinity;  // 0 when already above k6 min
+
   const items = [
-    ["款1", r["k1_price_threshold"]],
-    [`款2${r["k2_nearest_window"] ? ` ${r["k2_nearest_window"]}` : ""}`, r["k2_price_threshold"]],
-    ["款6", r["k6_min_price_to_trigger"]],
+    ["款1", k1thr, k1gap],
+    [`款2${r["k2_nearest_window"] ? ` ${r["k2_nearest_window"]}` : ""}`, k2thr, k2gap],
+    ["款6", k6thr, k6gap],
   ]
-    .map(([label, value]) => [label, Number(value)])
-    .filter(([, value]) => Number.isFinite(value));
+    .filter(([, value, gap]) => Number.isFinite(value) && Number.isFinite(gap))
+    .sort((a, b) => a[2] - b[2]);  // sort by effective gap, not raw price
   if (!items.length) return "-";
-  items.sort((a, b) => a[1] - b[1]);
   return `${fmt(items[0][1])} (${items[0][0]}，${priceMoveFromPrev(r, items[0][1])})`;
 }
 
-function priceMoveFromPrev(r, target) {
+function priceMoveFromPrev(r, target, direction) {
   const prev = Number(r["prev_close_for_eval"] ?? r["5_12收盤價"]);
   const price = Number(target);
   if (!Number.isFinite(prev) || prev <= 0 || !Number.isFinite(price))
     return `<span class="pbadge pbadge-neutral">--</span>`;
   const pct = ((price - prev) / prev) * 100;
-  if (pct <= -11) return `<span class="pbadge pbadge-halt">⚠ 跌停仍觸</span>`;
+  if (direction === "down") {
+    // DOWN trigger: stock must FALL to threshold.
+    // 跌停仍觸 only when limit_down_price <= threshold (at limit down, still triggers DOWN condition).
+    const lim = Number(r["limit_down_price"]) || prev * 0.9;
+    if (Number.isFinite(lim) && lim <= price)
+      return `<span class="pbadge pbadge-halt">⚠ 跌停仍觸</span>`;
+  } else {
+    // UP trigger (or undefined): threshold ≤ 11% below current → limit down still above threshold.
+    if (pct <= -11) return `<span class="pbadge pbadge-halt">⚠ 跌停仍觸</span>`;
+  }
   const sign = pct > 0 ? "+" : "";
   const cls = pct > 0 ? "pbadge-up" : "pbadge-down";
   return `<span class="pbadge ${cls}">${sign}${fmt(pct)}%</span>`;
@@ -426,7 +451,7 @@ function clauseThresholdLines(r, onlyK1) {
   const k1p = Number(r["k1_price_threshold"]);
   const k1g = Number(r["k1_price_gap"]);
   if (Number.isFinite(k1p)) {
-    lines.push({ id: "k1", label: "款①", price: k1p, gap: k1g, vols: [], notes: [], baseDate: k1bd, basePrice: k1bp });
+    lines.push({ id: "k1", label: "款①", price: k1p, gap: k1g, dir: r["k1_nearest_direction"], vols: [], notes: [], baseDate: k1bd, basePrice: k1bp });
   }
 
   if (!onlyK1) {
@@ -469,7 +494,7 @@ function clauseThresholdLines(r, onlyK1) {
   const rowsHtml = lines.map((l) => {
     const isBold = Number.isFinite(l.gap) && l.gap === minGap;
     const priceCell = l.price != null
-      ? `<span class="ct-price">${fmt(l.price)} ${priceMoveFromPrev(r, l.price)}</span>`
+      ? `<span class="ct-price">${fmt(l.price)} ${priceMoveFromPrev(r, l.price, l.dir)}</span>`
       : `<span class="ct-price">-</span>`;
     const volsHtml  = (l.vols  || []).map(v => `<span class="ct-vol">${v}</span>`).join("");
     const notesHtml = (l.notes || []).map(n => `<span class="ct-note">${n}</span>`).join("");
