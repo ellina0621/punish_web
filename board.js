@@ -825,8 +825,11 @@ function dotTable(secKey, groupRows) {
       <td>${dots(c30, 12, addK1to8, true,  isC30, r["30日12次集點日期"] || "")}</td>
     </tr>${detailRow}`;
   }).join("");
+  const legend = groupRows.some(r => r["出關期間預估k1"])
+    ? `<div style="font-size:11px;color:#9ca3af;padding:4px 8px 2px">❗ = 出關期間（結束日前後3天）且預估當日觸發第1款注意，連三再處置風險極高</div>`
+    : "";
   return `<div class="b-table-scroll" data-sec="${secKey}">
-    <table class="bt">${header}<tbody>${body}</tbody></table>
+    ${legend}<table class="bt">${header}<tbody>${body}</tbody></table>
   </div>`;
 }
 
