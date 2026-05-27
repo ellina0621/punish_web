@@ -736,14 +736,16 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
       </td>
     </tr>`;
     const remain2ndVal = r["距第二次尚差"] != null ? Number(r["距第二次尚差"]) : null;
-    const rowWarnStyle = (isNear2 && remain2ndVal != null && remain2ndVal <= 1)
-      ? ` style="background:rgba(251,191,36,0.06)"`
-      : "";
     const addK1here = !!(r["處置後加評估日連3"] ?? r["5_12是否新增第1款"]);
     const k1OnlyRisk = remain2ndVal === 1 && !addK1here;  // 差1次但今天k1觸不到
+    const rowWarnStyle = (isNear2 && remain2ndVal != null && remain2ndVal <= 1)
+      ? k1OnlyRisk
+        ? ` style="background:rgba(100,100,100,0.08);opacity:0.6"`
+        : ` style="background:rgba(251,191,36,0.06)"`
+      : "";
     const nextDispLine = (remain2ndVal != null && remain2ndVal <= 1 && nextDispOrder)
       ? k1OnlyRisk
-        ? `<div style="font-size:10px;color:#f87171;margin-top:3px;opacity:0.7">🔴 若今日觸發第一款 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispMin || nextDispOrder}，否則可免於重置危險</div>`
+        ? `<div style="font-size:10px;color:#6b7280;margin-top:3px">⚠ 第一款今日不可達，連三不進展（若未來觸第一款 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispMin || nextDispOrder}）</div>`
         : `<div style="font-size:10px;color:#f87171;margin-top:3px">🔴 若今日觸發 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispMin || nextDispOrder}</div>`
       : "";
     const near2Cell = isNear2 ? `<td>${near2CondCell(r)}${nextDispLine}</td>` : "";
