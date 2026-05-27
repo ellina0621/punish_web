@@ -732,7 +732,10 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
     const rowWarnStyle = (isNear2 && remain2ndVal != null && remain2ndVal <= 1)
       ? ` style="background:rgba(251,191,36,0.06)"`
       : "";
-    const near2Cell = isNear2 ? `<td>${near2CondCell(r)}</td>` : "";
+    const nextDispLine = (remain2ndVal != null && remain2ndVal <= 1 && nextDispOrder)
+      ? `<div style="font-size:10px;color:#f87171;margin-top:3px">🔴 若今日觸發 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispMin || nextDispOrder}</div>`
+      : "";
+    const near2Cell = isNear2 ? `<td>${near2CondCell(r)}${nextDispLine}</td>` : "";
     const dispOutcomeClass = r.actual_punish ? " row-punish" : r.actual_notice ? " row-notice" : "";
     const actCell = hasActuals ? `<td>${outcomeBadge(r)}</td>` : "";
     return `<tr class="disp-row${dispOutcomeClass}"${rowWarnStyle} data-code="${code}">
