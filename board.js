@@ -216,13 +216,19 @@ function conditionCol(r) {
   // If 連3第1款 is the sole leading path, only 款① can push this stock into disposal.
   // Showing a lower 款②/⑥ price would be misleading — those clauses don't help.
   // Exception: if k1 itself is 不會達到, fall through to show the next reachable clause instead.
+  // If differential is the reason k1 is unreachable, show ① 不會達到 + note AND the next clause.
+  let _k1NoDiffPrefix = "";
   if (k1Only && Number.isFinite(k1p)) {
     const _k1gap = thresholdGap(r, k1p, r["k1_nearest_direction"]);
     if (_k1gap < 1e9) {
       const noDiffNote = k1NoDiffNote(r);
       return `<div class="cond-row"><span class="cond-clause">①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>${noDiffNote}`;
     }
-    // k1 不會達到 → fall through to candidates sort below
+    // k1 不會達到 → if differential is why, annotate and fall through to show next clause too
+    const _note = k1NoDiffNote(r);
+    if (_note) {
+      _k1NoDiffPrefix = `<div class="cond-row"><span class="cond-clause">①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>${_note}`;
+    }
   }
 
   // Both paths can work → show the minimum-gap clause across ①②⑥.
@@ -258,7 +264,7 @@ function conditionCol(r) {
   });
   const [lbl, price, , extras, bestDir] = candidates[0];
   const extrasHtml = extras.map(e => `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px">${e}</span>`).join("");
-  return `<div class="cond-row"><span class="cond-clause">${lbl}</span>${priceBadge(r, price, bestDir)}${extrasHtml}</div>`;
+  return `${_k1NoDiffPrefix}<div class="cond-row"><span class="cond-clause">${lbl}</span>${priceBadge(r, price, bestDir)}${extrasHtml}</div>`;
 }
 
 // ─── k1 market/industry diff sub-block ──────────────────────────────────────
@@ -563,6 +569,7 @@ function k1NoDiffNote(r) {
 function near2CondCell(r) {
   const { k1Only } = getLeadingPath(r);
   const close = Number(r["5_12收盤價"]);
+  let _near2K1Prefix = "";
   if (k1Only) {
     const k1p = Number(r["k1_price_threshold"]);
     if (Number.isFinite(k1p)) {
@@ -571,7 +578,11 @@ function near2CondCell(r) {
         const noDiffNote = k1NoDiffNote(r);
         return `<div class="cond-row"><span class="cond-clause">款①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>${noDiffNote}`;
       }
-      // k1 不會達到 → fall through to candidates sort
+      // k1 不會達到 → if differential is why, annotate and fall through to show next clause too
+      const _note = k1NoDiffNote(r);
+      if (_note) {
+        _near2K1Prefix = `<div class="cond-row"><span class="cond-clause">款①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>${_note}`;
+      }
     }
   }
   // All k1–k8 clauses eligible: show the one with smallest price gap
@@ -600,7 +611,7 @@ function near2CondCell(r) {
     } else if (has4) volBadges = `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px;margin-left:4px">量④≥${fmt(k4v)}張</span>`;
     else if (has3)   volBadges = `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px;margin-left:4px">量③≥${fmt(k3v)}張</span>`;
   }
-  return `<div class="cond-row"><span class="cond-clause">${best.label}</span>${priceBadge(r, best.price, best.dir)}${volBadges}</div>`;
+  return `${_near2K1Prefix}<div class="cond-row"><span class="cond-clause">${best.label}</span>${priceBadge(r, best.price, best.dir)}${volBadges}</div>`;
 }
 
 // ─── fastest disposal ────────────────────────────────────────────────────────
