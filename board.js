@@ -119,6 +119,22 @@ function priceBadge(r, target, direction) {
   return `<span class="b-pbadge ${cls}">${fmt(price)}${dir}(${sign}${fmt(pct)}%)</span>`;
 }
 
+function isK1ReachableToday(r) {
+  const k1p  = Number(r["k1_price_threshold"]);
+  const prev = Number(r["prev_close_for_eval"] ?? r["5_12收盤價"]);
+  if (!Number.isFinite(k1p) || !Number.isFinite(prev) || prev <= 0) return false;
+  const pct  = (k1p - prev) / prev * 100;
+  const dir  = r["k1_nearest_direction"];
+  if (dir === "down") {
+    const lim = Number(r["limit_down_price"]) || prev * 0.9;
+    return Number.isFinite(lim) && lim <= k1p;
+  } else {
+    if (pct <= -11) return true;
+    if (pct > 10)   return false;
+    return true;
+  }
+}
+
 function reasonChip(text) {
   if (!text || text === "-") return `<span class="b-chip b-chip-other">-</span>`;
   const t = String(text);
@@ -594,9 +610,9 @@ function getGroups() {
   // split active by proximity to 2nd disposal (uses 距第二次尚差 added in Python)
   const near2_1   = allActive.filter(r => r["距第二次尚差"] != null && Number(r["距第二次尚差"]) <= 1)
     .sort((a, b) => {
-      // 今天能觸k1的排前面；只能靠k1但k1今天觸不到的排後面
-      const aK1 = !!(a["處置後加評估日連3"] ?? a["5_12是否新增第1款"]);
-      const bK1 = !!(b["處置後加評估日連3"] ?? b["5_12是否新增第1款"]);
+      // 今天k1能觸到的排前面；k1不可達的排後面
+      const aK1 = isK1ReachableToday(a);
+      const bK1 = isK1ReachableToday(b);
       if (aK1 === bK1) return 0;
       return aK1 ? -1 : 1;
     });
@@ -736,8 +752,7 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
       </td>
     </tr>`;
     const remain2ndVal = r["距第二次尚差"] != null ? Number(r["距第二次尚差"]) : null;
-    const addK1here = !!(r["處置後加評估日連3"] ?? r["5_12是否新增第1款"]);
-    const k1OnlyRisk = remain2ndVal === 1 && !addK1here;  // 差1次但今天k1觸不到
+    const k1OnlyRisk = remain2ndVal === 1 && !isK1ReachableToday(r);  // 差1次但k1今天不可達
     const rowWarnStyle = (isNear2 && remain2ndVal != null && remain2ndVal <= 1)
       ? k1OnlyRisk
         ? ` style="background:rgba(100,100,100,0.08);opacity:0.6"`
