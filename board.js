@@ -561,7 +561,7 @@ function k1NoDiffNote(r) {
     ? ((noDiffP - prev) / prev * 100) : null;
   const pctStr = pctVal != null ? `${pctVal >= 0 ? "+" : ""}${pctVal.toFixed(2)}%` : "";
   const arrow = pctVal != null && pctVal <= 0 ? "↓" : "↑";
-  return `<div style="font-size:10px;color:#a78bfa;margin-top:3px">若不考慮全體/同類差：${arrow}<b>${fmt(noDiffP)}</b>元（${pctStr}）即達絕對報酬門檻</div>`;
+  return `<div style="font-size:10px;color:#d8b4fe;font-weight:600;margin-top:3px">若不考慮全體/同類差：${arrow}<b style="color:#e9d5ff">${fmt(noDiffP)}</b>元（${pctStr}）即達絕對報酬門檻</div>`;
 }
 
 // ─── near2 table column: most likely trigger clause + price ──────────────────
