@@ -286,12 +286,21 @@ function k1Detail(r, isBold) {
     ? `同類差 無（產業資料不足，免計）`
     : `同類差 ${pct(indDiff)}${indDirDiff != null ? (indOk ? " ✓" : " ✗") : ""}`;
 
+  const noDiffP = r["k1_no_diff_threshold"];
+  const noDiffLine = (noDiffP != null) ? (() => {
+    const prev = Number(r["prev_close_for_eval"] ?? r["5_12收盤價"]);
+    const pctFromPrev = Number.isFinite(prev) && prev > 0
+      ? `${((noDiffP - prev) / prev * 100).toFixed(2)}%` : "";
+    const aboveOrBelow = noDiffP <= prev ? `↓可跌至` : `↑最低`;
+    return `<div style="font-size:10px;color:#9ca3af;margin-top:2px">若不考慮全體／同類差：${aboveOrBelow} <b style="color:#d1d5db">${fmt(noDiffP)}元</b>（${pctFromPrev}）即可達到絕對報酬門檻</div>`;
+  })() : "";
   return `<div class="b-k2-detail">
     <div class="b-k2-window ${isBold ? "b-k2-nearest" : ""}">
       <span class="b-k2-label">5日：</span>
       5日累積 ${pct(ret5)}
       ｜ 全體差 ${pct(mktDiff)}${mktDiff != null ? (mktOk ? " ✓" : " ✗") : ""}${mktNote}
       / ${indLabel}
+      ${noDiffLine}
     </div>
   </div>`;
 }
@@ -524,6 +533,19 @@ function clauseThresholdDetail(r) {
   return mktLine + rowsHtml;
 }
 
+// ─── k1 no-diff note helper ──────────────────────────────────────────────────
+
+function k1NoDiffNote(r) {
+  const noDiffP = r["k1_no_diff_threshold"];
+  if (noDiffP == null) return "";
+  const prev = Number(r["prev_close_for_eval"] ?? r["5_12收盤價"]);
+  const pctVal = Number.isFinite(prev) && prev > 0
+    ? ((noDiffP - prev) / prev * 100) : null;
+  const pctStr = pctVal != null ? `${pctVal >= 0 ? "+" : ""}${pctVal.toFixed(2)}%` : "";
+  const arrow = pctVal != null && pctVal <= 0 ? "↓" : "↑";
+  return `<div style="font-size:10px;color:#a78bfa;margin-top:3px">若不考慮全體/同類差：${arrow}<b>${fmt(noDiffP)}</b>元（${pctStr}）即達絕對報酬門檻</div>`;
+}
+
 // ─── near2 table column: most likely trigger clause + price ──────────────────
 
 function near2CondCell(r) {
@@ -533,8 +555,10 @@ function near2CondCell(r) {
     const k1p = Number(r["k1_price_threshold"]);
     if (Number.isFinite(k1p)) {
       const _k1gap = thresholdGap(r, k1p, r["k1_nearest_direction"]);
-      if (_k1gap < 1e9)
-        return `<div class="cond-row"><span class="cond-clause">款①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>`;
+      if (_k1gap < 1e9) {
+        const noDiffNote = k1NoDiffNote(r);
+        return `<div class="cond-row"><span class="cond-clause">款①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>${noDiffNote}`;
+      }
       // k1 不會達到 → fall through to candidates sort
     }
   }
