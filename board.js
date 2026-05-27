@@ -109,6 +109,12 @@ function priceBadge(r, target, direction) {
     if (pct <= -11) return `<span class="b-pbadge b-pbadge-halt">⚠ 跌停仍觸</span>`;
     // threshold > 10% above current → can't reach even at daily limit-up
     if (pct > 10) return `<span class="b-pbadge b-pbadge-neutral">不會達到</span>`;
+    // threshold is below prev (up-side already triggered): check if limit-down still keeps condition met
+    if (pct < 0) {
+      const lim = Number(r["limit_down_price"]) || prev * 0.9;
+      if (Number.isFinite(lim) && lim >= price)
+        return `<span class="b-pbadge b-pbadge-halt">⚠ 跌停仍觸</span>`;
+    }
   }
   // already in zone: direction=down AND threshold > close → condition currently satisfied
   if (direction === "down" && pct > 0)
