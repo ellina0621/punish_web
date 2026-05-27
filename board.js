@@ -699,6 +699,14 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
             <div class="b-clause-grid">${clauseThresholdDetail(r)}</div>
           </div>`
       : "";
+    const nextDispOrder  = r["若5_12觸發_預估處置次數"] || "";
+    const nextDispMin    = r["若5_12觸發_預估分盤"] || "";
+    const nextDispStart  = r["評估日"] ? nextBizDay(r["評估日"]) : null;
+    const nextDispSection = (remain2nd != null && remain2nd <= 1 && nextDispOrder)
+      ? `<div class="detail-section">
+            <span class="detail-label">🔴 若今日觸發 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispOrder}（${nextDispMin || "?"}）</span>
+          </div>`
+      : "";
 
     const detailRow = `<tr class="disp-detail" data-code="${code}" style="display:none">
       <td colspan="${COLS}" class="disp-detail-cell">
@@ -716,6 +724,7 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
             </div>
           </div>
           ${thresholdSection}
+          ${nextDispSection}
         </div>
       </td>
     </tr>`;
@@ -729,7 +738,7 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
     return `<tr class="disp-row${dispOutcomeClass}"${rowWarnStyle} data-code="${code}">
       <td>${mktTag(r)}</td>
       <td class="b-code">${code}</td>
-      <td>${r["證券名稱"]}</td>
+      <td>${r["證券名稱"]}${r["出關期間預估k1"] ? `<span title="出關期間預估觸發第1款注意，出關後連三風險極高" style="margin-left:4px;cursor:help">❗</span>` : ""}</td>
       <td class="b-date" style="font-size:11px">${r["市場產業"] || r["TSE產業"] || "-"}</td>
       <td>${turnoverCell(r)}</td>
       <td>${fmt(r["5_12收盤價"])}</td>
@@ -837,8 +846,8 @@ function render() {
     section("d1_5",    "差一次被處置 ▸ 第一次 5分盤",         diff1_5.length,  dotTable("d1_5",  diff1_5),  "first"),
     section("d1_20",   "差一次被處置 ▸ 第二次以上 20分盤",     diff1_20.length, dotTable("d1_20", diff1_20), ""),
     section("d2",      "差兩次被處置",                        diff2.length,    dotTable("d2",    diff2),    "far"),
-    section("near2_1", "處置中 ▸ 差一次進第二次處置",          near2_1.length,  disposalTable("near2_1", near2_1, true), "disposal"),
-    section("near2_2", "處置中 ▸ 差兩次進第二次處置",          near2_2.length,  disposalTable("near2_2", near2_2, true), "disposal"),
+    section("near2_1", "處置中／已出關 ▸ 差一次進第二次處置",   near2_1.length,  disposalTable("near2_1", near2_1, true), "disposal"),
+    section("near2_2", "處置中／已出關 ▸ 差兩次進第二次處置",   near2_2.length,  disposalTable("near2_2", near2_2, true), "disposal"),
     section("active",  "正在處置 / 近期出關",                  active.length,   disposalTable("active",  active),  "disposal"),
   ].join("");
 
