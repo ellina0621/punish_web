@@ -540,6 +540,16 @@ function clauseThresholdDetail(r) {
 function k1NoDiffNote(r) {
   const noDiffP = r["k1_no_diff_threshold"];
   if (noDiffP == null) return "";
+  // 只有全體差或同類差至少一個未達標時才顯示
+  const ret5 = r["k1_prev5_return_pct"];
+  const mktDiff = r["k1_mkt_diff"];
+  const indDiff = r["k1_ind_diff"];
+  const signRet = (ret5 != null && ret5 < 0) ? -1 : 1;
+  const mktDirDiff = mktDiff != null ? mktDiff * signRet : null;
+  const indDirDiff = indDiff != null ? indDiff * signRet : null;
+  const mktOk = mktDirDiff != null && mktDirDiff >= 20;
+  const indOk = indDirDiff == null || indDirDiff >= 20;  // 無產業資料視為OK
+  if (mktOk && indOk) return "";
   const prev = Number(r["prev_close_for_eval"] ?? r["5_12收盤價"]);
   const pctVal = Number.isFinite(prev) && prev > 0
     ? ((noDiffP - prev) / prev * 100) : null;
