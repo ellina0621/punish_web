@@ -218,8 +218,10 @@ function conditionCol(r) {
   // Exception: if k1 itself is 不會達到, fall through to show the next reachable clause instead.
   if (k1Only && Number.isFinite(k1p)) {
     const _k1gap = thresholdGap(r, k1p, r["k1_nearest_direction"]);
-    if (_k1gap < 1e9)
-      return `<div class="cond-row"><span class="cond-clause">①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>`;
+    if (_k1gap < 1e9) {
+      const noDiffNote = k1NoDiffNote(r);
+      return `<div class="cond-row"><span class="cond-clause">①</span>${priceBadge(r, k1p, r["k1_nearest_direction"])}</div>${noDiffNote}`;
+    }
     // k1 不會達到 → fall through to candidates sort below
   }
 
