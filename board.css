@@ -351,6 +351,10 @@ table.bt tr:hover { background: rgba(255, 255, 255, 0.03); }
 .disp-row { cursor: pointer; }
 .dot-row  { cursor: pointer; }
 
+/* k1-only-risk rows: dim background cells except identity cols (market/code/name) and condition col */
+tr.k1-risk-row { background: rgba(100,100,100,0.08); }
+tr.k1-risk-row td:not(.td-id) { opacity: 0.6; }
+
 /* ── Dot-row clause threshold detail ────────────────────── */
 .dot-detail-cell {
   background: rgba(99, 179, 237, 0.04);

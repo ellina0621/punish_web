@@ -806,23 +806,24 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
     </tr>`;
     const remain2ndVal = r["距第二次尚差"] != null ? Number(r["距第二次尚差"]) : null;
     const k1OnlyRisk = remain2ndVal === 1 && !isK1ReachableToday(r);  // 差1次但k1今天不可達
-    const rowWarnStyle = (isNear2 && remain2ndVal != null && remain2ndVal <= 1)
-      ? k1OnlyRisk
-        ? ` style="background:rgba(100,100,100,0.08);opacity:0.6"`
-        : ` style="background:rgba(251,191,36,0.06)"`
+    const rowWarnClass = (isNear2 && remain2ndVal != null && remain2ndVal <= 1)
+      ? k1OnlyRisk ? " k1-risk-row" : ""
+      : "";
+    const rowWarnStyle = (isNear2 && remain2ndVal != null && remain2ndVal <= 1 && !k1OnlyRisk)
+      ? ` style="background:rgba(251,191,36,0.06)"`
       : "";
     const nextDispLine = (remain2ndVal != null && remain2ndVal <= 1 && nextDispOrder)
       ? k1OnlyRisk
         ? `<div style="font-size:10px;color:#6b7280;margin-top:3px">⚠ 第一款今日不可達，連三不進展（若未來觸第一款 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispMin || nextDispOrder}）</div>`
         : `<div style="font-size:10px;color:#f87171;margin-top:3px">🔴 若今日觸發 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispMin || nextDispOrder}</div>`
       : "";
-    const near2Cell = isNear2 ? `<td>${near2CondCell(r)}${nextDispLine}</td>` : "";
+    const near2Cell = isNear2 ? `<td class="td-id">${near2CondCell(r)}${nextDispLine}</td>` : "";
     const dispOutcomeClass = r.actual_punish ? " row-punish" : r.actual_notice ? " row-notice" : "";
     const actCell = hasActuals ? `<td>${outcomeBadge(r)}</td>` : "";
-    return `<tr class="disp-row${dispOutcomeClass}"${rowWarnStyle} data-code="${code}">
-      <td>${mktTag(r)}</td>
-      <td class="b-code">${code}</td>
-      <td>${r["證券名稱"]}${r["出關期間預估k1"] ? `<span title="出關期間預估觸發第1款注意，出關後連三風險極高" style="margin-left:4px;cursor:help">❗</span>` : ""}</td>
+    return `<tr class="disp-row${dispOutcomeClass}${rowWarnClass}"${rowWarnStyle} data-code="${code}">
+      <td class="td-id">${mktTag(r)}</td>
+      <td class="b-code td-id">${code}</td>
+      <td class="td-id">${r["證券名稱"]}${r["出關期間預估k1"] ? `<span title="出關期間預估觸發第1款注意，出關後連三風險極高" style="margin-left:4px;cursor:help">❗</span>` : ""}</td>
       <td class="b-date" style="font-size:11px">${r["市場產業"] || r["TSE產業"] || "-"}</td>
       <td>${turnoverCell(r)}</td>
       <td>${fmt(r["5_12收盤價"])}</td>
