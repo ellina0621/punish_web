@@ -592,7 +592,14 @@ function fastestDisp(r) {
 function getGroups() {
   const allActive = rows.filter(r => r["處置中_5_12"] || r["已出關"]);
   // split active by proximity to 2nd disposal (uses 距第二次尚差 added in Python)
-  const near2_1   = allActive.filter(r => r["距第二次尚差"] != null && Number(r["距第二次尚差"]) <= 1);
+  const near2_1   = allActive.filter(r => r["距第二次尚差"] != null && Number(r["距第二次尚差"]) <= 1)
+    .sort((a, b) => {
+      // 今天能觸k1的排前面；只能靠k1但k1今天觸不到的排後面
+      const aK1 = !!(a["處置後加評估日連3"] ?? a["5_12是否新增第1款"]);
+      const bK1 = !!(b["處置後加評估日連3"] ?? b["5_12是否新增第1款"]);
+      if (aK1 === bK1) return 0;
+      return aK1 ? -1 : 1;
+    });
   const near2_2   = allActive.filter(r => r["距第二次尚差"] != null && Number(r["距第二次尚差"]) === 2);
   const active    = allActive.filter(r => !near2_1.includes(r) && !near2_2.includes(r));
 
@@ -732,8 +739,12 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
     const rowWarnStyle = (isNear2 && remain2ndVal != null && remain2ndVal <= 1)
       ? ` style="background:rgba(251,191,36,0.06)"`
       : "";
+    const addK1here = !!(r["處置後加評估日連3"] ?? r["5_12是否新增第1款"]);
+    const k1OnlyRisk = remain2ndVal === 1 && !addK1here;  // 差1次但今天k1觸不到
     const nextDispLine = (remain2ndVal != null && remain2ndVal <= 1 && nextDispOrder)
-      ? `<div style="font-size:10px;color:#f87171;margin-top:3px">🔴 若今日觸發 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispMin || nextDispOrder}</div>`
+      ? k1OnlyRisk
+        ? `<div style="font-size:10px;color:#f87171;margin-top:3px;opacity:0.7">🔴 若今日觸發第一款 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispMin || nextDispOrder}，否則可免於重置危險</div>`
+        : `<div style="font-size:10px;color:#f87171;margin-top:3px">🔴 若今日觸發 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispMin || nextDispOrder}</div>`
       : "";
     const near2Cell = isNear2 ? `<td>${near2CondCell(r)}${nextDispLine}</td>` : "";
     const dispOutcomeClass = r.actual_punish ? " row-punish" : r.actual_notice ? " row-notice" : "";
