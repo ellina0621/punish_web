@@ -850,8 +850,8 @@ function render() {
     section("d1_5",    "差一次被處置 ▸ 第一次 5分盤",         diff1_5.length,  dotTable("d1_5",  diff1_5),  "first"),
     section("d1_20",   "差一次被處置 ▸ 第二次以上 20分盤",     diff1_20.length, dotTable("d1_20", diff1_20), ""),
     section("d2",      "差兩次被處置",                        diff2.length,    dotTable("d2",    diff2),    "far"),
-    section("near2_1", "處置中／已出關 ▸ 差一次進第二次處置",   near2_1.length,  disposalTable("near2_1", near2_1, true), "disposal", near2_1.some(r=>r["出關期間預估k1"]) ? "❗ = 出關期間預估觸發第1款，連三再處置風險極高" : ""),
-    section("near2_2", "處置中／已出關 ▸ 差兩次進第二次處置",   near2_2.length,  disposalTable("near2_2", near2_2, true), "disposal", near2_2.some(r=>r["出關期間預估k1"]) ? "❗ = 出關期間預估觸發第1款，連三再處置風險極高" : ""),
+    section("near2_1", "處置中／已出關 ▸ 差一次進第二次處置",   near2_1.length,  disposalTable("near2_1", near2_1, true), "disposal", near2_1.some(r=>r["出關期間預估k1"]) ? "❗ = 出關三天內預估觸發第1款，連三再處置風險極高" : ""),
+    section("near2_2", "處置中／已出關 ▸ 差兩次進第二次處置",   near2_2.length,  disposalTable("near2_2", near2_2, true), "disposal", near2_2.some(r=>r["出關期間預估k1"]) ? "❗ = 出關三天內預估觸發第1款，連三再處置風險極高" : ""),
     section("active",  "正在處置 / 近期出關",                  active.length,   disposalTable("active",  active),  "disposal"),
   ].join("");
 
