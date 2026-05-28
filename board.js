@@ -263,7 +263,8 @@ function conditionCol(r) {
   });
   const [lbl, price, , extras, bestDir] = candidates[0];
   const extrasHtml = extras.map(e => `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px">${e}</span>`).join("");
-  return `${_k1NoDiffPrefix}<div class="cond-row"><span class="cond-clause">${lbl}</span>${priceBadge(r, price, bestDir)}${extrasHtml}</div>`;
+  const _k57Note = lbl.includes("③") ? k57NoDiffNote(r) : "";
+  return `${_k1NoDiffPrefix}<div class="cond-row"><span class="cond-clause">${lbl}</span>${priceBadge(r, price, bestDir)}${extrasHtml}</div>${_k57Note}`;
 }
 
 // ─── k1 market/industry diff sub-block ──────────────────────────────────────
@@ -542,6 +543,17 @@ function clauseThresholdDetail(r) {
 
 // ─── k1 no-diff note helper ──────────────────────────────────────────────────
 
+function k57NoDiffNote(r) {
+  const noD = r["k5_k7_no_diff_threshold"];
+  if (noD == null) return "";
+  const prev = Number(r["prev_close_for_eval"] ?? r["5_12收盤價"]);
+  if (!Number.isFinite(prev) || prev <= 0) return "";
+  const pctVal = (noD - prev) / prev * 100;
+  const sign  = pctVal >= 0 ? "+" : "";
+  const arrow = pctVal >= 0 ? "↑" : "↓";
+  return `<div style="font-size:10px;color:#d8b4fe;font-weight:600;margin-top:3px">若不考慮全體/同類差：${arrow}<b style="color:#e9d5ff">${fmt(noD)}</b>元（${sign}${pctVal.toFixed(2)}%）即達報酬門檻</div>`;
+}
+
 function k1NoDiffNote(r) {
   const noDiffP = r["k1_no_diff_threshold"];
   if (noDiffP == null) return "";
@@ -610,7 +622,8 @@ function near2CondCell(r) {
     } else if (has4) volBadges = `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px;margin-left:4px">量④≥${fmt(k4v)}張</span>`;
     else if (has3)   volBadges = `<span class="b-chip b-chip-3" style="font-size:10px;padding:1px 5px;margin-left:4px">量③≥${fmt(k3v)}張</span>`;
   }
-  return `${_near2K1Prefix}<div class="cond-row"><span class="cond-clause">${best.label}</span>${priceBadge(r, best.price, best.dir)}${volBadges}</div>`;
+  const _near2K57Note = best.label.includes("③") ? k57NoDiffNote(r) : "";
+  return `${_near2K1Prefix}<div class="cond-row"><span class="cond-clause">${best.label}</span>${priceBadge(r, best.price, best.dir)}${volBadges}</div>${_near2K57Note}`;
 }
 
 // ─── fastest disposal ────────────────────────────────────────────────────────
