@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T10:44:01",
+  "generated_at": "2026-05-28T13:08:37",
   "asof_notice": "2026-05-27",
   "eval_date": "2026-05-28",
   "rows": [
@@ -175,6 +175,7 @@
       "k5_k7_price_threshold_down": 90.9,
       "k5_k7_price_threshold": 154.5,
       "k5_k7_price_gap": 31.0,
+      "k5_k7_no_diff_threshold": 153.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -350,6 +351,7 @@
       "k5_k7_price_threshold_down": 1285.0,
       "k5_k7_price_threshold": 1285.0,
       "k5_k7_price_gap": 495.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -525,6 +527,7 @@
       "k5_k7_price_threshold_down": 29.75,
       "k5_k7_price_threshold": 59.2,
       "k5_k7_price_gap": 6.6,
+      "k5_k7_no_diff_threshold": 56.1,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -700,6 +703,7 @@
       "k5_k7_price_threshold_down": 13.7,
       "k5_k7_price_threshold": 13.7,
       "k5_k7_price_gap": -0.15,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -884,6 +888,7 @@
       "k5_k7_price_threshold_down": 181.0,
       "k5_k7_price_threshold": 520.0,
       "k5_k7_price_gap": -88.0,
+      "k5_k7_no_diff_threshold": 485.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -1059,6 +1064,7 @@
       "k5_k7_price_threshold_down": 503.0,
       "k5_k7_price_threshold": 1110.0,
       "k5_k7_price_gap": 30.0,
+      "k5_k7_no_diff_threshold": 1045.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -1234,6 +1240,7 @@
       "k5_k7_price_threshold_down": 7.03,
       "k5_k7_price_threshold": 19.7,
       "k5_k7_price_gap": -2.2,
+      "k5_k7_no_diff_threshold": 18.9,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -1409,6 +1416,7 @@
       "k5_k7_price_threshold_down": 274.5,
       "k5_k7_price_threshold": 562.0,
       "k5_k7_price_gap": 61.0,
+      "k5_k7_no_diff_threshold": 526.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -1584,6 +1592,7 @@
       "k5_k7_price_threshold_down": 111.5,
       "k5_k7_price_threshold": 278.5,
       "k5_k7_price_gap": -12.0,
+      "k5_k7_no_diff_threshold": 257.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -1759,6 +1768,7 @@
       "k5_k7_price_threshold_down": 122.0,
       "k5_k7_price_threshold": 317.5,
       "k5_k7_price_gap": -23.0,
+      "k5_k7_no_diff_threshold": 292.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -1934,6 +1944,7 @@
       "k5_k7_price_threshold_down": 25.65,
       "k5_k7_price_threshold": 67.3,
       "k5_k7_price_gap": -13.7,
+      "k5_k7_no_diff_threshold": 66.2,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -2109,6 +2120,7 @@
       "k5_k7_price_threshold_down": 8.42,
       "k5_k7_price_threshold": 8.42,
       "k5_k7_price_gap": -1.65,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -2284,6 +2296,7 @@
       "k5_k7_price_threshold_down": 28.1,
       "k5_k7_price_threshold": 69.7,
       "k5_k7_price_gap": -2.2,
+      "k5_k7_no_diff_threshold": 67.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -2459,6 +2472,7 @@
       "k5_k7_price_threshold_down": 91.5,
       "k5_k7_price_threshold": 203.5,
       "k5_k7_price_gap": 8.5,
+      "k5_k7_no_diff_threshold": 189.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -2634,6 +2648,7 @@
       "k5_k7_price_threshold_down": 42.95,
       "k5_k7_price_threshold": 79.7,
       "k5_k7_price_gap": 9.7,
+      "k5_k7_no_diff_threshold": 78.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -2809,6 +2824,7 @@
       "k5_k7_price_threshold_down": 92.2,
       "k5_k7_price_threshold": 173.5,
       "k5_k7_price_gap": 27.0,
+      "k5_k7_no_diff_threshold": 171.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -2984,6 +3000,7 @@
       "k5_k7_price_threshold_down": 60.8,
       "k5_k7_price_threshold": 60.8,
       "k5_k7_price_gap": 22.8,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -3159,6 +3176,7 @@
       "k5_k7_price_threshold_down": 114.0,
       "k5_k7_price_threshold": 245.5,
       "k5_k7_price_gap": 16.5,
+      "k5_k7_no_diff_threshold": 229.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -3334,6 +3352,7 @@
       "k5_k7_price_threshold_down": 626.0,
       "k5_k7_price_threshold": 1225.0,
       "k5_k7_price_gap": 125.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -3509,6 +3528,7 @@
       "k5_k7_price_threshold_down": 126.5,
       "k5_k7_price_threshold": 276.5,
       "k5_k7_price_gap": 24.5,
+      "k5_k7_no_diff_threshold": 263.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -3684,6 +3704,7 @@
       "k5_k7_price_threshold_down": 1205.0,
       "k5_k7_price_threshold": 2245.0,
       "k5_k7_price_gap": 205.0,
+      "k5_k7_no_diff_threshold": 2230.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -3859,6 +3880,7 @@
       "k5_k7_price_threshold_down": 15.65,
       "k5_k7_price_threshold": 34.45,
       "k5_k7_price_gap": -3.05,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -4034,6 +4056,7 @@
       "k5_k7_price_threshold_down": 20.85,
       "k5_k7_price_threshold": 49.1,
       "k5_k7_price_gap": -3.1,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -4209,6 +4232,7 @@
       "k5_k7_price_threshold_down": 9.53,
       "k5_k7_price_threshold": 21.75,
       "k5_k7_price_gap": -1.1,
+      "k5_k7_no_diff_threshold": 21.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -4384,6 +4408,7 @@
       "k5_k7_price_threshold_down": 1175.0,
       "k5_k7_price_threshold": 2580.0,
       "k5_k7_price_gap": 60.0,
+      "k5_k7_no_diff_threshold": 2440.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -4559,6 +4584,7 @@
       "k5_k7_price_threshold_down": 304.5,
       "k5_k7_price_threshold": 696.0,
       "k5_k7_price_gap": -5.0,
+      "k5_k7_no_diff_threshold": 656.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -4734,6 +4760,7 @@
       "k5_k7_price_threshold_down": 1310.0,
       "k5_k7_price_threshold": 2685.0,
       "k5_k7_price_gap": 60.0,
+      "k5_k7_no_diff_threshold": 2630.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -4909,6 +4936,7 @@
       "k5_k7_price_threshold_down": 16.35,
       "k5_k7_price_threshold": 39.4,
       "k5_k7_price_gap": -0.75,
+      "k5_k7_no_diff_threshold": 36.45,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -5084,6 +5112,7 @@
       "k5_k7_price_threshold_down": 67.5,
       "k5_k7_price_threshold": 149.5,
       "k5_k7_price_gap": 2.5,
+      "k5_k7_no_diff_threshold": 141.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -5259,6 +5288,7 @@
       "k5_k7_price_threshold_down": 1720.0,
       "k5_k7_price_threshold": 4385.0,
       "k5_k7_price_gap": -255.0,
+      "k5_k7_no_diff_threshold": 4045.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -5434,6 +5464,7 @@
       "k5_k7_price_threshold_down": 67.8,
       "k5_k7_price_threshold": 160.5,
       "k5_k7_price_gap": -16.5,
+      "k5_k7_no_diff_threshold": 156.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -5609,6 +5640,7 @@
       "k5_k7_price_threshold_down": 154.0,
       "k5_k7_price_threshold": 342.5,
       "k5_k7_price_gap": 5.0,
+      "k5_k7_no_diff_threshold": 323.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -5784,6 +5816,7 @@
       "k5_k7_price_threshold_down": 119.5,
       "k5_k7_price_threshold": 321.0,
       "k5_k7_price_gap": -40.0,
+      "k5_k7_no_diff_threshold": 300.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -5959,6 +5992,7 @@
       "k5_k7_price_threshold_down": 22.15,
       "k5_k7_price_threshold": 49.2,
       "k5_k7_price_gap": -1.4,
+      "k5_k7_no_diff_threshold": 47.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -6134,6 +6168,7 @@
       "k5_k7_price_threshold_down": 8.68,
       "k5_k7_price_threshold": 22.6,
       "k5_k7_price_gap": -2.35,
+      "k5_k7_no_diff_threshold": 21.2,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -6309,6 +6344,7 @@
       "k5_k7_price_threshold_down": 110.5,
       "k5_k7_price_threshold": 239.5,
       "k5_k7_price_gap": 8.5,
+      "k5_k7_no_diff_threshold": 226.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -6484,6 +6520,7 @@
       "k5_k7_price_threshold_down": 1495.0,
       "k5_k7_price_threshold": 3355.0,
       "k5_k7_price_gap": -70.0,
+      "k5_k7_no_diff_threshold": 3350.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -6659,6 +6696,7 @@
       "k5_k7_price_threshold_down": 144.5,
       "k5_k7_price_threshold": 310.0,
       "k5_k7_price_gap": 24.5,
+      "k5_k7_no_diff_threshold": 299.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -6834,6 +6872,7 @@
       "k5_k7_price_threshold_down": 69.8,
       "k5_k7_price_threshold": 146.0,
       "k5_k7_price_gap": 9.0,
+      "k5_k7_no_diff_threshold": 144.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -7009,6 +7048,7 @@
       "k5_k7_price_threshold_down": 31.1,
       "k5_k7_price_threshold": 67.2,
       "k5_k7_price_gap": 0.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -7184,6 +7224,7 @@
       "k5_k7_price_threshold_down": 21.8,
       "k5_k7_price_threshold": 51.3,
       "k5_k7_price_gap": 1.65,
+      "k5_k7_no_diff_threshold": 48.7,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -7359,6 +7400,7 @@
       "k5_k7_price_threshold_down": 237.5,
       "k5_k7_price_threshold": 563.0,
       "k5_k7_price_gap": -24.0,
+      "k5_k7_no_diff_threshold": 555.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -7534,6 +7576,7 @@
       "k5_k7_price_threshold_down": 5.03,
       "k5_k7_price_threshold": 12.5,
       "k5_k7_price_gap": -2.0,
+      "k5_k7_no_diff_threshold": 12.3,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -7709,6 +7752,7 @@
       "k5_k7_price_threshold_down": 674.0,
       "k5_k7_price_threshold": 1615.0,
       "k5_k7_price_gap": -15.0,
+      "k5_k7_no_diff_threshold": 1555.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -7884,6 +7928,7 @@
       "k5_k7_price_threshold_down": 246.5,
       "k5_k7_price_threshold": 630.0,
       "k5_k7_price_gap": -15.0,
+      "k5_k7_no_diff_threshold": 596.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -8059,6 +8104,7 @@
       "k5_k7_price_threshold_down": 311.0,
       "k5_k7_price_threshold": 693.0,
       "k5_k7_price_gap": 28.0,
+      "k5_k7_no_diff_threshold": 644.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -8234,6 +8280,7 @@
       "k5_k7_price_threshold_down": 154.0,
       "k5_k7_price_threshold": 361.0,
       "k5_k7_price_gap": -9.0,
+      "k5_k7_no_diff_threshold": 339.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -8409,6 +8456,7 @@
       "k5_k7_price_threshold_down": 312.5,
       "k5_k7_price_threshold": 865.0,
       "k5_k7_price_gap": -65.0,
+      "k5_k7_no_diff_threshold": 816.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -8584,6 +8632,7 @@
       "k5_k7_price_threshold_down": 53.1,
       "k5_k7_price_threshold": 128.5,
       "k5_k7_price_gap": -10.7,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -8759,6 +8808,7 @@
       "k5_k7_price_threshold_down": 553.0,
       "k5_k7_price_threshold": 1450.0,
       "k5_k7_price_gap": -55.0,
+      "k5_k7_no_diff_threshold": 1370.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -8934,6 +8984,7 @@
       "k5_k7_price_threshold_down": 6.99,
       "k5_k7_price_threshold": 6.99,
       "k5_k7_price_gap": 2.24,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -9109,6 +9160,7 @@
       "k5_k7_price_threshold_down": 541.0,
       "k5_k7_price_threshold": 981.0,
       "k5_k7_price_gap": 103.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -9284,6 +9336,7 @@
       "k5_k7_price_threshold_down": 18.8,
       "k5_k7_price_threshold": 18.8,
       "k5_k7_price_gap": 6.25,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -9459,6 +9512,7 @@
       "k5_k7_price_threshold_down": 18.45,
       "k5_k7_price_threshold": 34.85,
       "k5_k7_price_gap": 2.15,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -9634,6 +9688,7 @@
       "k5_k7_price_threshold_down": 78.8,
       "k5_k7_price_threshold": 140.5,
       "k5_k7_price_gap": 30.5,
+      "k5_k7_no_diff_threshold": 134.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -9809,6 +9864,7 @@
       "k5_k7_price_threshold_down": 1040.0,
       "k5_k7_price_threshold": 1765.0,
       "k5_k7_price_gap": 330.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -9984,6 +10040,7 @@
       "k5_k7_price_threshold_down": 24.1,
       "k5_k7_price_threshold": 49.0,
       "k5_k7_price_gap": 3.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -10159,6 +10216,7 @@
       "k5_k7_price_threshold_down": 62.9,
       "k5_k7_price_threshold": 116.0,
       "k5_k7_price_gap": 24.4,
+      "k5_k7_no_diff_threshold": 112.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -10334,6 +10392,7 @@
       "k5_k7_price_threshold_down": 115.0,
       "k5_k7_price_threshold": 215.0,
       "k5_k7_price_gap": 16.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -10509,6 +10568,7 @@
       "k5_k7_price_threshold_down": 154.0,
       "k5_k7_price_threshold": 278.5,
       "k5_k7_price_gap": 40.0,
+      "k5_k7_no_diff_threshold": 274.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -10684,6 +10744,7 @@
       "k5_k7_price_threshold_down": 33.75,
       "k5_k7_price_threshold": 59.3,
       "k5_k7_price_gap": 8.3,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -10859,6 +10920,7 @@
       "k5_k7_price_threshold_down": 50.2,
       "k5_k7_price_threshold": 92.5,
       "k5_k7_price_gap": 8.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -11034,6 +11096,7 @@
       "k5_k7_price_threshold_down": 4.85,
       "k5_k7_price_threshold": 4.85,
       "k5_k7_price_gap": 1.46,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -11209,6 +11272,7 @@
       "k5_k7_price_threshold_down": 20.2,
       "k5_k7_price_threshold": 35.35,
       "k5_k7_price_gap": 5.2,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -11384,6 +11448,7 @@
       "k5_k7_price_threshold_down": 58.5,
       "k5_k7_price_threshold": 107.0,
       "k5_k7_price_gap": 10.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -11559,6 +11624,7 @@
       "k5_k7_price_threshold_down": 28.7,
       "k5_k7_price_threshold": 48.6,
       "k5_k7_price_gap": 8.9,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -11734,6 +11800,7 @@
       "k5_k7_price_threshold_down": 98.9,
       "k5_k7_price_threshold": 176.5,
       "k5_k7_price_gap": 33.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -11909,6 +11976,7 @@
       "k5_k7_price_threshold_down": 44.75,
       "k5_k7_price_threshold": 82.1,
       "k5_k7_price_gap": 9.3,
+      "k5_k7_no_diff_threshold": 81.2,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -12084,6 +12152,7 @@
       "k5_k7_price_threshold_down": 26.25,
       "k5_k7_price_threshold": 49.05,
       "k5_k7_price_gap": 4.65,
+      "k5_k7_no_diff_threshold": 48.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -12259,6 +12328,7 @@
       "k5_k7_price_threshold_down": 71.1,
       "k5_k7_price_threshold": 131.0,
       "k5_k7_price_gap": 27.5,
+      "k5_k7_no_diff_threshold": 127.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -12434,6 +12504,7 @@
       "k5_k7_price_threshold_down": 6.72,
       "k5_k7_price_threshold": 6.72,
       "k5_k7_price_gap": 2.18,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -12609,6 +12680,7 @@
       "k5_k7_price_threshold_down": 20.85,
       "k5_k7_price_threshold": 34.95,
       "k5_k7_price_gap": 6.8,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -12784,6 +12856,7 @@
       "k5_k7_price_threshold_down": 16.0,
       "k5_k7_price_threshold": 16.0,
       "k5_k7_price_gap": 5.25,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -12959,6 +13032,7 @@
       "k5_k7_price_threshold_down": 3225.0,
       "k5_k7_price_threshold": 5970.0,
       "k5_k7_price_gap": 1050.0,
+      "k5_k7_no_diff_threshold": 5690.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -13134,6 +13208,7 @@
       "k5_k7_price_threshold_down": 10.1,
       "k5_k7_price_threshold": 28.3,
       "k5_k7_price_gap": -5.3,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -13309,6 +13384,7 @@
       "k5_k7_price_threshold_down": 39.65,
       "k5_k7_price_threshold": 69.8,
       "k5_k7_price_gap": 14.1,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -13484,6 +13560,7 @@
       "k5_k7_price_threshold_down": 37.2,
       "k5_k7_price_threshold": 81.8,
       "k5_k7_price_gap": -0.6,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -13659,6 +13736,7 @@
       "k5_k7_price_threshold_down": 18.85,
       "k5_k7_price_threshold": 32.95,
       "k5_k7_price_gap": 6.95,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -13834,6 +13912,7 @@
       "k5_k7_price_threshold_down": 31.6,
       "k5_k7_price_threshold": 31.6,
       "k5_k7_price_gap": 10.35,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -14009,6 +14088,7 @@
       "k5_k7_price_threshold_down": 236.5,
       "k5_k7_price_threshold": 419.5,
       "k5_k7_price_gap": 54.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -14184,6 +14264,7 @@
       "k5_k7_price_threshold_down": 136.5,
       "k5_k7_price_threshold": 268.5,
       "k5_k7_price_gap": 22.5,
+      "k5_k7_no_diff_threshold": 260.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -14359,6 +14440,7 @@
       "k5_k7_price_threshold_down": 15.2,
       "k5_k7_price_threshold": 34.0,
       "k5_k7_price_gap": 1.3,
+      "k5_k7_no_diff_threshold": 31.6,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -14534,6 +14616,7 @@
       "k5_k7_price_threshold_down": 65.0,
       "k5_k7_price_threshold": 147.5,
       "k5_k7_price_gap": 4.0,
+      "k5_k7_no_diff_threshold": 137.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -14709,6 +14792,7 @@
       "k5_k7_price_threshold_down": 16.95,
       "k5_k7_price_threshold": 36.5,
       "k5_k7_price_gap": -0.85,
+      "k5_k7_no_diff_threshold": 35.65,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -14884,6 +14968,7 @@
       "k5_k7_price_threshold_down": 181.0,
       "k5_k7_price_threshold": 338.5,
       "k5_k7_price_gap": 56.5,
+      "k5_k7_no_diff_threshold": 322.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -15059,6 +15144,7 @@
       "k5_k7_price_threshold_down": 90.7,
       "k5_k7_price_threshold": 184.5,
       "k5_k7_price_gap": 16.5,
+      "k5_k7_no_diff_threshold": 175.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -15234,6 +15320,7 @@
       "k5_k7_price_threshold_down": 1605.0,
       "k5_k7_price_threshold": 2925.0,
       "k5_k7_price_gap": 625.0,
+      "k5_k7_no_diff_threshold": 2760.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -15409,6 +15496,7 @@
       "k5_k7_price_threshold_down": 100.5,
       "k5_k7_price_threshold": 190.0,
       "k5_k7_price_gap": 34.5,
+      "k5_k7_no_diff_threshold": 179.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -15584,6 +15672,7 @@
       "k5_k7_price_threshold_down": 23.75,
       "k5_k7_price_threshold": 46.75,
       "k5_k7_price_gap": 6.65,
+      "k5_k7_no_diff_threshold": 43.85,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -15759,6 +15848,7 @@
       "k5_k7_price_threshold_down": 26.65,
       "k5_k7_price_threshold": 52.0,
       "k5_k7_price_gap": 7.95,
+      "k5_k7_no_diff_threshold": 48.75,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -15934,6 +16024,7 @@
       "k5_k7_price_threshold_down": 1675.0,
       "k5_k7_price_threshold": 3010.0,
       "k5_k7_price_gap": 390.0,
+      "k5_k7_no_diff_threshold": 2990.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -16109,6 +16200,7 @@
       "k5_k7_price_threshold_down": 42.95,
       "k5_k7_price_threshold": 77.9,
       "k5_k7_price_gap": 15.3,
+      "k5_k7_no_diff_threshold": 74.3,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -16284,6 +16376,7 @@
       "k5_k7_price_threshold_down": 25.55,
       "k5_k7_price_threshold": 45.55,
       "k5_k7_price_gap": 8.2,
+      "k5_k7_no_diff_threshold": 44.3,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -16459,6 +16552,7 @@
       "k5_k7_price_threshold_down": 46.9,
       "k5_k7_price_threshold": 84.4,
       "k5_k7_price_gap": 17.3,
+      "k5_k7_no_diff_threshold": 80.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -16634,6 +16728,7 @@
       "k5_k7_price_threshold_down": 876.0,
       "k5_k7_price_threshold": 1645.0,
       "k5_k7_price_gap": 270.0,
+      "k5_k7_no_diff_threshold": 1565.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -16809,6 +16904,7 @@
       "k5_k7_price_threshold_down": 2925.0,
       "k5_k7_price_threshold": 5885.0,
       "k5_k7_price_gap": 580.0,
+      "k5_k7_no_diff_threshold": 5585.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -16984,6 +17080,7 @@
       "k5_k7_price_threshold_down": 62.0,
       "k5_k7_price_threshold": 62.0,
       "k5_k7_price_gap": 13.9,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -17159,6 +17256,7 @@
       "k5_k7_price_threshold_down": 334.5,
       "k5_k7_price_threshold": 607.0,
       "k5_k7_price_gap": 98.0,
+      "k5_k7_no_diff_threshold": 590.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -17334,6 +17432,7 @@
       "k5_k7_price_threshold_down": 29.5,
       "k5_k7_price_threshold": 55.2,
       "k5_k7_price_gap": 7.2,
+      "k5_k7_no_diff_threshold": 53.6,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -17509,6 +17608,7 @@
       "k5_k7_price_threshold_down": 44.15,
       "k5_k7_price_threshold": 82.5,
       "k5_k7_price_gap": 13.8,
+      "k5_k7_no_diff_threshold": 78.6,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -17684,6 +17784,7 @@
       "k5_k7_price_threshold_down": 687.0,
       "k5_k7_price_threshold": 1335.0,
       "k5_k7_price_gap": 100.0,
+      "k5_k7_no_diff_threshold": 1305.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -17859,6 +17960,7 @@
       "k5_k7_price_threshold_down": 192.5,
       "k5_k7_price_threshold": 372.0,
       "k5_k7_price_gap": 60.0,
+      "k5_k7_no_diff_threshold": 349.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -18034,6 +18136,7 @@
       "k5_k7_price_threshold_down": 34.7,
       "k5_k7_price_threshold": 61.6,
       "k5_k7_price_gap": 11.4,
+      "k5_k7_no_diff_threshold": 59.9,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -18209,6 +18312,7 @@
       "k5_k7_price_threshold_down": 47.9,
       "k5_k7_price_threshold": 87.9,
       "k5_k7_price_gap": 10.1,
+      "k5_k7_no_diff_threshold": 86.9,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -18384,6 +18488,7 @@
       "k5_k7_price_threshold_down": 36.35,
       "k5_k7_price_threshold": 36.35,
       "k5_k7_price_gap": 11.9,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -18559,6 +18664,7 @@
       "k5_k7_price_threshold_down": 51.8,
       "k5_k7_price_threshold": 96.6,
       "k5_k7_price_gap": 18.5,
+      "k5_k7_no_diff_threshold": 90.9,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -18734,6 +18840,7 @@
       "k5_k7_price_threshold_down": 228.5,
       "k5_k7_price_threshold": 413.0,
       "k5_k7_price_gap": 92.0,
+      "k5_k7_no_diff_threshold": 389.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -18914,6 +19021,7 @@
       "k5_k7_price_threshold_down": 292.0,
       "k5_k7_price_threshold": 505.0,
       "k5_k7_price_gap": 86.5,
+      "k5_k7_no_diff_threshold": 502.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -19089,6 +19197,7 @@
       "k5_k7_price_threshold_down": 22.95,
       "k5_k7_price_threshold": 40.8,
       "k5_k7_price_gap": 8.85,
+      "k5_k7_no_diff_threshold": 38.95,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -19264,6 +19373,7 @@
       "k5_k7_price_threshold_down": 52.9,
       "k5_k7_price_threshold": 98.9,
       "k5_k7_price_gap": 12.9,
+      "k5_k7_no_diff_threshold": 96.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -19439,6 +19549,7 @@
       "k5_k7_price_threshold_down": 34.75,
       "k5_k7_price_threshold": 59.3,
       "k5_k7_price_gap": 11.6,
+      "k5_k7_no_diff_threshold": 58.7,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -19614,6 +19725,7 @@
       "k5_k7_price_threshold_down": 376.0,
       "k5_k7_price_threshold": 743.0,
       "k5_k7_price_gap": 86.0,
+      "k5_k7_no_diff_threshold": 705.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -19789,6 +19901,7 @@
       "k5_k7_price_threshold_down": 73.2,
       "k5_k7_price_threshold": 140.5,
       "k5_k7_price_gap": 20.5,
+      "k5_k7_no_diff_threshold": 133.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -19964,6 +20077,7 @@
       "k5_k7_price_threshold_down": 94.7,
       "k5_k7_price_threshold": 179.5,
       "k5_k7_price_gap": 32.0,
+      "k5_k7_no_diff_threshold": 168.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -20139,6 +20253,7 @@
       "k5_k7_price_threshold_down": 51.7,
       "k5_k7_price_threshold": 89.4,
       "k5_k7_price_gap": 15.3,
+      "k5_k7_no_diff_threshold": 88.9,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -20314,6 +20429,7 @@
       "k5_k7_price_threshold_down": 185.0,
       "k5_k7_price_threshold": 327.0,
       "k5_k7_price_gap": 51.0,
+      "k5_k7_no_diff_threshold": 323.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -20489,6 +20605,7 @@
       "k5_k7_price_threshold_down": 28.2,
       "k5_k7_price_threshold": 54.3,
       "k5_k7_price_gap": 3.6,
+      "k5_k7_no_diff_threshold": 53.6,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -20664,6 +20781,7 @@
       "k5_k7_price_threshold_down": 13.7,
       "k5_k7_price_threshold": 25.3,
       "k5_k7_price_gap": 2.75,
+      "k5_k7_no_diff_threshold": 25.05,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -20839,6 +20957,7 @@
       "k5_k7_price_threshold_down": 84.2,
       "k5_k7_price_threshold": 172.5,
       "k5_k7_price_gap": 14.5,
+      "k5_k7_no_diff_threshold": 163.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -21014,6 +21133,7 @@
       "k5_k7_price_threshold_down": 93.0,
       "k5_k7_price_threshold": 93.0,
       "k5_k7_price_gap": 28.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -21189,6 +21309,7 @@
       "k5_k7_price_threshold_down": 9.75,
       "k5_k7_price_threshold": 9.75,
       "k5_k7_price_gap": 3.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -21364,6 +21485,7 @@
       "k5_k7_price_threshold_down": 4.47,
       "k5_k7_price_threshold": 9.1,
       "k5_k7_price_gap": -0.15,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -21539,6 +21661,7 @@
       "k5_k7_price_threshold_down": 14.2,
       "k5_k7_price_threshold": 26.25,
       "k5_k7_price_gap": 2.3,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -21714,6 +21837,7 @@
       "k5_k7_price_threshold_down": 30.5,
       "k5_k7_price_threshold": 30.5,
       "k5_k7_price_gap": 9.9,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -21889,6 +22013,7 @@
       "k5_k7_price_threshold_down": 160.5,
       "k5_k7_price_threshold": 299.0,
       "k5_k7_price_gap": 58.0,
+      "k5_k7_no_diff_threshold": 281.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -22064,6 +22189,7 @@
       "k5_k7_price_threshold_down": 2275.0,
       "k5_k7_price_threshold": 4080.0,
       "k5_k7_price_gap": 575.0,
+      "k5_k7_no_diff_threshold": 4035.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -22239,6 +22365,7 @@
       "k5_k7_price_threshold_down": 70.0,
       "k5_k7_price_threshold": 142.5,
       "k5_k7_price_gap": 16.5,
+      "k5_k7_no_diff_threshold": 133.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -22414,6 +22541,7 @@
       "k5_k7_price_threshold_down": 1625.0,
       "k5_k7_price_threshold": 3070.0,
       "k5_k7_price_gap": 370.0,
+      "k5_k7_no_diff_threshold": 2980.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -22589,6 +22717,7 @@
       "k5_k7_price_threshold_down": 13.6,
       "k5_k7_price_threshold": 13.6,
       "k5_k7_price_gap": 2.25,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -22764,6 +22893,7 @@
       "k5_k7_price_threshold_down": 36.35,
       "k5_k7_price_threshold": 75.5,
       "k5_k7_price_gap": -1.7,
+      "k5_k7_no_diff_threshold": 75.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -22939,6 +23069,7 @@
       "k5_k7_price_threshold_down": 239.0,
       "k5_k7_price_threshold": 448.0,
       "k5_k7_price_gap": 48.5,
+      "k5_k7_no_diff_threshold": 439.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -23114,6 +23245,7 @@
       "k5_k7_price_threshold_down": 22.6,
       "k5_k7_price_threshold": 38.5,
       "k5_k7_price_gap": 7.55,
+      "k5_k7_no_diff_threshold": 38.15,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -23289,6 +23421,7 @@
       "k5_k7_price_threshold_down": 137.0,
       "k5_k7_price_threshold": 253.5,
       "k5_k7_price_gap": 51.0,
+      "k5_k7_no_diff_threshold": 238.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -23464,6 +23597,7 @@
       "k5_k7_price_threshold_down": 203.5,
       "k5_k7_price_threshold": 359.0,
       "k5_k7_price_gap": 63.0,
+      "k5_k7_no_diff_threshold": 352.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -23639,6 +23773,7 @@
       "k5_k7_price_threshold_down": 88.1,
       "k5_k7_price_threshold": 198.5,
       "k5_k7_price_gap": 0.5,
+      "k5_k7_no_diff_threshold": 187.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -23814,6 +23949,7 @@
       "k5_k7_price_threshold_down": 17.55,
       "k5_k7_price_threshold": 31.55,
       "k5_k7_price_gap": 4.3,
+      "k5_k7_no_diff_threshold": 31.2,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -23989,6 +24125,7 @@
       "k5_k7_price_threshold_down": 7.87,
       "k5_k7_price_threshold": 7.87,
       "k5_k7_price_gap": 2.43,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -24164,6 +24301,7 @@
       "k5_k7_price_threshold_down": 49.65,
       "k5_k7_price_threshold": 83.5,
       "k5_k7_price_gap": 15.9,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -24339,6 +24477,7 @@
       "k5_k7_price_threshold_down": 83.5,
       "k5_k7_price_threshold": 83.5,
       "k5_k7_price_gap": 29.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -24514,6 +24653,7 @@
       "k5_k7_price_threshold_down": 14.45,
       "k5_k7_price_threshold": 14.45,
       "k5_k7_price_gap": 3.85,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -24689,6 +24829,7 @@
       "k5_k7_price_threshold_down": 1745.0,
       "k5_k7_price_threshold": 3310.0,
       "k5_k7_price_gap": 425.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -24864,6 +25005,7 @@
       "k5_k7_price_threshold_down": 27.5,
       "k5_k7_price_threshold": 27.5,
       "k5_k7_price_gap": 4.1,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -25039,6 +25181,7 @@
       "k5_k7_price_threshold_down": 32.05,
       "k5_k7_price_threshold": 61.8,
       "k5_k7_price_gap": 7.1,
+      "k5_k7_no_diff_threshold": 61.7,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -25214,6 +25357,7 @@
       "k5_k7_price_threshold_down": 27.3,
       "k5_k7_price_threshold": 27.3,
       "k5_k7_price_gap": 8.25,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -25389,6 +25533,7 @@
       "k5_k7_price_threshold_down": 277.0,
       "k5_k7_price_threshold": 610.0,
       "k5_k7_price_gap": 50.0,
+      "k5_k7_no_diff_threshold": 580.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -25564,6 +25709,7 @@
       "k5_k7_price_threshold_down": 26.15,
       "k5_k7_price_threshold": 26.15,
       "k5_k7_price_gap": 7.2,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -25739,6 +25885,7 @@
       "k5_k7_price_threshold_down": 121.5,
       "k5_k7_price_threshold": 260.5,
       "k5_k7_price_gap": 18.5,
+      "k5_k7_no_diff_threshold": 243.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -25914,6 +26061,7 @@
       "k5_k7_price_threshold_down": 121.0,
       "k5_k7_price_threshold": 205.5,
       "k5_k7_price_gap": 40.0,
+      "k5_k7_no_diff_threshold": 204.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -26089,6 +26237,7 @@
       "k5_k7_price_threshold_down": 38.4,
       "k5_k7_price_threshold": 72.0,
       "k5_k7_price_gap": 6.6,
+      "k5_k7_no_diff_threshold": 71.2,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -26264,6 +26413,7 @@
       "k5_k7_price_threshold_down": 62.1,
       "k5_k7_price_threshold": 62.1,
       "k5_k7_price_gap": 21.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -26444,6 +26594,7 @@
       "k5_k7_price_threshold_down": 567.0,
       "k5_k7_price_threshold": 978.0,
       "k5_k7_price_gap": 158.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -26619,6 +26770,7 @@
       "k5_k7_price_threshold_down": 283.5,
       "k5_k7_price_threshold": 686.0,
       "k5_k7_price_gap": -16.0,
+      "k5_k7_no_diff_threshold": 635.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -26794,6 +26946,7 @@
       "k5_k7_price_threshold_down": 197.0,
       "k5_k7_price_threshold": 454.5,
       "k5_k7_price_gap": -9.5,
+      "k5_k7_no_diff_threshold": 448.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -26969,6 +27122,7 @@
       "k5_k7_price_threshold_down": 58.3,
       "k5_k7_price_threshold": 105.0,
       "k5_k7_price_gap": 19.3,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -27144,6 +27298,7 @@
       "k5_k7_price_threshold_down": 31.35,
       "k5_k7_price_threshold": 61.9,
       "k5_k7_price_gap": 5.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -27319,6 +27474,7 @@
       "k5_k7_price_threshold_down": 30.4,
       "k5_k7_price_threshold": 30.4,
       "k5_k7_price_gap": 9.25,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -27494,6 +27650,7 @@
       "k5_k7_price_threshold_down": 139.0,
       "k5_k7_price_threshold": 264.5,
       "k5_k7_price_gap": 54.0,
+      "k5_k7_no_diff_threshold": 253.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -27669,6 +27826,7 @@
       "k5_k7_price_threshold_down": 24.95,
       "k5_k7_price_threshold": 50.6,
       "k5_k7_price_gap": 4.7,
+      "k5_k7_no_diff_threshold": 47.95,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -27844,6 +28002,7 @@
       "k5_k7_price_threshold_down": 68.3,
       "k5_k7_price_threshold": 124.5,
       "k5_k7_price_gap": 21.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -28019,6 +28178,7 @@
       "k5_k7_price_threshold_down": 25.95,
       "k5_k7_price_threshold": 58.9,
       "k5_k7_price_gap": 2.0,
+      "k5_k7_no_diff_threshold": 56.8,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -28194,6 +28354,7 @@
       "k5_k7_price_threshold_down": 293.5,
       "k5_k7_price_threshold": 293.5,
       "k5_k7_price_gap": 119.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -28369,6 +28530,7 @@
       "k5_k7_price_threshold_down": 142.5,
       "k5_k7_price_threshold": 279.0,
       "k5_k7_price_gap": 49.5,
+      "k5_k7_no_diff_threshold": 267.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -28544,6 +28706,7 @@
       "k5_k7_price_threshold_down": 12.85,
       "k5_k7_price_threshold": 12.85,
       "k5_k7_price_gap": 3.7,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -28719,6 +28882,7 @@
       "k5_k7_price_threshold_down": 10.2,
       "k5_k7_price_threshold": 10.2,
       "k5_k7_price_gap": 3.8,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -28894,6 +29058,7 @@
       "k5_k7_price_threshold_down": 20.8,
       "k5_k7_price_threshold": 40.95,
       "k5_k7_price_gap": 4.65,
+      "k5_k7_no_diff_threshold": 40.45,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -29069,6 +29234,7 @@
       "k5_k7_price_threshold_down": 114.0,
       "k5_k7_price_threshold": 206.5,
       "k5_k7_price_gap": 37.0,
+      "k5_k7_no_diff_threshold": 206.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -29244,6 +29410,7 @@
       "k5_k7_price_threshold_down": 522.0,
       "k5_k7_price_threshold": 932.0,
       "k5_k7_price_gap": 176.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -29419,6 +29586,7 @@
       "k5_k7_price_threshold_down": 29.65,
       "k5_k7_price_threshold": 29.65,
       "k5_k7_price_gap": 10.15,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -29594,6 +29762,7 @@
       "k5_k7_price_threshold_down": 91.7,
       "k5_k7_price_threshold": 175.5,
       "k5_k7_price_gap": 15.5,
+      "k5_k7_no_diff_threshold": 172.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -29769,6 +29938,7 @@
       "k5_k7_price_threshold_down": 652.0,
       "k5_k7_price_threshold": 1215.0,
       "k5_k7_price_gap": 180.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -29944,6 +30114,7 @@
       "k5_k7_price_threshold_down": 53.3,
       "k5_k7_price_threshold": 95.5,
       "k5_k7_price_gap": 19.9,
+      "k5_k7_no_diff_threshold": 91.2,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -30119,6 +30290,7 @@
       "k5_k7_price_threshold_down": 34.15,
       "k5_k7_price_threshold": 60.4,
       "k5_k7_price_gap": 12.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -30294,6 +30466,7 @@
       "k5_k7_price_threshold_down": 22.8,
       "k5_k7_price_threshold": 41.6,
       "k5_k7_price_gap": 9.1,
+      "k5_k7_no_diff_threshold": 40.4,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -30469,6 +30642,7 @@
       "k5_k7_price_threshold_down": 541.0,
       "k5_k7_price_threshold": 1000.0,
       "k5_k7_price_gap": 153.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -30644,6 +30818,7 @@
       "k5_k7_price_threshold_down": 161.5,
       "k5_k7_price_threshold": 310.5,
       "k5_k7_price_gap": 60.0,
+      "k5_k7_no_diff_threshold": 297.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -30819,6 +30994,7 @@
       "k5_k7_price_threshold_down": 64.8,
       "k5_k7_price_threshold": 123.5,
       "k5_k7_price_gap": 22.5,
+      "k5_k7_no_diff_threshold": 119.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -30994,6 +31170,7 @@
       "k5_k7_price_threshold_down": 113.0,
       "k5_k7_price_threshold": 201.0,
       "k5_k7_price_gap": 38.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -31169,6 +31346,7 @@
       "k5_k7_price_threshold_down": 14.05,
       "k5_k7_price_threshold": 14.05,
       "k5_k7_price_gap": 4.8,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -31344,6 +31522,7 @@
       "k5_k7_price_threshold_down": 17.9,
       "k5_k7_price_threshold": 17.9,
       "k5_k7_price_gap": 5.9,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -31519,6 +31698,7 @@
       "k5_k7_price_threshold_down": 46.6,
       "k5_k7_price_threshold": 90.6,
       "k5_k7_price_gap": 16.6,
+      "k5_k7_no_diff_threshold": 86.6,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -31694,6 +31874,7 @@
       "k5_k7_price_threshold_down": 33.4,
       "k5_k7_price_threshold": 61.4,
       "k5_k7_price_gap": 9.7,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -31869,6 +32050,7 @@
       "k5_k7_price_threshold_down": 3270.0,
       "k5_k7_price_threshold": 6200.0,
       "k5_k7_price_gap": 1100.0,
+      "k5_k7_no_diff_threshold": 5825.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -32044,6 +32226,7 @@
       "k5_k7_price_threshold_down": 52.5,
       "k5_k7_price_threshold": 116.5,
       "k5_k7_price_gap": -1.0,
+      "k5_k7_no_diff_threshold": 116.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -32219,6 +32402,7 @@
       "k5_k7_price_threshold_down": 211.0,
       "k5_k7_price_threshold": 211.0,
       "k5_k7_price_gap": 44.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -32394,6 +32578,7 @@
       "k5_k7_price_threshold_down": 25.4,
       "k5_k7_price_threshold": 25.4,
       "k5_k7_price_gap": 8.35,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -32569,6 +32754,7 @@
       "k5_k7_price_threshold_down": 37.25,
       "k5_k7_price_threshold": 83.3,
       "k5_k7_price_gap": 5.8,
+      "k5_k7_no_diff_threshold": 79.2,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -32744,6 +32930,7 @@
       "k5_k7_price_threshold_down": 21.2,
       "k5_k7_price_threshold": 47.0,
       "k5_k7_price_gap": -3.2,
+      "k5_k7_no_diff_threshold": 46.35,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -32919,6 +33106,7 @@
       "k5_k7_price_threshold_down": 25.9,
       "k5_k7_price_threshold": 47.2,
       "k5_k7_price_gap": 7.8,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -33094,6 +33282,7 @@
       "k5_k7_price_threshold_down": 1150.0,
       "k5_k7_price_threshold": 2280.0,
       "k5_k7_price_gap": 200.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -33269,6 +33458,7 @@
       "k5_k7_price_threshold_down": 100.0,
       "k5_k7_price_threshold": 185.0,
       "k5_k7_price_gap": 29.5,
+      "k5_k7_no_diff_threshold": 184.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -33444,6 +33634,7 @@
       "k5_k7_price_threshold_down": 62.5,
       "k5_k7_price_threshold": 62.5,
       "k5_k7_price_gap": 15.1,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -33619,6 +33810,7 @@
       "k5_k7_price_threshold_down": 14.1,
       "k5_k7_price_threshold": 25.45,
       "k5_k7_price_gap": 4.65,
+      "k5_k7_no_diff_threshold": 25.4,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -33794,6 +33986,7 @@
       "k5_k7_price_threshold_down": 22.85,
       "k5_k7_price_threshold": 41.6,
       "k5_k7_price_gap": 5.8,
+      "k5_k7_no_diff_threshold": 40.8,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -33969,6 +34162,7 @@
       "k5_k7_price_threshold_down": 254.0,
       "k5_k7_price_threshold": 469.0,
       "k5_k7_price_gap": 97.0,
+      "k5_k7_no_diff_threshold": 455.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -34144,6 +34338,7 @@
       "k5_k7_price_threshold_down": 2475.0,
       "k5_k7_price_threshold": 2475.0,
       "k5_k7_price_gap": 820.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -34319,6 +34514,7 @@
       "k5_k7_price_threshold_down": 1680.0,
       "k5_k7_price_threshold": 3150.0,
       "k5_k7_price_gap": 525.0,
+      "k5_k7_no_diff_threshold": 2995.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -34494,6 +34690,7 @@
       "k5_k7_price_threshold_down": 37.6,
       "k5_k7_price_threshold": 76.5,
       "k5_k7_price_gap": 9.3,
+      "k5_k7_no_diff_threshold": 74.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -34669,6 +34866,7 @@
       "k5_k7_price_threshold_down": 68.1,
       "k5_k7_price_threshold": 124.0,
       "k5_k7_price_gap": 27.5,
+      "k5_k7_no_diff_threshold": 120.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -34844,6 +35042,7 @@
       "k5_k7_price_threshold_down": 129.5,
       "k5_k7_price_threshold": 262.5,
       "k5_k7_price_gap": 39.5,
+      "k5_k7_no_diff_threshold": 250.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -35019,6 +35218,7 @@
       "k5_k7_price_threshold_down": 632.0,
       "k5_k7_price_threshold": 632.0,
       "k5_k7_price_gap": 210.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -35194,6 +35394,7 @@
       "k5_k7_price_threshold_down": 70.2,
       "k5_k7_price_threshold": 128.5,
       "k5_k7_price_gap": 21.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -35369,6 +35570,7 @@
       "k5_k7_price_threshold_down": 603.0,
       "k5_k7_price_threshold": 1110.0,
       "k5_k7_price_gap": 234.0,
+      "k5_k7_no_diff_threshold": 1045.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -35544,6 +35746,7 @@
       "k5_k7_price_threshold_down": 231.0,
       "k5_k7_price_threshold": 411.0,
       "k5_k7_price_gap": 80.0,
+      "k5_k7_no_diff_threshold": 410.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -35719,6 +35922,7 @@
       "k5_k7_price_threshold_down": 13.6,
       "k5_k7_price_threshold": 13.6,
       "k5_k7_price_gap": 3.7,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -35894,6 +36098,7 @@
       "k5_k7_price_threshold_down": 60.6,
       "k5_k7_price_threshold": 60.6,
       "k5_k7_price_gap": 17.7,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -36069,6 +36274,7 @@
       "k5_k7_price_threshold_down": 28.55,
       "k5_k7_price_threshold": 54.2,
       "k5_k7_price_gap": 6.9,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -36244,6 +36450,7 @@
       "k5_k7_price_threshold_down": 64.4,
       "k5_k7_price_threshold": 119.0,
       "k5_k7_price_gap": 25.0,
+      "k5_k7_no_diff_threshold": 115.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -36419,6 +36626,7 @@
       "k5_k7_price_threshold_down": 27.9,
       "k5_k7_price_threshold": 27.9,
       "k5_k7_price_gap": 9.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -36594,6 +36802,7 @@
       "k5_k7_price_threshold_down": 74.5,
       "k5_k7_price_threshold": 136.0,
       "k5_k7_price_gap": 26.0,
+      "k5_k7_no_diff_threshold": 130.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -36769,6 +36978,7 @@
       "k5_k7_price_threshold_down": 20.8,
       "k5_k7_price_threshold": 38.35,
       "k5_k7_price_gap": 5.55,
+      "k5_k7_no_diff_threshold": 37.25,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -36949,6 +37159,7 @@
       "k5_k7_price_threshold_down": 2010.0,
       "k5_k7_price_threshold": 4060.0,
       "k5_k7_price_gap": 390.0,
+      "k5_k7_no_diff_threshold": 3850.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -37124,6 +37335,7 @@
       "k5_k7_price_threshold_down": 3455.0,
       "k5_k7_price_threshold": 3455.0,
       "k5_k7_price_gap": 1045.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -37299,6 +37511,7 @@
       "k5_k7_price_threshold_down": 53.1,
       "k5_k7_price_threshold": 102.0,
       "k5_k7_price_gap": 12.1,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -37474,6 +37687,7 @@
       "k5_k7_price_threshold_down": 6.05,
       "k5_k7_price_threshold": 6.05,
       "k5_k7_price_gap": 1.62,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -37649,6 +37863,7 @@
       "k5_k7_price_threshold_down": 1405.0,
       "k5_k7_price_threshold": 2515.0,
       "k5_k7_price_gap": 400.0,
+      "k5_k7_no_diff_threshold": 2465.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -37824,6 +38039,7 @@
       "k5_k7_price_threshold_down": 47.45,
       "k5_k7_price_threshold": 92.6,
       "k5_k7_price_gap": 4.7,
+      "k5_k7_no_diff_threshold": 91.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -37999,6 +38215,7 @@
       "k5_k7_price_threshold_down": 206.5,
       "k5_k7_price_threshold": 423.5,
       "k5_k7_price_gap": 58.5,
+      "k5_k7_no_diff_threshold": 404.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -38174,6 +38391,7 @@
       "k5_k7_price_threshold_down": 344.5,
       "k5_k7_price_threshold": 676.0,
       "k5_k7_price_gap": 119.0,
+      "k5_k7_no_diff_threshold": 646.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -38349,6 +38567,7 @@
       "k5_k7_price_threshold_down": 18.9,
       "k5_k7_price_threshold": 34.55,
       "k5_k7_price_gap": 5.65,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -38524,6 +38743,7 @@
       "k5_k7_price_threshold_down": 333.5,
       "k5_k7_price_threshold": 659.0,
       "k5_k7_price_gap": 72.0,
+      "k5_k7_no_diff_threshold": 651.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -38699,6 +38919,7 @@
       "k5_k7_price_threshold_down": 53.9,
       "k5_k7_price_threshold": 53.9,
       "k5_k7_price_gap": 14.6,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -38874,6 +39095,7 @@
       "k5_k7_price_threshold_down": 37.1,
       "k5_k7_price_threshold": 66.9,
       "k5_k7_price_gap": 11.2,
+      "k5_k7_no_diff_threshold": 65.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -39049,6 +39271,7 @@
       "k5_k7_price_threshold_down": 46.1,
       "k5_k7_price_threshold": 99.1,
       "k5_k7_price_gap": 9.8,
+      "k5_k7_no_diff_threshold": 94.4,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -39224,6 +39447,7 @@
       "k5_k7_price_threshold_down": 4.47,
       "k5_k7_price_threshold": 4.47,
       "k5_k7_price_gap": 1.78,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -39399,6 +39623,7 @@
       "k5_k7_price_threshold_down": 281.0,
       "k5_k7_price_threshold": 649.0,
       "k5_k7_price_gap": 7.0,
+      "k5_k7_no_diff_threshold": 603.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -39574,6 +39799,7 @@
       "k5_k7_price_threshold_down": 10.85,
       "k5_k7_price_threshold": 19.45,
       "k5_k7_price_gap": 3.4,
+      "k5_k7_no_diff_threshold": 18.9,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -39749,6 +39975,7 @@
       "k5_k7_price_threshold_down": 47.6,
       "k5_k7_price_threshold": 85.8,
       "k5_k7_price_gap": 11.5,
+      "k5_k7_no_diff_threshold": 84.8,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -39924,6 +40151,7 @@
       "k5_k7_price_threshold_down": 114.5,
       "k5_k7_price_threshold": 214.5,
       "k5_k7_price_gap": 35.5,
+      "k5_k7_no_diff_threshold": 204.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -40099,6 +40327,7 @@
       "k5_k7_price_threshold_down": 54.2,
       "k5_k7_price_threshold": 54.2,
       "k5_k7_price_gap": 19.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -40274,6 +40503,7 @@
       "k5_k7_price_threshold_down": 10.6,
       "k5_k7_price_threshold": 10.6,
       "k5_k7_price_gap": 3.7,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -40449,6 +40679,7 @@
       "k5_k7_price_threshold_down": 6.58,
       "k5_k7_price_threshold": 6.58,
       "k5_k7_price_gap": 2.44,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -40624,6 +40855,7 @@
       "k5_k7_price_threshold_down": 80.4,
       "k5_k7_price_threshold": 143.5,
       "k5_k7_price_gap": 27.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -40799,6 +41031,7 @@
       "k5_k7_price_threshold_down": 24.3,
       "k5_k7_price_threshold": 24.3,
       "k5_k7_price_gap": 4.35,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -40974,6 +41207,7 @@
       "k5_k7_price_threshold_down": 35.4,
       "k5_k7_price_threshold": 35.4,
       "k5_k7_price_gap": 11.95,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -41149,6 +41383,7 @@
       "k5_k7_price_threshold_down": 6.08,
       "k5_k7_price_threshold": 6.08,
       "k5_k7_price_gap": 1.56,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -41324,6 +41559,7 @@
       "k5_k7_price_threshold_down": 4.59,
       "k5_k7_price_threshold": 4.59,
       "k5_k7_price_gap": 0.54,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -41499,6 +41735,7 @@
       "k5_k7_price_threshold_down": 50.6,
       "k5_k7_price_threshold": 50.6,
       "k5_k7_price_gap": 16.6,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -41674,6 +41911,7 @@
       "k5_k7_price_threshold_down": 157.5,
       "k5_k7_price_threshold": 314.5,
       "k5_k7_price_gap": 43.0,
+      "k5_k7_no_diff_threshold": 304.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -41849,6 +42087,7 @@
       "k5_k7_price_threshold_down": 26.95,
       "k5_k7_price_threshold": 53.9,
       "k5_k7_price_gap": 0.2,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -42024,6 +42263,7 @@
       "k5_k7_price_threshold_down": 28.05,
       "k5_k7_price_threshold": 49.0,
       "k5_k7_price_gap": 10.3,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -42199,6 +42439,7 @@
       "k5_k7_price_threshold_down": 34.4,
       "k5_k7_price_threshold": 60.8,
       "k5_k7_price_gap": 12.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -42374,6 +42615,7 @@
       "k5_k7_price_threshold_down": 29.85,
       "k5_k7_price_threshold": 50.5,
       "k5_k7_price_gap": 9.3,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -42549,6 +42791,7 @@
       "k5_k7_price_threshold_down": 126.0,
       "k5_k7_price_threshold": 216.5,
       "k5_k7_price_gap": 36.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -42724,6 +42967,7 @@
       "k5_k7_price_threshold_down": 164.0,
       "k5_k7_price_threshold": 301.0,
       "k5_k7_price_gap": 28.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -42899,6 +43143,7 @@
       "k5_k7_price_threshold_down": 81.8,
       "k5_k7_price_threshold": 151.5,
       "k5_k7_price_gap": 23.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -43074,6 +43319,7 @@
       "k5_k7_price_threshold_down": 17.4,
       "k5_k7_price_threshold": 30.9,
       "k5_k7_price_gap": 4.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -43249,6 +43495,7 @@
       "k5_k7_price_threshold_down": 164.0,
       "k5_k7_price_threshold": 300.0,
       "k5_k7_price_gap": 29.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -43424,6 +43671,7 @@
       "k5_k7_price_threshold_down": 17.0,
       "k5_k7_price_threshold": 30.0,
       "k5_k7_price_gap": 6.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -43599,6 +43847,7 @@
       "k5_k7_price_threshold_down": 35.4,
       "k5_k7_price_threshold": 69.3,
       "k5_k7_price_gap": 6.7,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -43774,6 +44023,7 @@
       "k5_k7_price_threshold_down": 677.0,
       "k5_k7_price_threshold": 1340.0,
       "k5_k7_price_gap": 225.0,
+      "k5_k7_no_diff_threshold": 1280.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -43949,6 +44199,7 @@
       "k5_k7_price_threshold_down": 153.5,
       "k5_k7_price_threshold": 364.0,
       "k5_k7_price_gap": -23.0,
+      "k5_k7_no_diff_threshold": 363.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -44124,6 +44375,7 @@
       "k5_k7_price_threshold_down": 247.0,
       "k5_k7_price_threshold": 247.0,
       "k5_k7_price_gap": 74.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -44299,6 +44551,7 @@
       "k5_k7_price_threshold_down": 254.0,
       "k5_k7_price_threshold": 527.0,
       "k5_k7_price_gap": 23.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -44474,6 +44727,7 @@
       "k5_k7_price_threshold_down": 16.2,
       "k5_k7_price_threshold": 28.8,
       "k5_k7_price_gap": 3.75,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -44649,6 +44903,7 @@
       "k5_k7_price_threshold_down": 25.4,
       "k5_k7_price_threshold": 48.1,
       "k5_k7_price_gap": 3.35,
+      "k5_k7_no_diff_threshold": 47.85,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -44824,6 +45079,7 @@
       "k5_k7_price_threshold_down": 172.5,
       "k5_k7_price_threshold": 313.5,
       "k5_k7_price_gap": 54.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -44999,6 +45255,7 @@
       "k5_k7_price_threshold_down": 35.75,
       "k5_k7_price_threshold": 64.8,
       "k5_k7_price_gap": 11.1,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -45174,6 +45431,7 @@
       "k5_k7_price_threshold_down": 74.0,
       "k5_k7_price_threshold": 137.0,
       "k5_k7_price_gap": 24.5,
+      "k5_k7_no_diff_threshold": 130.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -45349,6 +45607,7 @@
       "k5_k7_price_threshold_down": 64.0,
       "k5_k7_price_threshold": 117.5,
       "k5_k7_price_gap": 18.1,
+      "k5_k7_no_diff_threshold": 114.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -45524,6 +45783,7 @@
       "k5_k7_price_threshold_down": 105.5,
       "k5_k7_price_threshold": 224.0,
       "k5_k7_price_gap": 17.5,
+      "k5_k7_no_diff_threshold": 209.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -45699,6 +45959,7 @@
       "k5_k7_price_threshold_down": 31.1,
       "k5_k7_price_threshold": 63.8,
       "k5_k7_price_gap": 5.2,
+      "k5_k7_no_diff_threshold": 60.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -45874,6 +46135,7 @@
       "k5_k7_price_threshold_down": 131.0,
       "k5_k7_price_threshold": 246.0,
       "k5_k7_price_gap": 39.0,
+      "k5_k7_no_diff_threshold": 243.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -46049,6 +46311,7 @@
       "k5_k7_price_threshold_down": 52.2,
       "k5_k7_price_threshold": 92.7,
       "k5_k7_price_gap": 18.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -46224,6 +46487,7 @@
       "k5_k7_price_threshold_down": 25.25,
       "k5_k7_price_threshold": 50.2,
       "k5_k7_price_gap": 7.05,
+      "k5_k7_no_diff_threshold": 48.6,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -46399,6 +46663,7 @@
       "k5_k7_price_threshold_down": 59.5,
       "k5_k7_price_threshold": 112.0,
       "k5_k7_price_gap": 10.0,
+      "k5_k7_no_diff_threshold": 111.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -46574,6 +46839,7 @@
       "k5_k7_price_threshold_down": 88.2,
       "k5_k7_price_threshold": 88.2,
       "k5_k7_price_gap": 36.3,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -46749,6 +47015,7 @@
       "k5_k7_price_threshold_down": 30.5,
       "k5_k7_price_threshold": 55.0,
       "k5_k7_price_gap": 7.25,
+      "k5_k7_no_diff_threshold": 54.4,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -46924,6 +47191,7 @@
       "k5_k7_price_threshold_down": 292.5,
       "k5_k7_price_threshold": 590.0,
       "k5_k7_price_gap": 58.0,
+      "k5_k7_no_diff_threshold": 559.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -47099,6 +47367,7 @@
       "k5_k7_price_threshold_down": 24.6,
       "k5_k7_price_threshold": 41.65,
       "k5_k7_price_gap": 8.5,
+      "k5_k7_no_diff_threshold": 41.25,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -47274,6 +47543,7 @@
       "k5_k7_price_threshold_down": 510.0,
       "k5_k7_price_threshold": 1030.0,
       "k5_k7_price_gap": 160.0,
+      "k5_k7_no_diff_threshold": 981.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -47449,6 +47719,7 @@
       "k5_k7_price_threshold_down": 194.0,
       "k5_k7_price_threshold": 194.0,
       "k5_k7_price_gap": 73.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -47624,6 +47895,7 @@
       "k5_k7_price_threshold_down": 496.5,
       "k5_k7_price_threshold": 938.0,
       "k5_k7_price_gap": 194.0,
+      "k5_k7_no_diff_threshold": 899.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -47799,6 +48071,7 @@
       "k5_k7_price_threshold_down": 66.3,
       "k5_k7_price_threshold": 149.0,
       "k5_k7_price_gap": 10.0,
+      "k5_k7_no_diff_threshold": 141.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -47974,6 +48247,7 @@
       "k5_k7_price_threshold_down": 143.0,
       "k5_k7_price_threshold": 255.5,
       "k5_k7_price_gap": 34.5,
+      "k5_k7_no_diff_threshold": 254.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -48154,6 +48428,7 @@
       "k5_k7_price_threshold_down": 383.5,
       "k5_k7_price_threshold": 723.0,
       "k5_k7_price_gap": 95.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -48329,6 +48604,7 @@
       "k5_k7_price_threshold_down": 65.3,
       "k5_k7_price_threshold": 124.5,
       "k5_k7_price_gap": 19.0,
+      "k5_k7_no_diff_threshold": 118.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -48504,6 +48780,7 @@
       "k5_k7_price_threshold_down": 473.5,
       "k5_k7_price_threshold": 939.0,
       "k5_k7_price_gap": 156.0,
+      "k5_k7_no_diff_threshold": 897.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -48679,6 +48956,7 @@
       "k5_k7_price_threshold_down": 9.37,
       "k5_k7_price_threshold": 19.5,
       "k5_k7_price_gap": 0.8,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -48854,6 +49132,7 @@
       "k5_k7_price_threshold_down": 32.7,
       "k5_k7_price_threshold": 57.9,
       "k5_k7_price_gap": 10.8,
+      "k5_k7_no_diff_threshold": 56.3,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -49029,6 +49308,7 @@
       "k5_k7_price_threshold_down": 33.8,
       "k5_k7_price_threshold": 67.0,
       "k5_k7_price_gap": 9.5,
+      "k5_k7_no_diff_threshold": 64.9,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -49204,6 +49484,7 @@
       "k5_k7_price_threshold_down": 27.45,
       "k5_k7_price_threshold": 47.5,
       "k5_k7_price_gap": 8.55,
+      "k5_k7_no_diff_threshold": 47.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -49379,6 +49660,7 @@
       "k5_k7_price_threshold_down": 1000.0,
       "k5_k7_price_threshold": 1860.0,
       "k5_k7_price_gap": 365.0,
+      "k5_k7_no_diff_threshold": 1755.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -49554,6 +49836,7 @@
       "k5_k7_price_threshold_down": 10295.0,
       "k5_k7_price_threshold": 21115.0,
       "k5_k7_price_gap": 2885.0,
+      "k5_k7_no_diff_threshold": 20145.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -49729,6 +50012,7 @@
       "k5_k7_price_threshold_down": 13.15,
       "k5_k7_price_threshold": 23.95,
       "k5_k7_price_gap": 4.05,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -49904,6 +50188,7 @@
       "k5_k7_price_threshold_down": 17.7,
       "k5_k7_price_threshold": 17.7,
       "k5_k7_price_gap": 4.75,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -50079,6 +50364,7 @@
       "k5_k7_price_threshold_down": 56.8,
       "k5_k7_price_threshold": 108.5,
       "k5_k7_price_gap": 18.5,
+      "k5_k7_no_diff_threshold": 102.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -50254,6 +50540,7 @@
       "k5_k7_price_threshold_down": 1210.0,
       "k5_k7_price_threshold": 2160.0,
       "k5_k7_price_gap": 460.0,
+      "k5_k7_no_diff_threshold": 2135.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -50429,6 +50716,7 @@
       "k5_k7_price_threshold_down": 51.4,
       "k5_k7_price_threshold": 93.9,
       "k5_k7_price_gap": 20.3,
+      "k5_k7_no_diff_threshold": 91.2,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -50604,6 +50892,7 @@
       "k5_k7_price_threshold_down": 12.05,
       "k5_k7_price_threshold": 40.0,
       "k5_k7_price_gap": -11.7,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -50779,6 +51068,7 @@
       "k5_k7_price_threshold_down": 20.75,
       "k5_k7_price_threshold": 41.3,
       "k5_k7_price_gap": 5.75,
+      "k5_k7_no_diff_threshold": 40.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -50954,6 +51244,7 @@
       "k5_k7_price_threshold_down": 71.4,
       "k5_k7_price_threshold": 131.0,
       "k5_k7_price_gap": 28.0,
+      "k5_k7_no_diff_threshold": 127.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -51129,6 +51420,7 @@
       "k5_k7_price_threshold_down": 11.3,
       "k5_k7_price_threshold": 11.3,
       "k5_k7_price_gap": 4.4,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -51304,6 +51596,7 @@
       "k5_k7_price_threshold_down": 51.4,
       "k5_k7_price_threshold": 100.5,
       "k5_k7_price_gap": 17.9,
+      "k5_k7_no_diff_threshold": 96.1,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -51479,6 +51772,7 @@
       "k5_k7_price_threshold_down": 30.05,
       "k5_k7_price_threshold": 52.5,
       "k5_k7_price_gap": 11.15,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -51654,6 +51948,7 @@
       "k5_k7_price_threshold_down": 56.1,
       "k5_k7_price_threshold": 118.5,
       "k5_k7_price_gap": 14.0,
+      "k5_k7_no_diff_threshold": 113.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -51829,6 +52124,7 @@
       "k5_k7_price_threshold_down": 259.0,
       "k5_k7_price_threshold": 482.0,
       "k5_k7_price_gap": 96.5,
+      "k5_k7_no_diff_threshold": 468.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -52009,6 +52305,7 @@
       "k5_k7_price_threshold_down": 48.0,
       "k5_k7_price_threshold": 89.1,
       "k5_k7_price_gap": 18.0,
+      "k5_k7_no_diff_threshold": 86.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -52184,6 +52481,7 @@
       "k5_k7_price_threshold_down": 120.5,
       "k5_k7_price_threshold": 120.5,
       "k5_k7_price_gap": 44.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -52359,6 +52657,7 @@
       "k5_k7_price_threshold_down": 198.5,
       "k5_k7_price_threshold": 364.5,
       "k5_k7_price_gap": 78.0,
+      "k5_k7_no_diff_threshold": 354.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -52534,6 +52833,7 @@
       "k5_k7_price_threshold_down": 42.05,
       "k5_k7_price_threshold": 81.8,
       "k5_k7_price_gap": 13.0,
+      "k5_k7_no_diff_threshold": 79.3,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -52709,6 +53009,7 @@
       "k5_k7_price_threshold_down": 589.0,
       "k5_k7_price_threshold": 1195.0,
       "k5_k7_price_gap": 85.0,
+      "k5_k7_no_diff_threshold": 1190.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -52884,6 +53185,7 @@
       "k5_k7_price_threshold_down": 21.45,
       "k5_k7_price_threshold": 39.0,
       "k5_k7_price_gap": 4.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -53059,6 +53361,7 @@
       "k5_k7_price_threshold_down": 36.2,
       "k5_k7_price_threshold": 69.1,
       "k5_k7_price_gap": 12.2,
+      "k5_k7_no_diff_threshold": 67.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -53234,6 +53537,7 @@
       "k5_k7_price_threshold_down": 18.7,
       "k5_k7_price_threshold": 31.75,
       "k5_k7_price_gap": 6.05,
+      "k5_k7_no_diff_threshold": 31.6,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -53409,6 +53713,7 @@
       "k5_k7_price_threshold_down": 206.0,
       "k5_k7_price_threshold": 417.0,
       "k5_k7_price_gap": 61.5,
+      "k5_k7_no_diff_threshold": 398.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -53584,6 +53889,7 @@
       "k5_k7_price_threshold_down": 507.0,
       "k5_k7_price_threshold": 931.0,
       "k5_k7_price_gap": 120.0,
+      "k5_k7_no_diff_threshold": 913.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -53759,6 +54065,7 @@
       "k5_k7_price_threshold_down": 23.9,
       "k5_k7_price_threshold": 45.85,
       "k5_k7_price_gap": 6.55,
+      "k5_k7_no_diff_threshold": 43.6,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -53934,6 +54241,7 @@
       "k5_k7_price_threshold_down": 135.5,
       "k5_k7_price_threshold": 293.5,
       "k5_k7_price_gap": 28.5,
+      "k5_k7_no_diff_threshold": 279.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -54109,6 +54417,7 @@
       "k5_k7_price_threshold_down": 47.8,
       "k5_k7_price_threshold": 84.8,
       "k5_k7_price_gap": 18.0,
+      "k5_k7_no_diff_threshold": 83.9,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -54284,6 +54593,7 @@
       "k5_k7_price_threshold_down": 40.95,
       "k5_k7_price_threshold": 73.7,
       "k5_k7_price_gap": 15.0,
+      "k5_k7_no_diff_threshold": 70.4,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -54459,6 +54769,7 @@
       "k5_k7_price_threshold_down": 33.15,
       "k5_k7_price_threshold": 66.5,
       "k5_k7_price_gap": 6.4,
+      "k5_k7_no_diff_threshold": 65.7,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -54634,6 +54945,7 @@
       "k5_k7_price_threshold_down": 79.1,
       "k5_k7_price_threshold": 152.0,
       "k5_k7_price_gap": 16.0,
+      "k5_k7_no_diff_threshold": 147.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -54818,6 +55130,7 @@
       "k5_k7_price_threshold_down": 82.7,
       "k5_k7_price_threshold": 213.5,
       "k5_k7_price_gap": -12.5,
+      "k5_k7_no_diff_threshold": 205.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -54993,6 +55306,7 @@
       "k5_k7_price_threshold_down": 30.45,
       "k5_k7_price_threshold": 57.5,
       "k5_k7_price_gap": 10.85,
+      "k5_k7_no_diff_threshold": 55.7,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -55168,6 +55482,7 @@
       "k5_k7_price_threshold_down": 53.2,
       "k5_k7_price_threshold": 109.5,
       "k5_k7_price_gap": 12.1,
+      "k5_k7_no_diff_threshold": 106.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -55343,6 +55658,7 @@
       "k5_k7_price_threshold_down": 24.0,
       "k5_k7_price_threshold": 77.5,
       "k5_k7_price_gap": -12.7,
+      "k5_k7_no_diff_threshold": 72.8,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -55518,6 +55834,7 @@
       "k5_k7_price_threshold_down": 774.0,
       "k5_k7_price_threshold": 1445.0,
       "k5_k7_price_gap": 315.0,
+      "k5_k7_no_diff_threshold": 1385.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -55693,6 +56010,7 @@
       "k5_k7_price_threshold_down": 135.0,
       "k5_k7_price_threshold": 292.0,
       "k5_k7_price_gap": 10.5,
+      "k5_k7_no_diff_threshold": 276.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -55868,6 +56186,7 @@
       "k5_k7_price_threshold_down": 49.8,
       "k5_k7_price_threshold": 90.7,
       "k5_k7_price_gap": 19.9,
+      "k5_k7_no_diff_threshold": 88.1,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -56043,6 +56362,7 @@
       "k5_k7_price_threshold_down": 51.1,
       "k5_k7_price_threshold": 96.3,
       "k5_k7_price_gap": 15.3,
+      "k5_k7_no_diff_threshold": 91.7,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -56218,6 +56538,7 @@
       "k5_k7_price_threshold_down": 48.25,
       "k5_k7_price_threshold": 108.0,
       "k5_k7_price_gap": 4.5,
+      "k5_k7_no_diff_threshold": 104.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -56393,6 +56714,7 @@
       "k5_k7_price_threshold_down": 68.1,
       "k5_k7_price_threshold": 68.1,
       "k5_k7_price_gap": 24.9,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -56568,6 +56890,7 @@
       "k5_k7_price_threshold_down": 57.8,
       "k5_k7_price_threshold": 99.9,
       "k5_k7_price_gap": 18.0,
+      "k5_k7_no_diff_threshold": 98.8,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -56743,6 +57066,7 @@
       "k5_k7_price_threshold_down": 163.0,
       "k5_k7_price_threshold": 317.5,
       "k5_k7_price_gap": 41.0,
+      "k5_k7_no_diff_threshold": 301.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -56918,6 +57242,7 @@
       "k5_k7_price_threshold_down": 88.6,
       "k5_k7_price_threshold": 157.0,
       "k5_k7_price_gap": 26.5,
+      "k5_k7_no_diff_threshold": 154.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -57093,6 +57418,7 @@
       "k5_k7_price_threshold_down": 159.5,
       "k5_k7_price_threshold": 319.5,
       "k5_k7_price_gap": 43.5,
+      "k5_k7_no_diff_threshold": 309.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -57268,6 +57594,7 @@
       "k5_k7_price_threshold_down": 26.35,
       "k5_k7_price_threshold": 49.75,
       "k5_k7_price_gap": 6.55,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -57443,6 +57770,7 @@
       "k5_k7_price_threshold_down": 21.2,
       "k5_k7_price_threshold": 41.4,
       "k5_k7_price_gap": 6.5,
+      "k5_k7_no_diff_threshold": 40.1,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -57618,6 +57946,7 @@
       "k5_k7_price_threshold_down": 3890.0,
       "k5_k7_price_threshold": 7685.0,
       "k5_k7_price_gap": 1295.0,
+      "k5_k7_no_diff_threshold": 7345.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -57793,6 +58122,7 @@
       "k5_k7_price_threshold_down": 59.3,
       "k5_k7_price_threshold": 59.3,
       "k5_k7_price_gap": 21.4,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -57968,6 +58298,7 @@
       "k5_k7_price_threshold_down": 20.3,
       "k5_k7_price_threshold": 20.3,
       "k5_k7_price_gap": 5.85,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -58143,6 +58474,7 @@
       "k5_k7_price_threshold_down": 196.5,
       "k5_k7_price_threshold": 357.5,
       "k5_k7_price_gap": 60.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -58318,6 +58650,7 @@
       "k5_k7_price_threshold_down": 27.6,
       "k5_k7_price_threshold": 56.9,
       "k5_k7_price_gap": 2.7,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -58493,6 +58826,7 @@
       "k5_k7_price_threshold_down": 34.35,
       "k5_k7_price_threshold": 64.7,
       "k5_k7_price_gap": 13.6,
+      "k5_k7_no_diff_threshold": 62.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -58668,6 +59002,7 @@
       "k5_k7_price_threshold_down": 15.4,
       "k5_k7_price_threshold": 31.05,
       "k5_k7_price_gap": 4.0,
+      "k5_k7_no_diff_threshold": 30.05,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -58843,6 +59178,7 @@
       "k5_k7_price_threshold_down": 81.9,
       "k5_k7_price_threshold": 152.0,
       "k5_k7_price_gap": 34.0,
+      "k5_k7_no_diff_threshold": 146.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -59018,6 +59354,7 @@
       "k5_k7_price_threshold_down": 118.5,
       "k5_k7_price_threshold": 218.5,
       "k5_k7_price_gap": 34.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -59193,6 +59530,7 @@
       "k5_k7_price_threshold_down": 24.15,
       "k5_k7_price_threshold": 54.2,
       "k5_k7_price_gap": -0.8,
+      "k5_k7_no_diff_threshold": 53.9,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -59368,6 +59706,7 @@
       "k5_k7_price_threshold_down": 41.9,
       "k5_k7_price_threshold": 77.0,
       "k5_k7_price_gap": 14.2,
+      "k5_k7_no_diff_threshold": 73.4,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -59543,6 +59882,7 @@
       "k5_k7_price_threshold_down": 109.0,
       "k5_k7_price_threshold": 255.5,
       "k5_k7_price_gap": 1.0,
+      "k5_k7_no_diff_threshold": 237.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -59718,6 +60058,7 @@
       "k5_k7_price_threshold_down": 139.0,
       "k5_k7_price_threshold": 260.0,
       "k5_k7_price_gap": 24.5,
+      "k5_k7_no_diff_threshold": 257.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -59893,6 +60234,7 @@
       "k5_k7_price_threshold_down": 52.8,
       "k5_k7_price_threshold": 118.5,
       "k5_k7_price_gap": 5.5,
+      "k5_k7_no_diff_threshold": 114.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -60068,6 +60410,7 @@
       "k5_k7_price_threshold_down": 198.5,
       "k5_k7_price_threshold": 356.5,
       "k5_k7_price_gap": 45.0,
+      "k5_k7_no_diff_threshold": 354.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -60243,6 +60586,7 @@
       "k5_k7_price_threshold_down": 162.0,
       "k5_k7_price_threshold": 352.5,
       "k5_k7_price_gap": 24.0,
+      "k5_k7_no_diff_threshold": 340.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -60418,6 +60762,7 @@
       "k5_k7_price_threshold_down": 488.5,
       "k5_k7_price_threshold": 858.0,
       "k5_k7_price_gap": 151.0,
+      "k5_k7_no_diff_threshold": 843.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -60593,6 +60938,7 @@
       "k5_k7_price_threshold_down": 22.0,
       "k5_k7_price_threshold": 22.0,
       "k5_k7_price_gap": 7.75,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -60768,6 +61114,7 @@
       "k5_k7_price_threshold_down": 102.5,
       "k5_k7_price_threshold": 182.0,
       "k5_k7_price_gap": 36.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -60943,6 +61290,7 @@
       "k5_k7_price_threshold_down": 69.5,
       "k5_k7_price_threshold": 69.5,
       "k5_k7_price_gap": 28.6,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -61118,6 +61466,7 @@
       "k5_k7_price_threshold_down": 58.4,
       "k5_k7_price_threshold": 114.0,
       "k5_k7_price_gap": 11.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -61293,6 +61642,7 @@
       "k5_k7_price_threshold_down": 163.5,
       "k5_k7_price_threshold": 306.0,
       "k5_k7_price_gap": 25.5,
+      "k5_k7_no_diff_threshold": 304.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -61468,6 +61818,7 @@
       "k5_k7_price_threshold_down": 33.1,
       "k5_k7_price_threshold": 70.8,
       "k5_k7_price_gap": 5.6,
+      "k5_k7_no_diff_threshold": 68.4,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -61643,6 +61994,7 @@
       "k5_k7_price_threshold_down": 16.9,
       "k5_k7_price_threshold": 31.05,
       "k5_k7_price_gap": 5.6,
+      "k5_k7_no_diff_threshold": 30.7,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -61818,6 +62170,7 @@
       "k5_k7_price_threshold_down": 30.55,
       "k5_k7_price_threshold": 30.55,
       "k5_k7_price_gap": 10.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -61993,6 +62346,7 @@
       "k5_k7_price_threshold_down": 563.0,
       "k5_k7_price_threshold": 1005.0,
       "k5_k7_price_gap": 128.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -62168,6 +62522,7 @@
       "k5_k7_price_threshold_down": 314.5,
       "k5_k7_price_threshold": 660.0,
       "k5_k7_price_gap": 58.0,
+      "k5_k7_no_diff_threshold": 616.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -62343,6 +62698,7 @@
       "k5_k7_price_threshold_down": 41.0,
       "k5_k7_price_threshold": 81.6,
       "k5_k7_price_gap": 2.6,
+      "k5_k7_no_diff_threshold": 80.6,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -62518,6 +62874,7 @@
       "k5_k7_price_threshold_down": 97.2,
       "k5_k7_price_threshold": 97.2,
       "k5_k7_price_gap": 35.8,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -62693,6 +63050,7 @@
       "k5_k7_price_threshold_down": 81.8,
       "k5_k7_price_threshold": 81.8,
       "k5_k7_price_gap": 26.2,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -62868,6 +63226,7 @@
       "k5_k7_price_threshold_down": 77.0,
       "k5_k7_price_threshold": 77.0,
       "k5_k7_price_gap": 26.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -63043,6 +63402,7 @@
       "k5_k7_price_threshold_down": 70.4,
       "k5_k7_price_threshold": 70.4,
       "k5_k7_price_gap": 17.2,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -63218,6 +63578,7 @@
       "k5_k7_price_threshold_down": 2505.0,
       "k5_k7_price_threshold": 2505.0,
       "k5_k7_price_gap": 690.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -63393,6 +63754,7 @@
       "k5_k7_price_threshold_down": 6505.0,
       "k5_k7_price_threshold": 12125.0,
       "k5_k7_price_gap": 2330.0,
+      "k5_k7_no_diff_threshold": 11410.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -63568,6 +63930,7 @@
       "k5_k7_price_threshold_down": 481.5,
       "k5_k7_price_threshold": 873.0,
       "k5_k7_price_gap": 191.0,
+      "k5_k7_no_diff_threshold": 823.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -63743,6 +64106,7 @@
       "k5_k7_price_threshold_down": 69.3,
       "k5_k7_price_threshold": 130.5,
       "k5_k7_price_gap": 17.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -63918,6 +64282,7 @@
       "k5_k7_price_threshold_down": 681.0,
       "k5_k7_price_threshold": 1305.0,
       "k5_k7_price_gap": 225.0,
+      "k5_k7_no_diff_threshold": 1225.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -64093,6 +64458,7 @@
       "k5_k7_price_threshold_down": 70.4,
       "k5_k7_price_threshold": 70.4,
       "k5_k7_price_gap": 26.6,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -64268,6 +64634,7 @@
       "k5_k7_price_threshold_down": 158.0,
       "k5_k7_price_threshold": 289.0,
       "k5_k7_price_gap": 61.0,
+      "k5_k7_no_diff_threshold": 272.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -64443,6 +64810,7 @@
       "k5_k7_price_threshold_down": 70.8,
       "k5_k7_price_threshold": 142.0,
       "k5_k7_price_gap": 19.0,
+      "k5_k7_no_diff_threshold": 137.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -64618,6 +64986,7 @@
       "k5_k7_price_threshold_down": 17.2,
       "k5_k7_price_threshold": 38.2,
       "k5_k7_price_gap": 1.65,
+      "k5_k7_no_diff_threshold": 35.55,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -64793,6 +65162,7 @@
       "k5_k7_price_threshold_down": 146.5,
       "k5_k7_price_threshold": 281.5,
       "k5_k7_price_gap": 54.5,
+      "k5_k7_no_diff_threshold": 269.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -64968,6 +65338,7 @@
       "k5_k7_price_threshold_down": 24.95,
       "k5_k7_price_threshold": 57.2,
       "k5_k7_price_gap": -0.9,
+      "k5_k7_no_diff_threshold": 56.4,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -65143,6 +65514,7 @@
       "k5_k7_price_threshold_down": 437.0,
       "k5_k7_price_threshold": 835.0,
       "k5_k7_price_gap": 147.0,
+      "k5_k7_no_diff_threshold": 809.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -65318,6 +65690,7 @@
       "k5_k7_price_threshold_down": 88.0,
       "k5_k7_price_threshold": 157.5,
       "k5_k7_price_gap": 29.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -65493,6 +65866,7 @@
       "k5_k7_price_threshold_down": 841.0,
       "k5_k7_price_threshold": 1690.0,
       "k5_k7_price_gap": 265.0,
+      "k5_k7_no_diff_threshold": 1615.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -65668,6 +66042,7 @@
       "k5_k7_price_threshold_down": 399.0,
       "k5_k7_price_threshold": 755.0,
       "k5_k7_price_gap": 157.0,
+      "k5_k7_no_diff_threshold": 723.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -65843,6 +66218,7 @@
       "k5_k7_price_threshold_down": 77.6,
       "k5_k7_price_threshold": 167.5,
       "k5_k7_price_gap": 16.5,
+      "k5_k7_no_diff_threshold": 159.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -66018,6 +66394,7 @@
       "k5_k7_price_threshold_down": 56.4,
       "k5_k7_price_threshold": 126.0,
       "k5_k7_price_gap": -1.5,
+      "k5_k7_no_diff_threshold": 125.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -66193,6 +66570,7 @@
       "k5_k7_price_threshold_down": 99.3,
       "k5_k7_price_threshold": 220.0,
       "k5_k7_price_gap": -10.5,
+      "k5_k7_no_diff_threshold": 215.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -66368,6 +66746,7 @@
       "k5_k7_price_threshold_down": 263.0,
       "k5_k7_price_threshold": 526.0,
       "k5_k7_price_gap": 71.5,
+      "k5_k7_no_diff_threshold": 509.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -66543,6 +66922,7 @@
       "k5_k7_price_threshold_down": 179.5,
       "k5_k7_price_threshold": 323.0,
       "k5_k7_price_gap": 58.5,
+      "k5_k7_no_diff_threshold": 322.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -66718,6 +67098,7 @@
       "k5_k7_price_threshold_down": 3600.0,
       "k5_k7_price_threshold": 6315.0,
       "k5_k7_price_gap": 1240.0,
+      "k5_k7_no_diff_threshold": 6145.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -66893,6 +67274,7 @@
       "k5_k7_price_threshold_down": 118.5,
       "k5_k7_price_threshold": 237.0,
       "k5_k7_price_gap": 25.5,
+      "k5_k7_no_diff_threshold": 225.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -67068,6 +67450,7 @@
       "k5_k7_price_threshold_down": 94.9,
       "k5_k7_price_threshold": 184.5,
       "k5_k7_price_gap": 33.5,
+      "k5_k7_no_diff_threshold": 176.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -67243,6 +67626,7 @@
       "k5_k7_price_threshold_down": 94.2,
       "k5_k7_price_threshold": 205.5,
       "k5_k7_price_gap": -11.0,
+      "k5_k7_no_diff_threshold": 203.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -67418,6 +67802,7 @@
       "k5_k7_price_threshold_down": 363.0,
       "k5_k7_price_threshold": 363.0,
       "k5_k7_price_gap": 104.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -67593,6 +67978,7 @@
       "k5_k7_price_threshold_down": 186.0,
       "k5_k7_price_threshold": 371.0,
       "k5_k7_price_gap": 30.5,
+      "k5_k7_no_diff_threshold": 370.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -67768,6 +68154,7 @@
       "k5_k7_price_threshold_down": 301.0,
       "k5_k7_price_threshold": 665.0,
       "k5_k7_price_gap": 36.0,
+      "k5_k7_no_diff_threshold": 641.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -67943,6 +68330,7 @@
       "k5_k7_price_threshold_down": 77.3,
       "k5_k7_price_threshold": 137.5,
       "k5_k7_price_gap": 27.0,
+      "k5_k7_no_diff_threshold": 137.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -68118,6 +68506,7 @@
       "k5_k7_price_threshold_down": 885.0,
       "k5_k7_price_threshold": 1590.0,
       "k5_k7_price_gap": 295.0,
+      "k5_k7_no_diff_threshold": 1585.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -68293,6 +68682,7 @@
       "k5_k7_price_threshold_down": 41.4,
       "k5_k7_price_threshold": 70.9,
       "k5_k7_price_gap": 13.6,
+      "k5_k7_no_diff_threshold": 70.1,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -68468,6 +68858,7 @@
       "k5_k7_price_threshold_down": 21.6,
       "k5_k7_price_threshold": 21.6,
       "k5_k7_price_gap": 7.3,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -68643,6 +69034,7 @@
       "k5_k7_price_threshold_down": 142.0,
       "k5_k7_price_threshold": 142.0,
       "k5_k7_price_gap": 30.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -68818,6 +69210,7 @@
       "k5_k7_price_threshold_down": 63.5,
       "k5_k7_price_threshold": 63.5,
       "k5_k7_price_gap": 19.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -68993,6 +69386,7 @@
       "k5_k7_price_threshold_down": 777.0,
       "k5_k7_price_threshold": 1450.0,
       "k5_k7_price_gap": 245.0,
+      "k5_k7_no_diff_threshold": 1385.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -69168,6 +69562,7 @@
       "k5_k7_price_threshold_down": 278.0,
       "k5_k7_price_threshold": 527.0,
       "k5_k7_price_gap": 108.0,
+      "k5_k7_no_diff_threshold": 505.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -69343,6 +69738,7 @@
       "k5_k7_price_threshold_down": 381.0,
       "k5_k7_price_threshold": 693.0,
       "k5_k7_price_gap": 150.0,
+      "k5_k7_no_diff_threshold": 653.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -69518,6 +69914,7 @@
       "k5_k7_price_threshold_down": 82.3,
       "k5_k7_price_threshold": 143.5,
       "k5_k7_price_gap": 30.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -69693,6 +70090,7 @@
       "k5_k7_price_threshold_down": 1280.0,
       "k5_k7_price_threshold": 1280.0,
       "k5_k7_price_gap": 460.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -69868,6 +70266,7 @@
       "k5_k7_price_threshold_down": 58.4,
       "k5_k7_price_threshold": 58.4,
       "k5_k7_price_gap": 17.3,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -70043,6 +70442,7 @@
       "k5_k7_price_threshold_down": 123.0,
       "k5_k7_price_threshold": 248.5,
       "k5_k7_price_gap": 37.5,
+      "k5_k7_no_diff_threshold": 237.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -70218,6 +70618,7 @@
       "k5_k7_price_threshold_down": 497.0,
       "k5_k7_price_threshold": 873.0,
       "k5_k7_price_gap": 153.0,
+      "k5_k7_no_diff_threshold": 858.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -70393,6 +70794,7 @@
       "k5_k7_price_threshold_down": 505.0,
       "k5_k7_price_threshold": 943.0,
       "k5_k7_price_gap": 123.0,
+      "k5_k7_no_diff_threshold": 916.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -70568,6 +70970,7 @@
       "k5_k7_price_threshold_down": 37.85,
       "k5_k7_price_threshold": 81.2,
       "k5_k7_price_gap": 3.5,
+      "k5_k7_no_diff_threshold": 76.8,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -70743,6 +71146,7 @@
       "k5_k7_price_threshold_down": 284.5,
       "k5_k7_price_threshold": 516.0,
       "k5_k7_price_gap": 54.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -70918,6 +71322,7 @@
       "k5_k7_price_threshold_down": 96.5,
       "k5_k7_price_threshold": 190.0,
       "k5_k7_price_gap": 17.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -71093,6 +71498,7 @@
       "k5_k7_price_threshold_down": 122.5,
       "k5_k7_price_threshold": 208.5,
       "k5_k7_price_gap": 38.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -71268,6 +71674,7 @@
       "k5_k7_price_threshold_down": 42.25,
       "k5_k7_price_threshold": 76.2,
       "k5_k7_price_gap": 13.4,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -71443,6 +71850,7 @@
       "k5_k7_price_threshold_down": 93.4,
       "k5_k7_price_threshold": 162.0,
       "k5_k7_price_gap": 26.5,
+      "k5_k7_no_diff_threshold": 161.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -71618,6 +72026,7 @@
       "k5_k7_price_threshold_down": 251.5,
       "k5_k7_price_threshold": 480.0,
       "k5_k7_price_gap": 58.5,
+      "k5_k7_no_diff_threshold": 479.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -71793,6 +72202,7 @@
       "k5_k7_price_threshold_down": 35.25,
       "k5_k7_price_threshold": 87.4,
       "k5_k7_price_gap": -15.6,
+      "k5_k7_no_diff_threshold": 86.8,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -71968,6 +72378,7 @@
       "k5_k7_price_threshold_down": 37.25,
       "k5_k7_price_threshold": 67.7,
       "k5_k7_price_gap": 14.7,
+      "k5_k7_no_diff_threshold": 63.8,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -72143,6 +72554,7 @@
       "k5_k7_price_threshold_down": 56.8,
       "k5_k7_price_threshold": 94.9,
       "k5_k7_price_gap": 18.8,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -72318,6 +72730,7 @@
       "k5_k7_price_threshold_down": 121.5,
       "k5_k7_price_threshold": 204.0,
       "k5_k7_price_gap": 40.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -72493,6 +72906,7 @@
       "k5_k7_price_threshold_down": 114.0,
       "k5_k7_price_threshold": 202.0,
       "k5_k7_price_gap": 38.0,
+      "k5_k7_no_diff_threshold": 196.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -72668,6 +73082,7 @@
       "k5_k7_price_threshold_down": 193.0,
       "k5_k7_price_threshold": 376.5,
       "k5_k7_price_gap": 57.5,
+      "k5_k7_no_diff_threshold": 353.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -72843,6 +73258,7 @@
       "k5_k7_price_threshold_down": 505.0,
       "k5_k7_price_threshold": 863.0,
       "k5_k7_price_gap": 149.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -73018,6 +73434,7 @@
       "k5_k7_price_threshold_down": 179.0,
       "k5_k7_price_threshold": 179.0,
       "k5_k7_price_gap": 71.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -73193,6 +73610,7 @@
       "k5_k7_price_threshold_down": 166.0,
       "k5_k7_price_threshold": 338.5,
       "k5_k7_price_gap": 48.5,
+      "k5_k7_no_diff_threshold": 323.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -73368,6 +73786,7 @@
       "k5_k7_price_threshold_down": 801.0,
       "k5_k7_price_threshold": 1420.0,
       "k5_k7_price_gap": 190.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -73543,6 +73962,7 @@
       "k5_k7_price_threshold_down": 44.35,
       "k5_k7_price_threshold": 44.35,
       "k5_k7_price_gap": 17.75,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -73718,6 +74138,7 @@
       "k5_k7_price_threshold_down": 251.0,
       "k5_k7_price_threshold": 456.0,
       "k5_k7_price_gap": 72.0,
+      "k5_k7_no_diff_threshold": 443.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -73893,6 +74314,7 @@
       "k5_k7_price_threshold_down": 120.0,
       "k5_k7_price_threshold": 120.0,
       "k5_k7_price_gap": 49.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -74068,6 +74490,7 @@
       "k5_k7_price_threshold_down": 17.85,
       "k5_k7_price_threshold": 31.55,
       "k5_k7_price_gap": 6.25,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -74243,6 +74666,7 @@
       "k5_k7_price_threshold_down": 495.5,
       "k5_k7_price_threshold": 495.5,
       "k5_k7_price_gap": 153.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -74418,6 +74842,7 @@
       "k5_k7_price_threshold_down": 492.5,
       "k5_k7_price_threshold": 892.0,
       "k5_k7_price_gap": 155.0,
+      "k5_k7_no_diff_threshold": 891.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -74593,6 +75018,7 @@
       "k5_k7_price_threshold_down": 172.0,
       "k5_k7_price_threshold": 172.0,
       "k5_k7_price_gap": 40.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -74768,6 +75194,7 @@
       "k5_k7_price_threshold_down": 2255.0,
       "k5_k7_price_threshold": 4540.0,
       "k5_k7_price_gap": 700.0,
+      "k5_k7_no_diff_threshold": 4335.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -74943,6 +75370,7 @@
       "k5_k7_price_threshold_down": 354.5,
       "k5_k7_price_threshold": 354.5,
       "k5_k7_price_gap": 142.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -75118,6 +75546,7 @@
       "k5_k7_price_threshold_down": 1855.0,
       "k5_k7_price_threshold": 3115.0,
       "k5_k7_price_gap": 605.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -75302,6 +75731,7 @@
       "k5_k7_price_threshold_down": 1010.0,
       "k5_k7_price_threshold": 2020.0,
       "k5_k7_price_gap": 320.0,
+      "k5_k7_no_diff_threshold": 1930.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -75477,6 +75907,7 @@
       "k5_k7_price_threshold_down": 4940.0,
       "k5_k7_price_threshold": 9415.0,
       "k5_k7_price_gap": 1615.0,
+      "k5_k7_no_diff_threshold": 8845.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -75652,6 +76083,7 @@
       "k5_k7_price_threshold_down": 233.5,
       "k5_k7_price_threshold": 461.0,
       "k5_k7_price_gap": 54.0,
+      "k5_k7_no_diff_threshold": 437.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -75827,6 +76259,7 @@
       "k5_k7_price_threshold_down": 742.0,
       "k5_k7_price_threshold": 1400.0,
       "k5_k7_price_gap": 255.0,
+      "k5_k7_no_diff_threshold": 1320.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -76002,6 +76435,7 @@
       "k5_k7_price_threshold_down": 238.5,
       "k5_k7_price_threshold": 466.5,
       "k5_k7_price_gap": 30.5,
+      "k5_k7_no_diff_threshold": 457.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -76177,6 +76611,7 @@
       "k5_k7_price_threshold_down": 172.0,
       "k5_k7_price_threshold": 307.0,
       "k5_k7_price_gap": 57.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -76352,6 +76787,7 @@
       "k5_k7_price_threshold_down": 174.5,
       "k5_k7_price_threshold": 351.5,
       "k5_k7_price_gap": 43.5,
+      "k5_k7_no_diff_threshold": 329.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -76527,6 +76963,7 @@
       "k5_k7_price_threshold_down": 99.1,
       "k5_k7_price_threshold": 167.0,
       "k5_k7_price_gap": 32.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -76702,6 +77139,7 @@
       "k5_k7_price_threshold_down": 80.9,
       "k5_k7_price_threshold": 170.5,
       "k5_k7_price_gap": 10.5,
+      "k5_k7_no_diff_threshold": 161.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -76877,6 +77315,7 @@
       "k5_k7_price_threshold_down": 65.9,
       "k5_k7_price_threshold": 133.0,
       "k5_k7_price_gap": 20.0,
+      "k5_k7_no_diff_threshold": 127.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -77057,6 +77496,7 @@
       "k5_k7_price_threshold_down": 69.6,
       "k5_k7_price_threshold": 157.0,
       "k5_k7_price_gap": 6.5,
+      "k5_k7_no_diff_threshold": 151.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -77232,6 +77672,7 @@
       "k5_k7_price_threshold_down": 76.1,
       "k5_k7_price_threshold": 152.5,
       "k5_k7_price_gap": 20.5,
+      "k5_k7_no_diff_threshold": 147.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -77407,6 +77848,7 @@
       "k5_k7_price_threshold_down": 593.0,
       "k5_k7_price_threshold": 1100.0,
       "k5_k7_price_gap": 195.0,
+      "k5_k7_no_diff_threshold": 1050.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -77582,6 +78024,7 @@
       "k5_k7_price_threshold_down": 81.9,
       "k5_k7_price_threshold": 159.5,
       "k5_k7_price_gap": 16.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -77757,6 +78200,7 @@
       "k5_k7_price_threshold_down": 161.0,
       "k5_k7_price_threshold": 296.0,
       "k5_k7_price_gap": 47.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -77932,6 +78376,7 @@
       "k5_k7_price_threshold_down": 14.25,
       "k5_k7_price_threshold": 14.25,
       "k5_k7_price_gap": 5.25,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -78107,6 +78552,7 @@
       "k5_k7_price_threshold_down": 51.3,
       "k5_k7_price_threshold": 96.5,
       "k5_k7_price_gap": 18.4,
+      "k5_k7_no_diff_threshold": 93.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -78282,6 +78728,7 @@
       "k5_k7_price_threshold_down": 33.95,
       "k5_k7_price_threshold": 70.2,
       "k5_k7_price_gap": 9.2,
+      "k5_k7_no_diff_threshold": 67.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -78457,6 +78904,7 @@
       "k5_k7_price_threshold_down": 179.0,
       "k5_k7_price_threshold": 339.0,
       "k5_k7_price_gap": 70.0,
+      "k5_k7_no_diff_threshold": 325.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -78632,6 +79080,7 @@
       "k5_k7_price_threshold_down": 13.15,
       "k5_k7_price_threshold": 13.15,
       "k5_k7_price_gap": 4.35,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -78807,6 +79256,7 @@
       "k5_k7_price_threshold_down": 73.2,
       "k5_k7_price_threshold": 139.5,
       "k5_k7_price_gap": 18.5,
+      "k5_k7_no_diff_threshold": 139.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -78982,6 +79432,7 @@
       "k5_k7_price_threshold_down": 46.05,
       "k5_k7_price_threshold": 46.05,
       "k5_k7_price_gap": 17.55,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -79157,6 +79608,7 @@
       "k5_k7_price_threshold_down": 77.4,
       "k5_k7_price_threshold": 77.4,
       "k5_k7_price_gap": 28.6,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -79332,6 +79784,7 @@
       "k5_k7_price_threshold_down": 166.5,
       "k5_k7_price_threshold": 309.5,
       "k5_k7_price_gap": 42.5,
+      "k5_k7_no_diff_threshold": 300.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -79507,6 +79960,7 @@
       "k5_k7_price_threshold_down": 47.6,
       "k5_k7_price_threshold": 101.5,
       "k5_k7_price_gap": 7.6,
+      "k5_k7_no_diff_threshold": 94.6,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -79682,6 +80136,7 @@
       "k5_k7_price_threshold_down": 282.5,
       "k5_k7_price_threshold": 514.0,
       "k5_k7_price_gap": 113.5,
+      "k5_k7_no_diff_threshold": 499.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -79857,6 +80312,7 @@
       "k5_k7_price_threshold_down": 32.9,
       "k5_k7_price_threshold": 68.5,
       "k5_k7_price_gap": -2.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -80032,6 +80488,7 @@
       "k5_k7_price_threshold_down": 23.55,
       "k5_k7_price_threshold": 49.05,
       "k5_k7_price_gap": 4.95,
+      "k5_k7_no_diff_threshold": 47.4,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -80207,6 +80664,7 @@
       "k5_k7_price_threshold_down": 926.0,
       "k5_k7_price_threshold": 1675.0,
       "k5_k7_price_gap": 280.0,
+      "k5_k7_no_diff_threshold": 1625.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -80382,6 +80840,7 @@
       "k5_k7_price_threshold_down": 125.5,
       "k5_k7_price_threshold": 259.0,
       "k5_k7_price_gap": 34.5,
+      "k5_k7_no_diff_threshold": 247.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -80557,6 +81016,7 @@
       "k5_k7_price_threshold_down": 101.5,
       "k5_k7_price_threshold": 202.0,
       "k5_k7_price_gap": 16.5,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -80732,6 +81192,7 @@
       "k5_k7_price_threshold_down": 156.0,
       "k5_k7_price_threshold": 289.5,
       "k5_k7_price_gap": 57.0,
+      "k5_k7_no_diff_threshold": 272.5,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -80907,6 +81368,7 @@
       "k5_k7_price_threshold_down": 34.45,
       "k5_k7_price_threshold": 74.3,
       "k5_k7_price_gap": 5.4,
+      "k5_k7_no_diff_threshold": 71.7,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -81082,6 +81544,7 @@
       "k5_k7_price_threshold_down": 28.3,
       "k5_k7_price_threshold": 98.2,
       "k5_k7_price_gap": -22.8,
+      "k5_k7_no_diff_threshold": 93.7,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -81257,6 +81720,7 @@
       "k5_k7_price_threshold_down": 1580.0,
       "k5_k7_price_threshold": 3055.0,
       "k5_k7_price_gap": 575.0,
+      "k5_k7_no_diff_threshold": 2925.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -81432,6 +81896,7 @@
       "k5_k7_price_threshold_down": 11.8,
       "k5_k7_price_threshold": 20.95,
       "k5_k7_price_gap": 4.1,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -81607,6 +82072,7 @@
       "k5_k7_price_threshold_down": 294.5,
       "k5_k7_price_threshold": 619.0,
       "k5_k7_price_gap": 59.0,
+      "k5_k7_no_diff_threshold": 598.0,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -81782,6 +82248,7 @@
       "k5_k7_price_threshold_down": 68.6,
       "k5_k7_price_threshold": 123.0,
       "k5_k7_price_gap": 15.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -81957,6 +82424,7 @@
       "k5_k7_price_threshold_down": 38.1,
       "k5_k7_price_threshold": 73.9,
       "k5_k7_price_gap": 13.7,
+      "k5_k7_no_diff_threshold": 70.7,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -82132,6 +82600,7 @@
       "k5_k7_price_threshold_down": 66.3,
       "k5_k7_price_threshold": 66.3,
       "k5_k7_price_gap": 22.2,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -82307,6 +82776,7 @@
       "k5_k7_price_threshold_down": 5.09,
       "k5_k7_price_threshold": 5.09,
       "k5_k7_price_gap": 1.06,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -82482,6 +82952,7 @@
       "k5_k7_price_threshold_down": 32.6,
       "k5_k7_price_threshold": 32.6,
       "k5_k7_price_gap": 7.15,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -82657,6 +83128,7 @@
       "k5_k7_price_threshold_down": 40.15,
       "k5_k7_price_threshold": 76.4,
       "k5_k7_price_gap": 4.1,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -82832,6 +83304,7 @@
       "k5_k7_price_threshold_down": 35.85,
       "k5_k7_price_threshold": 62.9,
       "k5_k7_price_gap": 12.9,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -83007,6 +83480,7 @@
       "k5_k7_price_threshold_down": 39.8,
       "k5_k7_price_threshold": 39.8,
       "k5_k7_price_gap": 12.9,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -83182,6 +83656,7 @@
       "k5_k7_price_threshold_down": 652.0,
       "k5_k7_price_threshold": 1265.0,
       "k5_k7_price_gap": 50.0,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -83357,6 +83832,7 @@
       "k5_k7_price_threshold_down": 17.15,
       "k5_k7_price_threshold": 17.15,
       "k5_k7_price_gap": 5.6,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -83532,6 +84008,7 @@
       "k5_k7_price_threshold_down": 8.26,
       "k5_k7_price_threshold": 8.26,
       "k5_k7_price_gap": 2.54,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     },
@@ -83707,6 +84184,7 @@
       "k5_k7_price_threshold_down": 22.95,
       "k5_k7_price_threshold": 22.95,
       "k5_k7_price_gap": 7.45,
+      "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
       "k7_note": "需考慮當日資券比"
     }
