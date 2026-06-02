@@ -787,6 +787,15 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
             <div class="b-clause-grid">${clauseThresholdDetail(r)}</div>
           </div>`
       : "";
+    // 單行「最低門檻」：所有處置股都顯示預測日當天會碰到注意條款的最低價/量門檻。
+    // 已有完整各款門檻表（差兩次以內）時就不重複顯示。
+    const evalMM = payload?.eval_date?.slice(5)?.replace("-", "/") || "評估日";
+    const minThdLine = thresholdSection
+      ? ""
+      : `<div class="detail-section">
+            <span class="detail-label">${evalMM} 最低門檻（碰到注意）：</span>
+            <div class="b-clause-grid">${conditionCol(r)}</div>
+          </div>`;
     const nextDispOrder  = r["若5_12觸發_預估處置次數"] || "";
     const nextDispMin    = r["若5_12觸發_預估分盤"] || "";
     const nextDispStart  = r["評估日"] ? nextBizDay(r["評估日"]) : null;
@@ -811,6 +820,7 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
               ${dotRow("30日/12①", c30d, 12, addK1to8, r["處置後30日集點日期"])}
             </div>
           </div>
+          ${minThdLine}
           ${thresholdSection}
           ${nextDispSection}
         </div>
