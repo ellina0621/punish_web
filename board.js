@@ -300,7 +300,7 @@ function k1Detail(r, isBold) {
     const pctFromPrev = Number.isFinite(prev) && prev > 0
       ? `${((noDiffP - prev) / prev * 100).toFixed(2)}%` : "";
     const aboveOrBelow = noDiffP <= prev ? `↓可跌至` : `↑最低`;
-    return `<div style="font-size:10px;color:#9ca3af;margin-top:2px">若不考慮全體／同類差：${aboveOrBelow} <b style="color:#d1d5db">${fmt(noDiffP)}元</b>（${pctFromPrev}）即可達到絕對報酬門檻</div>`;
+    return `<div style="font-size:10px;color:#d8b4fe;font-weight:600;margin-top:2px">若不考慮全體／同類差：${aboveOrBelow} <b style="color:#e9d5ff">${fmt(noDiffP)}元</b>（${pctFromPrev}）即可達到絕對報酬門檻</div>`;
   })() : "";
   return `<div class="b-k2-detail">
     <div class="b-k2-window ${isBold ? "b-k2-nearest" : ""}">

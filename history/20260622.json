@@ -177,7 +177,13 @@
       "k5_k7_price_gap": 370.0,
       "k5_k7_no_diff_threshold": 3610.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 3390.0,
+      "actual_turn": 0.49,
+      "actual_vol_k": 137,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8096",
@@ -353,7 +359,13 @@
       "k5_k7_price_gap": 14.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 150.5,
+      "actual_turn": 6.9,
+      "actual_vol_k": 10307,
+      "actual_notice": true,
+      "actual_clauses": "當日本益比為88.01、股價淨值比為7.76且為其所屬產業類別股價淨值比之2.51倍、當日週轉率達6.9%(第六款)",
+      "actual_punish": true
     },
     {
       "證券代碼": "1303",
@@ -529,7 +541,13 @@
       "k5_k7_price_gap": -17.0,
       "k5_k7_no_diff_threshold": 133.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 154.5,
+      "actual_turn": 2.8,
+      "actual_vol_k": 222203,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達39.05%﹝第一款﹞。",
+      "actual_punish": true
     },
     {
       "證券代碼": "2061",
@@ -705,7 +723,13 @@
       "k5_k7_price_gap": -13.05,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 58.0,
+      "actual_turn": 16.56,
+      "actual_vol_k": 9502,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)累積之最後成交價漲幅達49.55%(第一款)<br>當日之成交量較最近六十個營業日日平均成交量放大5.71倍(第三款)<br>當日週轉率達16.56%(第四款)",
+      "actual_punish": true
     },
     {
       "證券代碼": "2302",
@@ -881,7 +905,13 @@
       "k5_k7_price_gap": 1.4,
       "k5_k7_no_diff_threshold": 43.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 45.65,
+      "actual_turn": 5.16,
+      "actual_vol_k": 8583,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2305",
@@ -1057,7 +1087,13 @@
       "k5_k7_price_gap": -5.65,
       "k5_k7_no_diff_threshold": 31.25,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 37.1,
+      "actual_turn": 7.2,
+      "actual_vol_k": 14817,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達40.92%﹝第一款﹞。最近三十個營業日起迄兩個營業日之收盤價漲幅達112.00% 。最近九十個營業日起迄兩個營業日之收盤價漲幅達184.29% ﹝第二款﹞。",
+      "actual_punish": true
     },
     {
       "證券代碼": "2342",
@@ -1233,7 +1269,13 @@
       "k5_k7_price_gap": -0.7,
       "k5_k7_no_diff_threshold": 51.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 57.0,
+      "actual_turn": 17.56,
+      "actual_vol_k": 27649,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達34.64%﹝第一款﹞。且06月23日之週轉率為17.55%﹝第四款﹞。",
+      "actual_punish": true
     },
     {
       "證券代碼": "2344",
@@ -1409,7 +1451,13 @@
       "k5_k7_price_gap": 21.5,
       "k5_k7_no_diff_threshold": 219.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 211.5,
+      "actual_turn": 5.85,
+      "actual_vol_k": 263314,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2375",
@@ -1585,7 +1633,13 @@
       "k5_k7_price_gap": 10.0,
       "k5_k7_no_diff_threshold": 218.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 200.5,
+      "actual_turn": 13.04,
+      "actual_vol_k": 14170,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2491",
@@ -1761,7 +1815,13 @@
       "k5_k7_price_gap": -2.9,
       "k5_k7_no_diff_threshold": 39.45,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 41.65,
+      "actual_turn": 2.66,
+      "actual_vol_k": 2181,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2492",
@@ -1937,7 +1997,13 @@
       "k5_k7_price_gap": -81.0,
       "k5_k7_no_diff_threshold": 506.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 577.0,
+      "actual_turn": 8.05,
+      "actual_vol_k": 39042,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達36.50%。且六個營業日起迄兩個營業日收盤價價差達127.50元﹝第一款﹞。",
+      "actual_punish": true
     },
     {
       "證券代碼": "2493",
@@ -2113,7 +2179,13 @@
       "k5_k7_price_gap": 7.0,
       "k5_k7_no_diff_threshold": 262.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 265.0,
+      "actual_turn": 1.44,
+      "actual_vol_k": 1821,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3026",
@@ -2298,7 +2370,13 @@
       "k5_k7_price_gap": 113.0,
       "k5_k7_no_diff_threshold": 963.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 808.0,
+      "actual_turn": 1.66,
+      "actual_vol_k": 2754,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3285",
@@ -2474,7 +2552,13 @@
       "k5_k7_price_gap": 3.1,
       "k5_k7_no_diff_threshold": 53.7,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 45.65,
+      "actual_turn": 0.92,
+      "actual_vol_k": 394,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3481",
@@ -2650,7 +2734,13 @@
       "k5_k7_price_gap": -2.0,
       "k5_k7_no_diff_threshold": 61.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 66.0,
+      "actual_turn": 9.57,
+      "actual_vol_k": 764326,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3624",
@@ -2826,7 +2916,13 @@
       "k5_k7_price_gap": -21.5,
       "k5_k7_no_diff_threshold": 150.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 159.0,
+      "actual_turn": 17.09,
+      "actual_vol_k": 20054,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)累積之最後成交價漲幅達32.18%(第一款)<br>當日週轉率達17.09%(第四款)",
+      "actual_punish": true
     },
     {
       "證券代碼": "4764",
@@ -3002,7 +3098,13 @@
       "k5_k7_price_gap": 11.5,
       "k5_k7_no_diff_threshold": 335.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 346.5,
+      "actual_turn": 6.28,
+      "actual_vol_k": 5370,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達28.58%。且六個營業日起迄兩個營業日收盤價價差達68.50 元﹝第一款﹞。最近六十個營業日起迄兩個營業日之收盤價漲幅達169.37% 。最近九十個營業日起迄兩個營業日之收盤價漲幅達210.26% ﹝第二款﹞。06月23日之本益比為 184.31，且股價淨值比為12.24 。另當日週轉率為 6.27%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
+      "actual_punish": true
     },
     {
       "證券代碼": "4923",
@@ -3178,7 +3280,13 @@
       "k5_k7_price_gap": 3.4,
       "k5_k7_no_diff_threshold": 61.1,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 63.3,
+      "actual_turn": 21.59,
+      "actual_vol_k": 7316,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)累積之最後成交價漲幅達30.54%(第一款)<br>當日之成交量較最近六十個營業日日平均成交量放大7.3倍(第三款)<br>當日週轉率達21.58%(第四款)",
+      "actual_punish": true
     },
     {
       "證券代碼": "5227",
@@ -3354,7 +3462,13 @@
       "k5_k7_price_gap": -2.1,
       "k5_k7_no_diff_threshold": 39.7,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 42.6,
+      "actual_turn": 1.89,
+      "actual_vol_k": 1284,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)累積之最後成交價漲幅達33.79%(第一款)<br>永豐金證券公司當日受託賣出該有價證券之成交量占當日該有價證券總成交量之比率為30.76%(第五款)",
+      "actual_punish": true
     },
     {
       "證券代碼": "5425",
@@ -3530,7 +3644,13 @@
       "k5_k7_price_gap": 12.5,
       "k5_k7_no_diff_threshold": 130.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 134.0,
+      "actual_turn": 45.08,
+      "actual_vol_k": 118779,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)累積之最後成交價漲幅達29.68%，當日之成交量較最近六十個營業日日平均成交量放大5.22倍(第三款)<br>當日週轉率達45.08%(第四款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "5468",
@@ -3706,7 +3826,13 @@
       "k5_k7_price_gap": -2.45,
       "k5_k7_no_diff_threshold": 27.55,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 36.3,
+      "actual_turn": 3.6,
+      "actual_vol_k": 2124,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)累積之最後成交價漲幅達53.6%(第一款)<br>當日之成交量較最近六十個營業日日平均成交量放大5.71倍(第三款)",
+      "actual_punish": true
     },
     {
       "證券代碼": "6182",
@@ -3882,7 +4008,13 @@
       "k5_k7_price_gap": 9.5,
       "k5_k7_no_diff_threshold": 115.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 114.5,
+      "actual_turn": 11.24,
+      "actual_vol_k": 66726,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6415",
@@ -4058,7 +4190,13 @@
       "k5_k7_price_gap": 14.0,
       "k5_k7_no_diff_threshold": 613.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 645.0,
+      "actual_turn": 2.64,
+      "actual_vol_k": 10243,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達29.82%。且六個營業日起迄兩個營業日收盤價價差達110.00元﹝第一款﹞。",
+      "actual_punish": true
     },
     {
       "證券代碼": "6613",
@@ -4234,7 +4372,13 @@
       "k5_k7_price_gap": 15.5,
       "k5_k7_no_diff_threshold": 404.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 368.0,
+      "actual_turn": 0.59,
+      "actual_vol_k": 460,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6693",
@@ -4410,7 +4554,13 @@
       "k5_k7_price_gap": 1.5,
       "k5_k7_no_diff_threshold": 216.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 236.5,
+      "actual_turn": 11.02,
+      "actual_vol_k": 5037,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)累積之最後成交價漲幅達35.52%(第一款)<br>當日週轉率達11.01%(第四款)",
+      "actual_punish": true
     },
     {
       "證券代碼": "6834",
@@ -4586,7 +4736,13 @@
       "k5_k7_price_gap": 0.0,
       "k5_k7_no_diff_threshold": 106.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 111.5,
+      "actual_turn": 13.08,
+      "actual_vol_k": 11568,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達30.18%。且06月23日之週轉率為13.07%﹝第四款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "8996",
@@ -4762,7 +4918,13 @@
       "k5_k7_price_gap": -105.0,
       "k5_k7_no_diff_threshold": 1445.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1450.0,
+      "actual_turn": 3.58,
+      "actual_vol_k": 3344,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達25.34%。且六個營業日起迄兩個營業日收盤價價差達195.00元﹝第一款﹞。",
+      "actual_punish": true
     },
     {
       "證券代碼": "3362",
@@ -4938,7 +5100,13 @@
       "k5_k7_price_gap": 6.5,
       "k5_k7_no_diff_threshold": 208.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 186.0,
+      "actual_turn": 4.76,
+      "actual_vol_k": 7020,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6141",
@@ -5114,7 +5282,13 @@
       "k5_k7_price_gap": 6.7,
       "k5_k7_no_diff_threshold": 40.6,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 35.25,
+      "actual_turn": 1.08,
+      "actual_vol_k": 1221,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8064",
@@ -5290,7 +5464,13 @@
       "k5_k7_price_gap": 12.5,
       "k5_k7_no_diff_threshold": 175.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 156.0,
+      "actual_turn": 5.66,
+      "actual_vol_k": 10467,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1905",
@@ -5466,7 +5646,13 @@
       "k5_k7_price_gap": -1.8,
       "k5_k7_no_diff_threshold": 16.2,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 16.75,
+      "actual_turn": 2.5,
+      "actual_vol_k": 27625,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2316",
@@ -5642,7 +5828,13 @@
       "k5_k7_price_gap": -20.5,
       "k5_k7_no_diff_threshold": 195.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 217.5,
+      "actual_turn": 10.54,
+      "actual_vol_k": 19257,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達35.16%﹝第一款﹞。且06月23日之週轉率為10.53%﹝第四款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "2408",
@@ -5818,7 +6010,13 @@
       "k5_k7_price_gap": 25.0,
       "k5_k7_no_diff_threshold": 474.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 454.5,
+      "actual_turn": 4.76,
+      "actual_vol_k": 164235,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2426",
@@ -5994,7 +6192,13 @@
       "k5_k7_price_gap": -1.0,
       "k5_k7_no_diff_threshold": 85.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 94.7,
+      "actual_turn": 15.45,
+      "actual_vol_k": 46452,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達35.27%﹝第一款﹞。且06月23日之週轉率為15.45%﹝第四款﹞。最近六十個營業日起迄兩個營業日之收盤價漲幅達182.14% 。最近九十個營業日起迄兩個營業日之收盤價漲幅達391.19% ﹝第二款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "2455",
@@ -6175,7 +6379,13 @@
       "k5_k7_price_gap": 38.5,
       "k5_k7_no_diff_threshold": 447.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 398.0,
+      "actual_turn": 0.86,
+      "actual_vol_k": 1610,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2478",
@@ -6351,7 +6561,13 @@
       "k5_k7_price_gap": -7.5,
       "k5_k7_no_diff_threshold": 216.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 223.5,
+      "actual_turn": 1.26,
+      "actual_vol_k": 1828,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達28.02%。且06月23日台灣摩根證券商買進之比率為28.71%﹝第五款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "3060",
@@ -6527,7 +6743,13 @@
       "k5_k7_price_gap": -2.05,
       "k5_k7_no_diff_threshold": 39.45,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 39.45,
+      "actual_turn": 9.85,
+      "actual_vol_k": 13545,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3094",
@@ -6703,7 +6925,13 @@
       "k5_k7_price_gap": 3.35,
       "k5_k7_no_diff_threshold": 40.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 41.15,
+      "actual_turn": 12.91,
+      "actual_vol_k": 10729,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達26.62%。且06月23日之週轉率為12.90%﹝第四款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "3189",
@@ -6879,7 +7107,13 @@
       "k5_k7_price_gap": 65.0,
       "k5_k7_no_diff_threshold": 773.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 727.0,
+      "actual_turn": 6.95,
+      "actual_vol_k": 36604,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3532",
@@ -7060,7 +7294,13 @@
       "k5_k7_price_gap": 77.0,
       "k5_k7_no_diff_threshold": 413.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 373.0,
+      "actual_turn": 0.18,
+      "actual_vol_k": 693,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3675",
@@ -7236,7 +7476,13 @@
       "k5_k7_price_gap": 35.0,
       "k5_k7_no_diff_threshold": 403.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 445.5,
+      "actual_turn": 19.02,
+      "actual_vol_k": 10089,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)累積之最後成交價漲幅達37.45%(第一款)<br>最近九十個營業日(含當日)起迄兩個營業日之最後成交價漲幅達202.03%(第二款)<br>當日之成交量較最近六十個營業日日平均成交量放大5.84倍(第三款)<br>當日週轉率達19.01%(第四款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "4722",
@@ -7412,7 +7658,13 @@
       "k5_k7_price_gap": 11.5,
       "k5_k7_no_diff_threshold": 288.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 274.0,
+      "actual_turn": 2.12,
+      "actual_vol_k": 2191,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5328",
@@ -7588,7 +7840,13 @@
       "k5_k7_price_gap": -1.7,
       "k5_k7_no_diff_threshold": 54.6,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 52.9,
+      "actual_turn": 12.39,
+      "actual_vol_k": 21405,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6116",
@@ -7764,7 +8022,13 @@
       "k5_k7_price_gap": 0.7,
       "k5_k7_no_diff_threshold": 19.9,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 19.0,
+      "actual_turn": 7.44,
+      "actual_vol_k": 212700,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6202",
@@ -7940,7 +8204,13 @@
       "k5_k7_price_gap": 9.8,
       "k5_k7_no_diff_threshold": 75.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 70.9,
+      "actual_turn": 12.76,
+      "actual_vol_k": 29388,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6488",
@@ -8121,7 +8391,13 @@
       "k5_k7_price_gap": 110.0,
       "k5_k7_no_diff_threshold": 1120.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1010.0,
+      "actual_turn": 0.41,
+      "actual_vol_k": 1977,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6715",
@@ -8297,7 +8573,13 @@
       "k5_k7_price_gap": 3.0,
       "k5_k7_no_diff_threshold": 495.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 569.0,
+      "actual_turn": 3.29,
+      "actual_vol_k": 2246,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達39.22%。且六個營業日起迄兩個營業日收盤價價差達176.00元﹝第一款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達344.53% ﹝第二款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "7712",
@@ -8473,7 +8755,13 @@
       "k5_k7_price_gap": -1.0,
       "k5_k7_no_diff_threshold": 183.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 200.0,
+      "actual_turn": 11.39,
+      "actual_vol_k": 3708,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)累積之最後成交價漲幅達35.5%(第一款)<br>當日週轉率達11.38%(第四款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "7795",
@@ -8649,7 +8937,13 @@
       "k5_k7_price_gap": 48.5,
       "k5_k7_no_diff_threshold": 478.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 431.5,
+      "actual_turn": 1.14,
+      "actual_vol_k": 898,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "7822",
@@ -8825,7 +9119,13 @@
       "k5_k7_price_gap": 190.0,
       "k5_k7_no_diff_threshold": 1275.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1200.0,
+      "actual_turn": 0.88,
+      "actual_vol_k": 399,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8255",
@@ -9001,7 +9301,13 @@
       "k5_k7_price_gap": 3.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 199.5,
+      "actual_turn": 12.55,
+      "actual_vol_k": 12779,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8261",
@@ -9177,7 +9483,13 @@
       "k5_k7_price_gap": 8.0,
       "k5_k7_no_diff_threshold": 218.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 260.0,
+      "actual_turn": 18.41,
+      "actual_vol_k": 21884,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達42.63%。且六個營業日起迄兩個營業日收盤價價差達74.00 元﹝第一款﹞。且06月23日之週轉率為18.40%﹝第四款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "8937",
@@ -9353,7 +9665,13 @@
       "k5_k7_price_gap": -0.9,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 29.4,
+      "actual_turn": 0.09,
+      "actual_vol_k": 405,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1233",
@@ -9529,7 +9847,13 @@
       "k5_k7_price_gap": 6.95,
       "k5_k7_no_diff_threshold": 34.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 28.1,
+      "actual_turn": 0.02,
+      "actual_vol_k": 22,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1294",
@@ -9705,7 +10029,13 @@
       "k5_k7_price_gap": 20.6,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 78.7,
+      "actual_turn": 5.06,
+      "actual_vol_k": 1546,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1312",
@@ -9881,7 +10211,13 @@
       "k5_k7_price_gap": 2.6,
       "k5_k7_no_diff_threshold": 16.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 13.8,
+      "actual_turn": 0.91,
+      "actual_vol_k": 13749,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1409",
@@ -10057,7 +10393,13 @@
       "k5_k7_price_gap": 4.05,
       "k5_k7_no_diff_threshold": 32.15,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 28.55,
+      "actual_turn": 4.52,
+      "actual_vol_k": 73073,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1423",
@@ -10233,7 +10575,13 @@
       "k5_k7_price_gap": 7.1,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 38.6,
+      "actual_turn": 0.18,
+      "actual_vol_k": 178,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1440",
@@ -10409,7 +10757,13 @@
       "k5_k7_price_gap": 3.15,
       "k5_k7_no_diff_threshold": 16.6,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 13.4,
+      "actual_turn": 0.12,
+      "actual_vol_k": 1929,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1444",
@@ -10585,7 +10939,13 @@
       "k5_k7_price_gap": 1.52,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 6.92,
+      "actual_turn": 0.14,
+      "actual_vol_k": 1441,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1472",
@@ -10761,7 +11121,13 @@
       "k5_k7_price_gap": 20.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 89.0,
+      "actual_turn": 0.04,
+      "actual_vol_k": 19,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1519",
@@ -10937,7 +11303,13 @@
       "k5_k7_price_gap": 169.0,
       "k5_k7_no_diff_threshold": 997.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 813.0,
+      "actual_turn": 0.66,
+      "actual_vol_k": 2087,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1530",
@@ -11113,7 +11485,13 @@
       "k5_k7_price_gap": 6.75,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 28.95,
+      "actual_turn": 0.24,
+      "actual_vol_k": 225,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1563",
@@ -11289,7 +11667,13 @@
       "k5_k7_price_gap": 9.8,
       "k5_k7_no_diff_threshold": 75.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 69.7,
+      "actual_turn": 2.9,
+      "actual_vol_k": 6547,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1568",
@@ -11465,7 +11849,13 @@
       "k5_k7_price_gap": 6.8,
       "k5_k7_no_diff_threshold": 49.9,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 44.85,
+      "actual_turn": 2.08,
+      "actual_vol_k": 2144,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1570",
@@ -11641,7 +12031,13 @@
       "k5_k7_price_gap": 11.1,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 40.6,
+      "actual_turn": 0.47,
+      "actual_vol_k": 243,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1582",
@@ -11817,7 +12213,13 @@
       "k5_k7_price_gap": 25.8,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 90.5,
+      "actual_turn": 1.64,
+      "actual_vol_k": 2366,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1590",
@@ -11993,7 +12395,13 @@
       "k5_k7_price_gap": 245.0,
       "k5_k7_no_diff_threshold": 1635.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1375.0,
+      "actual_turn": 0.6,
+      "actual_vol_k": 1204,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1591",
@@ -12169,7 +12577,13 @@
       "k5_k7_price_gap": 8.45,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 31.15,
+      "actual_turn": 0.0,
+      "actual_vol_k": 0,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1595",
@@ -12345,7 +12759,13 @@
       "k5_k7_price_gap": 13.1,
       "k5_k7_no_diff_threshold": 95.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 82.0,
+      "actual_turn": 4.68,
+      "actual_vol_k": 2572,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1611",
@@ -12521,7 +12941,13 @@
       "k5_k7_price_gap": 3.3,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 13.2,
+      "actual_turn": 0.29,
+      "actual_vol_k": 944,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1708",
@@ -12697,7 +13123,13 @@
       "k5_k7_price_gap": 10.3,
       "k5_k7_no_diff_threshold": 60.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 49.35,
+      "actual_turn": 4.25,
+      "actual_vol_k": 10595,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1714",
@@ -12873,7 +13305,13 @@
       "k5_k7_price_gap": 1.35,
       "k5_k7_no_diff_threshold": 19.2,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 17.85,
+      "actual_turn": 2.18,
+      "actual_vol_k": 21595,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1718",
@@ -13049,7 +13487,13 @@
       "k5_k7_price_gap": 2.12,
       "k5_k7_no_diff_threshold": 11.65,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 9.25,
+      "actual_turn": 1.55,
+      "actual_vol_k": 26146,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1721",
@@ -13225,7 +13669,13 @@
       "k5_k7_price_gap": 3.85,
       "k5_k7_no_diff_threshold": 29.35,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 24.5,
+      "actual_turn": 2.17,
+      "actual_vol_k": 4005,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1727",
@@ -13401,7 +13851,13 @@
       "k5_k7_price_gap": 9.5,
       "k5_k7_no_diff_threshold": 109.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 96.5,
+      "actual_turn": 7.29,
+      "actual_vol_k": 9330,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1762",
@@ -13577,7 +14033,13 @@
       "k5_k7_price_gap": 7.95,
       "k5_k7_no_diff_threshold": 43.65,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 37.5,
+      "actual_turn": 0.78,
+      "actual_vol_k": 603,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1809",
@@ -13753,7 +14215,13 @@
       "k5_k7_price_gap": 7.3,
       "k5_k7_no_diff_threshold": 60.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 53.9,
+      "actual_turn": 9.02,
+      "actual_vol_k": 15073,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "1909",
@@ -13929,7 +14397,13 @@
       "k5_k7_price_gap": 2.58,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 9.64,
+      "actual_turn": 0.42,
+      "actual_vol_k": 5542,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2025",
@@ -14105,7 +14579,13 @@
       "k5_k7_price_gap": 3.55,
       "k5_k7_no_diff_threshold": 17.6,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 13.8,
+      "actual_turn": 0.24,
+      "actual_vol_k": 418,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2059",
@@ -14281,7 +14761,13 @@
       "k5_k7_price_gap": 1535.0,
       "k5_k7_no_diff_threshold": 8725.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 7475.0,
+      "actual_turn": 0.54,
+      "actual_vol_k": 519,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2066",
@@ -14457,7 +14943,13 @@
       "k5_k7_price_gap": 9.6,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 71.0,
+      "actual_turn": 0.9,
+      "actual_vol_k": 398,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2105",
@@ -14633,7 +15125,13 @@
       "k5_k7_price_gap": 5.45,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 29.3,
+      "actual_turn": 0.64,
+      "actual_vol_k": 20681,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2221",
@@ -14809,7 +15307,13 @@
       "k5_k7_price_gap": 3.2,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 49.7,
+      "actual_turn": 6.85,
+      "actual_vol_k": 2901,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2233",
@@ -14985,7 +15489,13 @@
       "k5_k7_price_gap": 53.5,
       "k5_k7_no_diff_threshold": 368.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 284.0,
+      "actual_turn": 3.4,
+      "actual_vol_k": 2050,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2243",
@@ -15161,7 +15671,13 @@
       "k5_k7_price_gap": 0.4,
       "k5_k7_no_diff_threshold": 46.85,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 46.55,
+      "actual_turn": 1.4,
+      "actual_vol_k": 1084,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2301",
@@ -15337,7 +15853,13 @@
       "k5_k7_price_gap": 42.5,
       "k5_k7_no_diff_threshold": 273.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 223.5,
+      "actual_turn": 2.51,
+      "actual_vol_k": 58205,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2303",
@@ -15513,7 +16035,13 @@
       "k5_k7_price_gap": 28.0,
       "k5_k7_no_diff_threshold": 170.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 170.0,
+      "actual_turn": 4.38,
+      "actual_vol_k": 550642,
+      "actual_notice": true,
+      "actual_clauses": "最近六十個營業日起迄兩個營業日之收盤價漲幅達192.09% ﹝第二款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "2308",
@@ -15689,7 +16217,13 @@
       "k5_k7_price_gap": 490.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 2080.0,
+      "actual_turn": 0.57,
+      "actual_vol_k": 14787,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2312",
@@ -15865,7 +16399,13 @@
       "k5_k7_price_gap": 8.7,
       "k5_k7_no_diff_threshold": 43.15,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 34.55,
+      "actual_turn": 2.32,
+      "actual_vol_k": 34889,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2313",
@@ -16041,7 +16581,13 @@
       "k5_k7_price_gap": 64.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 243.0,
+      "actual_turn": 3.33,
+      "actual_vol_k": 41024,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2324",
@@ -16217,7 +16763,13 @@
       "k5_k7_price_gap": 8.3,
       "k5_k7_no_diff_threshold": 45.7,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 36.55,
+      "actual_turn": 1.42,
+      "actual_vol_k": 62365,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2327",
@@ -16393,7 +16945,13 @@
       "k5_k7_price_gap": 75.0,
       "k5_k7_no_diff_threshold": 1090.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1020.0,
+      "actual_turn": 2.25,
+      "actual_vol_k": 46353,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2332",
@@ -16569,7 +17127,13 @@
       "k5_k7_price_gap": 0.8,
       "k5_k7_no_diff_threshold": 19.7,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 18.35,
+      "actual_turn": 4.33,
+      "actual_vol_k": 26047,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2337",
@@ -16745,7 +17309,13 @@
       "k5_k7_price_gap": 21.5,
       "k5_k7_no_diff_threshold": 186.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 172.0,
+      "actual_turn": 10.44,
+      "actual_vol_k": 206975,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2345",
@@ -16921,7 +17491,13 @@
       "k5_k7_price_gap": 375.0,
       "k5_k7_no_diff_threshold": 2960.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 2435.0,
+      "actual_turn": 0.7,
+      "actual_vol_k": 3948,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2351",
@@ -17097,7 +17673,13 @@
       "k5_k7_price_gap": 41.5,
       "k5_k7_no_diff_threshold": 232.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 198.0,
+      "actual_turn": 10.11,
+      "actual_vol_k": 19493,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2353",
@@ -17273,7 +17855,13 @@
       "k5_k7_price_gap": 7.3,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 33.4,
+      "actual_turn": 1.41,
+      "actual_vol_k": 42937,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2355",
@@ -17449,7 +18037,13 @@
       "k5_k7_price_gap": 12.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 56.1,
+      "actual_turn": 2.38,
+      "actual_vol_k": 9479,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2356",
@@ -17625,7 +18219,13 @@
       "k5_k7_price_gap": 15.6,
       "k5_k7_no_diff_threshold": 83.2,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 66.1,
+      "actual_turn": 0.91,
+      "actual_vol_k": 32690,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2357",
@@ -17801,7 +18401,13 @@
       "k5_k7_price_gap": 196.0,
       "k5_k7_no_diff_threshold": 982.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 785.0,
+      "actual_turn": 0.87,
+      "actual_vol_k": 6495,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2360",
@@ -17977,7 +18583,13 @@
       "k5_k7_price_gap": 595.0,
       "k5_k7_no_diff_threshold": 2850.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 2265.0,
+      "actual_turn": 0.33,
+      "actual_vol_k": 1397,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2367",
@@ -18153,7 +18765,13 @@
       "k5_k7_price_gap": 13.2,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 58.1,
+      "actual_turn": 2.99,
+      "actual_vol_k": 21129,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2368",
@@ -18329,7 +18947,13 @@
       "k5_k7_price_gap": 339.81,
       "k5_k7_no_diff_threshold": 1655.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1265.0,
+      "actual_turn": 1.79,
+      "actual_vol_k": 9347,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2369",
@@ -18505,7 +19129,13 @@
       "k5_k7_price_gap": 6.1,
       "k5_k7_no_diff_threshold": 42.15,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 44.55,
+      "actual_turn": 21.97,
+      "actual_vol_k": 83496,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達31.05%。且06月23日之週轉率為21.96%﹝第四款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "2379",
@@ -18681,7 +19311,13 @@
       "k5_k7_price_gap": -28.0,
       "k5_k7_no_diff_threshold": 772.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 863.0,
+      "actual_turn": 1.56,
+      "actual_vol_k": 8046,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達35.11%。且六個營業日起迄兩個營業日收盤價價差達229.00元﹝第一款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "2382",
@@ -18857,7 +19493,13 @@
       "k5_k7_price_gap": 88.0,
       "k5_k7_no_diff_threshold": 467.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 372.5,
+      "actual_turn": 0.42,
+      "actual_vol_k": 16362,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2383",
@@ -19033,7 +19675,13 @@
       "k5_k7_price_gap": 620.0,
       "k5_k7_no_diff_threshold": 6165.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 5700.0,
+      "actual_turn": 0.6,
+      "actual_vol_k": 2138,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2393",
@@ -19209,7 +19857,13 @@
       "k5_k7_price_gap": 17.7,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 69.5,
+      "actual_turn": 0.62,
+      "actual_vol_k": 2757,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2395",
@@ -19385,7 +20039,13 @@
       "k5_k7_price_gap": 99.5,
       "k5_k7_no_diff_threshold": 597.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 487.5,
+      "actual_turn": 0.27,
+      "actual_vol_k": 2317,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2399",
@@ -19561,7 +20221,13 @@
       "k5_k7_price_gap": 8.4,
       "k5_k7_no_diff_threshold": 59.9,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 50.9,
+      "actual_turn": 5.9,
+      "actual_vol_k": 10503,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2404",
@@ -19737,7 +20403,13 @@
       "k5_k7_price_gap": 300.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1260.0,
+      "actual_turn": 1.19,
+      "actual_vol_k": 2277,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2405",
@@ -19913,7 +20585,13 @@
       "k5_k7_price_gap": 4.55,
       "k5_k7_no_diff_threshold": 23.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 18.5,
+      "actual_turn": 1.12,
+      "actual_vol_k": 3851,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2406",
@@ -20089,7 +20767,13 @@
       "k5_k7_price_gap": 5.85,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 33.8,
+      "actual_turn": 3.93,
+      "actual_vol_k": 13785,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2409",
@@ -20265,7 +20949,13 @@
       "k5_k7_price_gap": 0.05,
       "k5_k7_no_diff_threshold": 29.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 29.05,
+      "actual_turn": 12.69,
+      "actual_vol_k": 957929,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2413",
@@ -20441,7 +21131,13 @@
       "k5_k7_price_gap": 10.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 51.9,
+      "actual_turn": 4.03,
+      "actual_vol_k": 5138,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2424",
@@ -20617,7 +21313,13 @@
       "k5_k7_price_gap": 0.8,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 10.6,
+      "actual_turn": 0.43,
+      "actual_vol_k": 259,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2434",
@@ -20793,7 +21495,13 @@
       "k5_k7_price_gap": 3.15,
       "k5_k7_no_diff_threshold": 41.15,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 46.95,
+      "actual_turn": 1.79,
+      "actual_vol_k": 664,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達38.62%﹝第一款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "2438",
@@ -20969,7 +21677,13 @@
       "k5_k7_price_gap": 5.4,
       "k5_k7_no_diff_threshold": 27.9,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 22.45,
+      "actual_turn": 0.37,
+      "actual_vol_k": 260,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2441",
@@ -21145,7 +21859,13 @@
       "k5_k7_price_gap": 32.5,
       "k5_k7_no_diff_threshold": 157.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 136.0,
+      "actual_turn": 2.08,
+      "actual_vol_k": 11851,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2451",
@@ -21321,7 +22041,13 @@
       "k5_k7_price_gap": 81.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 300.5,
+      "actual_turn": 1.41,
+      "actual_vol_k": 6099,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2454",
@@ -21497,7 +22223,13 @@
       "k5_k7_price_gap": 1305.0,
       "k5_k7_no_diff_threshold": 5275.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 4535.0,
+      "actual_turn": 1.15,
+      "actual_vol_k": 18449,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2457",
@@ -21673,7 +22405,13 @@
       "k5_k7_price_gap": 7.85,
       "k5_k7_no_diff_threshold": 37.85,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 30.35,
+      "actual_turn": 2.76,
+      "actual_vol_k": 11733,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2464",
@@ -21849,7 +22587,13 @@
       "k5_k7_price_gap": 19.5,
       "k5_k7_no_diff_threshold": 188.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 172.0,
+      "actual_turn": 6.64,
+      "actual_vol_k": 13981,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2467",
@@ -22025,7 +22769,13 @@
       "k5_k7_price_gap": 97.0,
       "k5_k7_no_diff_threshold": 697.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 580.0,
+      "actual_turn": 1.24,
+      "actual_vol_k": 2007,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2468",
@@ -22201,7 +22951,13 @@
       "k5_k7_price_gap": 8.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 36.6,
+      "actual_turn": 1.04,
+      "actual_vol_k": 730,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2472",
@@ -22377,7 +23133,13 @@
       "k5_k7_price_gap": 90.0,
       "k5_k7_no_diff_threshold": 464.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 363.0,
+      "actual_turn": 6.11,
+      "actual_vol_k": 10070,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2474",
@@ -22553,7 +23315,13 @@
       "k5_k7_price_gap": 52.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 210.5,
+      "actual_turn": 2.63,
+      "actual_vol_k": 14148,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2481",
@@ -22729,7 +23497,13 @@
       "k5_k7_price_gap": 27.5,
       "k5_k7_no_diff_threshold": 184.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 193.5,
+      "actual_turn": 17.01,
+      "actual_vol_k": 64988,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達30.35%。且六個營業日起迄兩個營業日收盤價價差達51.00 元﹝第一款﹞。且06月23日之週轉率為17.00%﹝第四款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "2483",
@@ -22905,7 +23679,13 @@
       "k5_k7_price_gap": 6.7,
       "k5_k7_no_diff_threshold": 48.15,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 41.95,
+      "actual_turn": 10.39,
+      "actual_vol_k": 11206,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2484",
@@ -23081,7 +23861,13 @@
       "k5_k7_price_gap": 17.45,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 63.0,
+      "actual_turn": 8.88,
+      "actual_vol_k": 14163,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2485",
@@ -23257,7 +24043,13 @@
       "k5_k7_price_gap": 11.3,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 57.4,
+      "actual_turn": 4.49,
+      "actual_vol_k": 14274,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2486",
@@ -23433,7 +24225,13 @@
       "k5_k7_price_gap": 56.0,
       "k5_k7_no_diff_threshold": 317.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 265.0,
+      "actual_turn": 2.67,
+      "actual_vol_k": 6306,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2489",
@@ -23609,7 +24407,13 @@
       "k5_k7_price_gap": 4.4,
       "k5_k7_no_diff_threshold": 53.1,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 47.35,
+      "actual_turn": 6.15,
+      "actual_vol_k": 37518,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2495",
@@ -23785,7 +24589,13 @@
       "k5_k7_price_gap": 11.2,
       "k5_k7_no_diff_threshold": 63.1,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 52.5,
+      "actual_turn": 3.91,
+      "actual_vol_k": 10701,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2548",
@@ -23961,7 +24771,13 @@
       "k5_k7_price_gap": 20.1,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 101.5,
+      "actual_turn": 0.75,
+      "actual_vol_k": 2402,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2801",
@@ -24137,7 +24953,13 @@
       "k5_k7_price_gap": 5.55,
       "k5_k7_no_diff_threshold": 28.35,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 23.2,
+      "actual_turn": 0.24,
+      "actual_vol_k": 28133,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2883",
@@ -24313,7 +25135,13 @@
       "k5_k7_price_gap": 4.6,
       "k5_k7_no_diff_threshold": 34.85,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 30.1,
+      "actual_turn": 0.53,
+      "actual_vol_k": 90011,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2911",
@@ -24489,7 +25317,13 @@
       "k5_k7_price_gap": 1.45,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 7.5,
+      "actual_turn": 0.45,
+      "actual_vol_k": 470,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "2945",
@@ -24665,7 +25499,13 @@
       "k5_k7_price_gap": 10.65,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 42.95,
+      "actual_turn": 0.05,
+      "actual_vol_k": 31,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3006",
@@ -24841,7 +25681,13 @@
       "k5_k7_price_gap": 50.5,
       "k5_k7_no_diff_threshold": 276.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 245.0,
+      "actual_turn": 9.97,
+      "actual_vol_k": 29723,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3008",
@@ -25017,7 +25863,13 @@
       "k5_k7_price_gap": 120.0,
       "k5_k7_no_diff_threshold": 5105.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 5000.0,
+      "actual_turn": 1.48,
+      "actual_vol_k": 1931,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3014",
@@ -25193,7 +26045,13 @@
       "k5_k7_price_gap": 48.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 161.0,
+      "actual_turn": 2.7,
+      "actual_vol_k": 4487,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3015",
@@ -25369,7 +26227,13 @@
       "k5_k7_price_gap": 11.5,
       "k5_k7_no_diff_threshold": 74.1,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 62.5,
+      "actual_turn": 1.47,
+      "actual_vol_k": 2754,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3016",
@@ -25545,7 +26409,13 @@
       "k5_k7_price_gap": 21.5,
       "k5_k7_no_diff_threshold": 145.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 152.5,
+      "actual_turn": 2.86,
+      "actual_vol_k": 8287,
+      "actual_notice": true,
+      "actual_clauses": "最近六十個營業日起迄兩個營業日之收盤價漲幅達155.01% ﹝第二款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "3017",
@@ -25721,7 +26591,13 @@
       "k5_k7_price_gap": 600.0,
       "k5_k7_no_diff_threshold": 3010.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 2425.0,
+      "actual_turn": 0.78,
+      "actual_vol_k": 3079,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3021",
@@ -25897,7 +26773,13 @@
       "k5_k7_price_gap": 8.05,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 29.8,
+      "actual_turn": 1.18,
+      "actual_vol_k": 1120,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3025",
@@ -26073,7 +26955,13 @@
       "k5_k7_price_gap": 17.5,
       "k5_k7_no_diff_threshold": 88.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 69.7,
+      "actual_turn": 0.94,
+      "actual_vol_k": 536,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3027",
@@ -26249,7 +27137,13 @@
       "k5_k7_price_gap": 4.9,
       "k5_k7_no_diff_threshold": 26.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 21.25,
+      "actual_turn": 0.48,
+      "actual_vol_k": 619,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3036",
@@ -26425,7 +27319,13 @@
       "k5_k7_price_gap": 53.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 220.5,
+      "actual_turn": 1.01,
+      "actual_vol_k": 12881,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3037",
@@ -26601,7 +27501,13 @@
       "k5_k7_price_gap": 190.0,
       "k5_k7_no_diff_threshold": 1145.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 974.0,
+      "actual_turn": 1.67,
+      "actual_vol_k": 26622,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3042",
@@ -26777,7 +27683,13 @@
       "k5_k7_price_gap": 30.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 190.5,
+      "actual_turn": 6.85,
+      "actual_vol_k": 23484,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3048",
@@ -26953,7 +27865,13 @@
       "k5_k7_price_gap": 17.6,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 69.3,
+      "actual_turn": 2.76,
+      "actual_vol_k": 7447,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3049",
@@ -27129,7 +28047,13 @@
       "k5_k7_price_gap": 3.6,
       "k5_k7_no_diff_threshold": 17.35,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 13.7,
+      "actual_turn": 1.08,
+      "actual_vol_k": 8696,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3054",
@@ -27305,7 +28229,13 @@
       "k5_k7_price_gap": 15.2,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 66.1,
+      "actual_turn": 0.1,
+      "actual_vol_k": 84,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3055",
@@ -27481,7 +28411,13 @@
       "k5_k7_price_gap": 10.5,
       "k5_k7_no_diff_threshold": 102.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 90.9,
+      "actual_turn": 1.13,
+      "actual_vol_k": 1294,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3081",
@@ -27657,7 +28593,13 @@
       "k5_k7_price_gap": 440.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 2285.0,
+      "actual_turn": 1.98,
+      "actual_vol_k": 1833,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3090",
@@ -27838,7 +28780,13 @@
       "k5_k7_price_gap": 5.0,
       "k5_k7_no_diff_threshold": 324.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 302.5,
+      "actual_turn": 1.15,
+      "actual_vol_k": 3302,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3093",
@@ -28014,7 +28962,13 @@
       "k5_k7_price_gap": 12.6,
       "k5_k7_no_diff_threshold": 77.7,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 67.7,
+      "actual_turn": 2.21,
+      "actual_vol_k": 3205,
+      "actual_notice": true,
+      "actual_clauses": "最近九十個營業日(含當日)起迄兩個營業日之最後成交價漲幅達162.4%(第二款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "3105",
@@ -28190,7 +29144,13 @@
       "k5_k7_price_gap": 157.0,
       "k5_k7_no_diff_threshold": 649.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 522.0,
+      "actual_turn": 9.85,
+      "actual_vol_k": 41748,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3114",
@@ -28366,7 +29326,13 @@
       "k5_k7_price_gap": 2.1,
       "k5_k7_no_diff_threshold": 53.2,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 47.8,
+      "actual_turn": 3.17,
+      "actual_vol_k": 2067,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3131",
@@ -28542,7 +29508,13 @@
       "k5_k7_price_gap": 590.0,
       "k5_k7_no_diff_threshold": 4165.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 3495.0,
+      "actual_turn": 1.74,
+      "actual_vol_k": 517,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3135",
@@ -28718,7 +29690,13 @@
       "k5_k7_price_gap": 59.5,
       "k5_k7_no_diff_threshold": 243.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 194.0,
+      "actual_turn": 2.76,
+      "actual_vol_k": 2681,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3147",
@@ -28894,7 +29872,13 @@
       "k5_k7_price_gap": 70.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 326.0,
+      "actual_turn": 0.87,
+      "actual_vol_k": 382,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3149",
@@ -29070,7 +30054,13 @@
       "k5_k7_price_gap": 5.5,
       "k5_k7_no_diff_threshold": 106.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 94.1,
+      "actual_turn": 13.22,
+      "actual_vol_k": 29907,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3163",
@@ -29246,7 +30236,13 @@
       "k5_k7_price_gap": 225.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 868.0,
+      "actual_turn": 1.28,
+      "actual_vol_k": 1028,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3167",
@@ -29427,7 +30423,13 @@
       "k5_k7_price_gap": 203.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 780.0,
+      "actual_turn": 0.56,
+      "actual_vol_k": 506,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3191",
@@ -29603,7 +30605,13 @@
       "k5_k7_price_gap": 5.5,
       "k5_k7_no_diff_threshold": 24.9,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 20.0,
+      "actual_turn": 0.41,
+      "actual_vol_k": 180,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3211",
@@ -29779,7 +30787,13 @@
       "k5_k7_price_gap": 86.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 427.5,
+      "actual_turn": 4.87,
+      "actual_vol_k": 7513,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3219",
@@ -29955,7 +30969,13 @@
       "k5_k7_price_gap": 19.7,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 72.0,
+      "actual_turn": 0.36,
+      "actual_vol_k": 255,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3221",
@@ -30131,7 +31151,13 @@
       "k5_k7_price_gap": 14.95,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 55.6,
+      "actual_turn": 5.53,
+      "actual_vol_k": 5815,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3228",
@@ -30307,7 +31333,13 @@
       "k5_k7_price_gap": 29.5,
       "k5_k7_no_diff_threshold": 207.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 187.0,
+      "actual_turn": 0.81,
+      "actual_vol_k": 582,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3229",
@@ -30483,7 +31515,13 @@
       "k5_k7_price_gap": 9.9,
       "k5_k7_no_diff_threshold": 52.7,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 49.5,
+      "actual_turn": 2.99,
+      "actual_vol_k": 1919,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3234",
@@ -30659,7 +31697,13 @@
       "k5_k7_price_gap": 5.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 139.0,
+      "actual_turn": 5.52,
+      "actual_vol_k": 6151,
+      "actual_notice": true,
+      "actual_clauses": "當日本益比為N/A、股價淨值比為21.75且為其所屬產業類別股價淨值比之3.02倍、當日週轉率達5.51%、摩根士丹利證券公司當日買進該有價證券之成交金額達1.05億元，且占當日該有價證券之總成交金額12.2%、單一投資人當日買進該有價證券之成交金額達1.05億元，且占當日該有價證券之總成交金額12.2%(第六款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "3236",
@@ -30835,7 +31879,13 @@
       "k5_k7_price_gap": 15.9,
       "k5_k7_no_diff_threshold": 80.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 61.0,
+      "actual_turn": 7.87,
+      "actual_vol_k": 8266,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3276",
@@ -31011,7 +32061,13 @@
       "k5_k7_price_gap": 4.1,
       "k5_k7_no_diff_threshold": 19.35,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 15.8,
+      "actual_turn": 0.57,
+      "actual_vol_k": 400,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3287",
@@ -31187,7 +32243,13 @@
       "k5_k7_price_gap": 8.6,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 33.75,
+      "actual_turn": 0.29,
+      "actual_vol_k": 128,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3288",
@@ -31363,7 +32425,13 @@
       "k5_k7_price_gap": 6.15,
       "k5_k7_no_diff_threshold": 28.45,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 23.3,
+      "actual_turn": 1.1,
+      "actual_vol_k": 181,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3290",
@@ -31539,7 +32607,13 @@
       "k5_k7_price_gap": 12.5,
       "k5_k7_no_diff_threshold": 79.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 68.9,
+      "actual_turn": 2.92,
+      "actual_vol_k": 2632,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3294",
@@ -31715,7 +32789,13 @@
       "k5_k7_price_gap": 7.35,
       "k5_k7_no_diff_threshold": 46.2,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 38.6,
+      "actual_turn": 0.91,
+      "actual_vol_k": 1203,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3296",
@@ -31891,7 +32971,13 @@
       "k5_k7_price_gap": 2.8,
       "k5_k7_no_diff_threshold": 32.05,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 28.85,
+      "actual_turn": 0.61,
+      "actual_vol_k": 589,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3305",
@@ -32067,7 +33153,13 @@
       "k5_k7_price_gap": 37.5,
       "k5_k7_no_diff_threshold": 181.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 139.0,
+      "actual_turn": 2.51,
+      "actual_vol_k": 3598,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3312",
@@ -32243,7 +33335,13 @@
       "k5_k7_price_gap": 6.1,
       "k5_k7_no_diff_threshold": 73.3,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 63.2,
+      "actual_turn": 4.72,
+      "actual_vol_k": 8625,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3324",
@@ -32419,7 +33517,13 @@
       "k5_k7_price_gap": 265.0,
       "k5_k7_no_diff_threshold": 1335.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1025.0,
+      "actual_turn": 2.51,
+      "actual_vol_k": 2338,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3346",
@@ -32595,7 +33699,13 @@
       "k5_k7_price_gap": 4.8,
       "k5_k7_no_diff_threshold": 29.75,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 24.6,
+      "actual_turn": 1.14,
+      "actual_vol_k": 1383,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3354",
@@ -32771,7 +33881,13 @@
       "k5_k7_price_gap": 6.75,
       "k5_k7_no_diff_threshold": 35.35,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 28.2,
+      "actual_turn": 0.88,
+      "actual_vol_k": 619,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3357",
@@ -32947,7 +34063,13 @@
       "k5_k7_price_gap": 41.0,
       "k5_k7_no_diff_threshold": 378.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 315.0,
+      "actual_turn": 6.43,
+      "actual_vol_k": 7472,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3363",
@@ -33123,7 +34245,13 @@
       "k5_k7_price_gap": 170.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 685.0,
+      "actual_turn": 2.15,
+      "actual_vol_k": 2448,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3374",
@@ -33299,7 +34427,13 @@
       "k5_k7_price_gap": 51.0,
       "k5_k7_no_diff_threshold": 302.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 301.0,
+      "actual_turn": 10.88,
+      "actual_vol_k": 29536,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3376",
@@ -33475,7 +34609,13 @@
       "k5_k7_price_gap": 53.5,
       "k5_k7_no_diff_threshold": 252.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 202.5,
+      "actual_turn": 2.66,
+      "actual_vol_k": 5210,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3406",
@@ -33651,7 +34791,13 @@
       "k5_k7_price_gap": 97.0,
       "k5_k7_no_diff_threshold": 842.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 741.0,
+      "actual_turn": 4.42,
+      "actual_vol_k": 4985,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3430",
@@ -33827,7 +34973,13 @@
       "k5_k7_price_gap": 13.5,
       "k5_k7_no_diff_threshold": 162.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 149.0,
+      "actual_turn": 4.67,
+      "actual_vol_k": 1574,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3441",
@@ -34003,7 +35155,13 @@
       "k5_k7_price_gap": 5.4,
       "k5_k7_no_diff_threshold": 90.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 82.1,
+      "actual_turn": 5.25,
+      "actual_vol_k": 2103,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3443",
@@ -34179,7 +35337,13 @@
       "k5_k7_price_gap": 1295.0,
       "k5_k7_no_diff_threshold": 5525.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 4725.0,
+      "actual_turn": 1.43,
+      "actual_vol_k": 1910,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3450",
@@ -34355,7 +35519,13 @@
       "k5_k7_price_gap": 89.0,
       "k5_k7_no_diff_threshold": 585.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 612.0,
+      "actual_turn": 14.02,
+      "actual_vol_k": 20431,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達29.98%。且六個營業日起迄兩個營業日收盤價價差達106.00元﹝第一款﹞。且06月23日之週轉率為14.02%﹝第四款﹞。06月23日之本益比為 182.14，且股價淨值比為17.09 。另當日週轉率為14.02%，暨元大證券商成交買進金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為26.26%。單一投資人當日買進該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "3455",
@@ -34531,7 +35701,13 @@
       "k5_k7_price_gap": 18.5,
       "k5_k7_no_diff_threshold": 279.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 266.5,
+      "actual_turn": 8.93,
+      "actual_vol_k": 5343,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3466",
@@ -34707,7 +35883,13 @@
       "k5_k7_price_gap": 6.2,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 32.1,
+      "actual_turn": 0.31,
+      "actual_vol_k": 244,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3479",
@@ -34883,7 +36065,13 @@
       "k5_k7_price_gap": 34.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 133.0,
+      "actual_turn": 1.13,
+      "actual_vol_k": 823,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3485",
@@ -35059,7 +36247,13 @@
       "k5_k7_price_gap": 89.5,
       "k5_k7_no_diff_threshold": 400.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 297.5,
+      "actual_turn": 1.42,
+      "actual_vol_k": 546,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3490",
@@ -35235,7 +36429,13 @@
       "k5_k7_price_gap": 8.35,
       "k5_k7_no_diff_threshold": 41.15,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 32.5,
+      "actual_turn": 1.24,
+      "actual_vol_k": 682,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3491",
@@ -35411,7 +36611,13 @@
       "k5_k7_price_gap": 200.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1355.0,
+      "actual_turn": 5.16,
+      "actual_vol_k": 3547,
+      "actual_notice": true,
+      "actual_clauses": "當日本益比為148.25、股價淨值比為26.76且為其所屬產業類別股價淨值比之3.72倍、當日週轉率達5.15%、摩根士丹利證券公司當日買進該有價證券之成交金額達6.76億元，且占當日該有價證券之總成交金額13.77%、單一投資人當日買進該有價證券之成交金額達6.76億元，且占當日該有價證券之總成交金額13.77%(第六款)<br>最近六個營業日(自當日之前一個營業日起)之借券賣出成交量占總成交量比率達13.21%，當日之前一個營業日借券賣出成交量較最近六十個營業日(自當日之前一個營業日起)之日平均借券賣出成交量放大為5倍(第十二款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "3498",
@@ -35587,7 +36793,13 @@
       "k5_k7_price_gap": 31.5,
       "k5_k7_no_diff_threshold": 154.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 118.5,
+      "actual_turn": 1.57,
+      "actual_vol_k": 962,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3511",
@@ -35763,7 +36975,13 @@
       "k5_k7_price_gap": 6.5,
       "k5_k7_no_diff_threshold": 30.15,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 24.0,
+      "actual_turn": 0.52,
+      "actual_vol_k": 418,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3520",
@@ -35939,7 +37157,13 @@
       "k5_k7_price_gap": 4.3,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 16.25,
+      "actual_turn": 0.85,
+      "actual_vol_k": 583,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3523",
@@ -36120,7 +37344,13 @@
       "k5_k7_price_gap": 2.55,
       "k5_k7_no_diff_threshold": 20.45,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 20.0,
+      "actual_turn": 0.63,
+      "actual_vol_k": 402,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3528",
@@ -36296,7 +37526,13 @@
       "k5_k7_price_gap": 19.6,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 105.0,
+      "actual_turn": 1.96,
+      "actual_vol_k": 1306,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3529",
@@ -36472,7 +37708,13 @@
       "k5_k7_price_gap": 960.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 3185.0,
+      "actual_turn": 0.83,
+      "actual_vol_k": 617,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3533",
@@ -36648,7 +37890,13 @@
       "k5_k7_price_gap": 615.0,
       "k5_k7_no_diff_threshold": 2820.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 2235.0,
+      "actual_turn": 0.64,
+      "actual_vol_k": 721,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3535",
@@ -36824,7 +38072,13 @@
       "k5_k7_price_gap": 34.0,
       "k5_k7_no_diff_threshold": 157.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 122.0,
+      "actual_turn": 3.91,
+      "actual_vol_k": 3088,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3537",
@@ -37000,7 +38254,13 @@
       "k5_k7_price_gap": 13.7,
       "k5_k7_no_diff_threshold": 97.3,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 81.2,
+      "actual_turn": 8.21,
+      "actual_vol_k": 4619,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3550",
@@ -37176,7 +38436,13 @@
       "k5_k7_price_gap": 2.6,
       "k5_k7_no_diff_threshold": 36.75,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 35.0,
+      "actual_turn": 5.86,
+      "actual_vol_k": 6297,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3555",
@@ -37352,7 +38618,13 @@
       "k5_k7_price_gap": 58.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 202.0,
+      "actual_turn": 0.42,
+      "actual_vol_k": 170,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3556",
@@ -37528,7 +38800,13 @@
       "k5_k7_price_gap": 18.6,
       "k5_k7_no_diff_threshold": 87.6,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 74.4,
+      "actual_turn": 2.34,
+      "actual_vol_k": 1488,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3563",
@@ -37704,7 +38982,13 @@
       "k5_k7_price_gap": 187.0,
       "k5_k7_no_diff_threshold": 888.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 707.0,
+      "actual_turn": 1.09,
+      "actual_vol_k": 700,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3577",
@@ -37880,7 +39164,13 @@
       "k5_k7_price_gap": 32.9,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 121.0,
+      "actual_turn": 0.52,
+      "actual_vol_k": 335,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3580",
@@ -38056,7 +39346,13 @@
       "k5_k7_price_gap": 19.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 96.4,
+      "actual_turn": 4.43,
+      "actual_vol_k": 1748,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3581",
@@ -38237,7 +39533,13 @@
       "k5_k7_price_gap": 21.5,
       "k5_k7_no_diff_threshold": 183.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 162.0,
+      "actual_turn": 0.77,
+      "actual_vol_k": 392,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3583",
@@ -38413,7 +39715,13 @@
       "k5_k7_price_gap": 231.0,
       "k5_k7_no_diff_threshold": 1020.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 882.0,
+      "actual_turn": 2.1,
+      "actual_vol_k": 1685,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3615",
@@ -38589,7 +39897,13 @@
       "k5_k7_price_gap": 4.7,
       "k5_k7_no_diff_threshold": 64.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 56.1,
+      "actual_turn": 22.32,
+      "actual_vol_k": 15279,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3645",
@@ -38765,7 +40079,13 @@
       "k5_k7_price_gap": 22.9,
       "k5_k7_no_diff_threshold": 114.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 92.1,
+      "actual_turn": 1.44,
+      "actual_vol_k": 1976,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3652",
@@ -38941,7 +40261,13 @@
       "k5_k7_price_gap": 2.75,
       "k5_k7_no_diff_threshold": 45.35,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 40.75,
+      "actual_turn": 7.41,
+      "actual_vol_k": 5566,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3653",
@@ -39117,7 +40443,13 @@
       "k5_k7_price_gap": 985.0,
       "k5_k7_no_diff_threshold": 4640.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 3840.0,
+      "actual_turn": 0.7,
+      "actual_vol_k": 1032,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3661",
@@ -39293,7 +40625,13 @@
       "k5_k7_price_gap": 1315.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 4375.0,
+      "actual_turn": 2.73,
+      "actual_vol_k": 2239,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3663",
@@ -39469,7 +40807,13 @@
       "k5_k7_price_gap": 2.2,
       "k5_k7_no_diff_threshold": 88.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 82.9,
+      "actual_turn": 2.63,
+      "actual_vol_k": 2849,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3664",
@@ -39645,7 +40989,13 @@
       "k5_k7_price_gap": 1.27,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 7.5,
+      "actual_turn": 0.09,
+      "actual_vol_k": 62,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3665",
@@ -39821,7 +41171,13 @@
       "k5_k7_price_gap": 210.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 2000.0,
+      "actual_turn": 1.0,
+      "actual_vol_k": 1956,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3673",
@@ -39997,7 +41353,13 @@
       "k5_k7_price_gap": 16.0,
       "k5_k7_no_diff_threshold": 101.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 82.2,
+      "actual_turn": 5.97,
+      "actual_vol_k": 24261,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3680",
@@ -40173,7 +41535,13 @@
       "k5_k7_price_gap": 151.0,
       "k5_k7_no_diff_threshold": 648.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 537.0,
+      "actual_turn": 1.54,
+      "actual_vol_k": 1483,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3693",
@@ -40349,7 +41717,13 @@
       "k5_k7_price_gap": 126.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 496.0,
+      "actual_turn": 1.51,
+      "actual_vol_k": 650,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3694",
@@ -40525,7 +41899,13 @@
       "k5_k7_price_gap": 13.6,
       "k5_k7_no_diff_threshold": 75.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 60.4,
+      "actual_turn": 0.67,
+      "actual_vol_k": 1032,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3711",
@@ -40701,7 +42081,13 @@
       "k5_k7_price_gap": 150.0,
       "k5_k7_no_diff_threshold": 750.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 662.0,
+      "actual_turn": 1.0,
+      "actual_vol_k": 44546,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "3712",
@@ -40877,7 +42263,13 @@
       "k5_k7_price_gap": 3.7,
       "k5_k7_no_diff_threshold": 21.7,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 17.95,
+      "actual_turn": 0.22,
+      "actual_vol_k": 540,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4127",
@@ -41053,7 +42445,13 @@
       "k5_k7_price_gap": 14.6,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 64.0,
+      "actual_turn": 0.62,
+      "actual_vol_k": 283,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4128",
@@ -41229,7 +42627,13 @@
       "k5_k7_price_gap": 3.9,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 15.1,
+      "actual_turn": 0.5,
+      "actual_vol_k": 2950,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4153",
@@ -41405,7 +42809,13 @@
       "k5_k7_price_gap": 7.95,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 29.9,
+      "actual_turn": 0.03,
+      "actual_vol_k": 17,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4163",
@@ -41581,7 +42991,13 @@
       "k5_k7_price_gap": 26.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 129.5,
+      "actual_turn": 0.81,
+      "actual_vol_k": 413,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4174",
@@ -41757,7 +43173,13 @@
       "k5_k7_price_gap": 7.25,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 29.4,
+      "actual_turn": 2.0,
+      "actual_vol_k": 2638,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4402",
@@ -41933,7 +43355,13 @@
       "k5_k7_price_gap": 4.05,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 17.0,
+      "actual_turn": 0.04,
+      "actual_vol_k": 29,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4414",
@@ -42109,7 +43537,13 @@
       "k5_k7_price_gap": 2.06,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 8.42,
+      "actual_turn": 0.09,
+      "actual_vol_k": 241,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4529",
@@ -42285,7 +43719,13 @@
       "k5_k7_price_gap": 1.13,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 4.72,
+      "actual_turn": 0.09,
+      "actual_vol_k": 77,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4540",
@@ -42461,7 +43901,13 @@
       "k5_k7_price_gap": 15.1,
       "k5_k7_no_diff_threshold": 77.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 59.5,
+      "actual_turn": 1.89,
+      "actual_vol_k": 2175,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4542",
@@ -42637,7 +44083,13 @@
       "k5_k7_price_gap": 46.0,
       "k5_k7_no_diff_threshold": 435.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 385.0,
+      "actual_turn": 0.6,
+      "actual_vol_k": 209,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4545",
@@ -42813,7 +44265,13 @@
       "k5_k7_price_gap": 6.85,
       "k5_k7_no_diff_threshold": 44.3,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 37.95,
+      "actual_turn": 0.43,
+      "actual_vol_k": 331,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4549",
@@ -42989,7 +44447,13 @@
       "k5_k7_price_gap": 28.7,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 104.0,
+      "actual_turn": 0.59,
+      "actual_vol_k": 337,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4551",
@@ -43165,7 +44629,13 @@
       "k5_k7_price_gap": -36.5,
       "k5_k7_no_diff_threshold": 189.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 245.0,
+      "actual_turn": 1.36,
+      "actual_vol_k": 1562,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達49.89%。且六個營業日起迄兩個營業日收盤價價差達78.00 元﹝第一款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "4555",
@@ -43341,7 +44811,13 @@
       "k5_k7_price_gap": 8.95,
       "k5_k7_no_diff_threshold": 57.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 48.05,
+      "actual_turn": 0.32,
+      "actual_vol_k": 224,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4556",
@@ -43517,7 +44993,13 @@
       "k5_k7_price_gap": 7.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 73.1,
+      "actual_turn": 0.81,
+      "actual_vol_k": 342,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4561",
@@ -43693,7 +45175,13 @@
       "k5_k7_price_gap": 10.7,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 41.55,
+      "actual_turn": 0.55,
+      "actual_vol_k": 323,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4707",
@@ -43869,7 +45357,13 @@
       "k5_k7_price_gap": 2.85,
       "k5_k7_no_diff_threshold": 25.95,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 21.1,
+      "actual_turn": 1.31,
+      "actual_vol_k": 5306,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4729",
@@ -44045,7 +45539,13 @@
       "k5_k7_price_gap": 4.6,
       "k5_k7_no_diff_threshold": 28.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 22.75,
+      "actual_turn": 1.98,
+      "actual_vol_k": 1570,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4741",
@@ -44221,7 +45721,13 @@
       "k5_k7_price_gap": 4.4,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 61.4,
+      "actual_turn": 2.65,
+      "actual_vol_k": 922,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4744",
@@ -44397,7 +45903,13 @@
       "k5_k7_price_gap": 5.25,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 26.85,
+      "actual_turn": 0.17,
+      "actual_vol_k": 95,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4746",
@@ -44573,7 +46085,13 @@
       "k5_k7_price_gap": 12.3,
       "k5_k7_no_diff_threshold": 64.7,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 51.7,
+      "actual_turn": 0.47,
+      "actual_vol_k": 570,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4749",
@@ -44749,7 +46267,13 @@
       "k5_k7_price_gap": 304.0,
       "k5_k7_no_diff_threshold": 1180.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 917.0,
+      "actual_turn": 2.23,
+      "actual_vol_k": 2115,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(自當日之前一個營業日起)之借券賣出成交量占總成交量比率達21.33%，當日之前一個營業日借券賣出成交量較最近六十個營業日(自當日之前一個營業日起)之日平均借券賣出成交量放大為6倍(第十二款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "4760",
@@ -44925,7 +46449,13 @@
       "k5_k7_price_gap": 97.0,
       "k5_k7_no_diff_threshold": 478.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 349.5,
+      "actual_turn": 5.21,
+      "actual_vol_k": 1679,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4768",
@@ -45101,7 +46631,13 @@
       "k5_k7_price_gap": 98.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 374.0,
+      "actual_turn": 1.95,
+      "actual_vol_k": 926,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4807",
@@ -45277,7 +46813,13 @@
       "k5_k7_price_gap": 7.55,
       "k5_k7_no_diff_threshold": 51.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 43.55,
+      "actual_turn": 1.21,
+      "actual_vol_k": 593,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4906",
@@ -45453,7 +46995,13 @@
       "k5_k7_price_gap": 7.75,
       "k5_k7_no_diff_threshold": 55.3,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 44.5,
+      "actual_turn": 4.82,
+      "actual_vol_k": 21770,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4908",
@@ -45629,7 +47177,13 @@
       "k5_k7_price_gap": 51.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 211.5,
+      "actual_turn": 7.26,
+      "actual_vol_k": 5680,
+      "actual_notice": true,
+      "actual_clauses": "最近九十個營業日(含當日)起迄兩個營業日之最後成交價漲幅達200%(第二款)<br>當日本益比為106.82、股價淨值比為9.28且為其所屬產業類別股價淨值比之1.29倍、當日週轉率達7.26%、單一投資人當日買進該有價證券之成交金額達1.33億元，且占當日該有價證券之總成交金額11.03%(第六款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "4909",
@@ -45805,7 +47359,13 @@
       "k5_k7_price_gap": 12.85,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 48.05,
+      "actual_turn": 1.01,
+      "actual_vol_k": 946,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4912",
@@ -45981,7 +47541,13 @@
       "k5_k7_price_gap": 21.7,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 88.1,
+      "actual_turn": 0.56,
+      "actual_vol_k": 375,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4916",
@@ -46157,7 +47723,13 @@
       "k5_k7_price_gap": 24.3,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 100.0,
+      "actual_turn": 6.18,
+      "actual_vol_k": 7663,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4919",
@@ -46333,7 +47905,13 @@
       "k5_k7_price_gap": 30.5,
       "k5_k7_no_diff_threshold": 223.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 194.5,
+      "actual_turn": 8.02,
+      "actual_vol_k": 34777,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4927",
@@ -46509,7 +48087,13 @@
       "k5_k7_price_gap": 12.8,
       "k5_k7_no_diff_threshold": 62.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 48.9,
+      "actual_turn": 3.52,
+      "actual_vol_k": 9316,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4931",
@@ -46685,7 +48269,13 @@
       "k5_k7_price_gap": 38.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 261.5,
+      "actual_turn": 17.33,
+      "actual_vol_k": 11363,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4933",
@@ -46861,7 +48451,13 @@
       "k5_k7_price_gap": 18.6,
       "k5_k7_no_diff_threshold": 85.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 67.5,
+      "actual_turn": 0.33,
+      "actual_vol_k": 275,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4939",
@@ -47037,7 +48633,13 @@
       "k5_k7_price_gap": 14.05,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 60.0,
+      "actual_turn": 5.58,
+      "actual_vol_k": 5477,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4958",
@@ -47213,7 +48815,13 @@
       "k5_k7_price_gap": 109.0,
       "k5_k7_no_diff_threshold": 701.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 587.0,
+      "actual_turn": 3.72,
+      "actual_vol_k": 40125,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4966",
@@ -47389,7 +48997,13 @@
       "k5_k7_price_gap": 209.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 661.0,
+      "actual_turn": 2.73,
+      "actual_vol_k": 2158,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4967",
@@ -47565,7 +49179,13 @@
       "k5_k7_price_gap": 84.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 272.0,
+      "actual_turn": 6.48,
+      "actual_vol_k": 6116,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4971",
@@ -47741,7 +49361,13 @@
       "k5_k7_price_gap": 169.0,
       "k5_k7_no_diff_threshold": 688.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 540.0,
+      "actual_turn": 2.8,
+      "actual_vol_k": 1322,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4973",
@@ -47917,7 +49543,13 @@
       "k5_k7_price_gap": 54.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 183.0,
+      "actual_turn": 5.84,
+      "actual_vol_k": 3810,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4976",
@@ -48093,7 +49725,13 @@
       "k5_k7_price_gap": 1.8,
       "k5_k7_no_diff_threshold": 41.2,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 39.15,
+      "actual_turn": 3.2,
+      "actual_vol_k": 4518,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4977",
@@ -48269,7 +49907,13 @@
       "k5_k7_price_gap": 37.5,
       "k5_k7_no_diff_threshold": 228.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 185.5,
+      "actual_turn": 3.04,
+      "actual_vol_k": 2460,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4979",
@@ -48445,7 +50089,13 @@
       "k5_k7_price_gap": 92.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 525.0,
+      "actual_turn": 3.92,
+      "actual_vol_k": 5589,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4989",
@@ -48621,7 +50271,13 @@
       "k5_k7_price_gap": 12.0,
       "k5_k7_no_diff_threshold": 101.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 94.0,
+      "actual_turn": 11.31,
+      "actual_vol_k": 15576,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "4991",
@@ -48797,7 +50453,13 @@
       "k5_k7_price_gap": 165.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 536.0,
+      "actual_turn": 1.05,
+      "actual_vol_k": 1271,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5202",
@@ -48973,7 +50635,13 @@
       "k5_k7_price_gap": 3.65,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 14.85,
+      "actual_turn": 0.4,
+      "actual_vol_k": 355,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5215",
@@ -49149,7 +50817,13 @@
       "k5_k7_price_gap": 9.15,
       "k5_k7_no_diff_threshold": 54.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 44.75,
+      "actual_turn": 0.12,
+      "actual_vol_k": 74,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5228",
@@ -49325,7 +50999,13 @@
       "k5_k7_price_gap": 19.4,
       "k5_k7_no_diff_threshold": 87.6,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 64.3,
+      "actual_turn": 3.69,
+      "actual_vol_k": 1405,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5269",
@@ -49501,7 +51181,13 @@
       "k5_k7_price_gap": 445.0,
       "k5_k7_no_diff_threshold": 1735.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1425.0,
+      "actual_turn": 1.2,
+      "actual_vol_k": 892,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5274",
@@ -49677,7 +51363,13 @@
       "k5_k7_price_gap": 6070.0,
       "k5_k7_no_diff_threshold": 23605.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 18505.0,
+      "actual_turn": 0.58,
+      "actual_vol_k": 221,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5278",
@@ -49853,7 +51545,13 @@
       "k5_k7_price_gap": 5.85,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 23.65,
+      "actual_turn": 0.08,
+      "actual_vol_k": 253,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5285",
@@ -50029,7 +51727,13 @@
       "k5_k7_price_gap": 23.0,
       "k5_k7_no_diff_threshold": 114.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 100.0,
+      "actual_turn": 11.28,
+      "actual_vol_k": 11508,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5289",
@@ -50205,7 +51909,13 @@
       "k5_k7_price_gap": 355.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1885.0,
+      "actual_turn": 2.66,
+      "actual_vol_k": 2558,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5291",
@@ -50381,7 +52091,13 @@
       "k5_k7_price_gap": 17.25,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 62.24,
+      "actual_turn": 1.05,
+      "actual_vol_k": 418,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5321",
@@ -50566,7 +52282,13 @@
       "k5_k7_price_gap": 3.15,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 47.9,
+      "actual_turn": 0.92,
+      "actual_vol_k": 490,
+      "actual_notice": true,
+      "actual_clauses": "最近三十個營業日(含當日)起迄兩個營業日之最後成交價漲幅達112.88%(第二款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "5345",
@@ -50742,7 +52464,13 @@
       "k5_k7_price_gap": 7.65,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 30.0,
+      "actual_turn": 0.14,
+      "actual_vol_k": 54,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5351",
@@ -50918,7 +52646,13 @@
       "k5_k7_price_gap": 24.2,
       "k5_k7_no_diff_threshold": 115.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 91.0,
+      "actual_turn": 11.92,
+      "actual_vol_k": 39156,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5381",
@@ -51094,7 +52828,13 @@
       "k5_k7_price_gap": 7.5,
       "k5_k7_no_diff_threshold": 35.9,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 28.2,
+      "actual_turn": 0.93,
+      "actual_vol_k": 1925,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5386",
@@ -51270,7 +53010,13 @@
       "k5_k7_price_gap": 97.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 502.0,
+      "actual_turn": 3.13,
+      "actual_vol_k": 1128,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5392",
@@ -51446,7 +53192,13 @@
       "k5_k7_price_gap": 11.4,
       "k5_k7_no_diff_threshold": 53.7,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 43.35,
+      "actual_turn": 2.37,
+      "actual_vol_k": 4176,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5426",
@@ -51622,7 +53374,13 @@
       "k5_k7_price_gap": 2.45,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 37.0,
+      "actual_turn": 1.83,
+      "actual_vol_k": 2625,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5457",
@@ -51798,7 +53556,13 @@
       "k5_k7_price_gap": 9.5,
       "k5_k7_no_diff_threshold": 45.25,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 36.0,
+      "actual_turn": 0.74,
+      "actual_vol_k": 1457,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5464",
@@ -51974,7 +53738,13 @@
       "k5_k7_price_gap": 14.0,
       "k5_k7_no_diff_threshold": 92.7,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 89.1,
+      "actual_turn": 2.62,
+      "actual_vol_k": 1862,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5475",
@@ -52150,7 +53920,13 @@
       "k5_k7_price_gap": 40.5,
       "k5_k7_no_diff_threshold": 309.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 279.0,
+      "actual_turn": 2.45,
+      "actual_vol_k": 3111,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5536",
@@ -52326,7 +54102,13 @@
       "k5_k7_price_gap": 240.0,
       "k5_k7_no_diff_threshold": 1515.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1260.0,
+      "actual_turn": 0.72,
+      "actual_vol_k": 889,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5701",
@@ -52502,7 +54284,13 @@
       "k5_k7_price_gap": 0.89,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 5.05,
+      "actual_turn": 0.15,
+      "actual_vol_k": 218,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "5864",
@@ -52678,7 +54466,13 @@
       "k5_k7_price_gap": 10.2,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 49.85,
+      "actual_turn": 1.87,
+      "actual_vol_k": 8520,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6127",
@@ -52854,7 +54648,13 @@
       "k5_k7_price_gap": 15.2,
       "k5_k7_no_diff_threshold": 98.1,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 81.0,
+      "actual_turn": 3.51,
+      "actual_vol_k": 3791,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6138",
@@ -53030,7 +54830,13 @@
       "k5_k7_price_gap": 46.5,
       "k5_k7_no_diff_threshold": 405.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 361.0,
+      "actual_turn": 5.66,
+      "actual_vol_k": 4279,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6139",
@@ -53206,7 +55012,13 @@
       "k5_k7_price_gap": 210.0,
       "k5_k7_no_diff_threshold": 1005.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 791.0,
+      "actual_turn": 1.35,
+      "actual_vol_k": 3190,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6140",
@@ -53382,7 +55194,13 @@
       "k5_k7_price_gap": 4.4,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 20.2,
+      "actual_turn": 0.26,
+      "actual_vol_k": 144,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6147",
@@ -53558,7 +55376,13 @@
       "k5_k7_price_gap": 35.0,
       "k5_k7_no_diff_threshold": 287.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 258.0,
+      "actual_turn": 6.91,
+      "actual_vol_k": 51449,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6148",
@@ -53734,7 +55558,13 @@
       "k5_k7_price_gap": 8.05,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 32.6,
+      "actual_turn": 1.08,
+      "actual_vol_k": 502,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6155",
@@ -53910,7 +55740,13 @@
       "k5_k7_price_gap": 12.3,
       "k5_k7_no_diff_threshold": 104.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 88.5,
+      "actual_turn": 12.72,
+      "actual_vol_k": 11200,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6161",
@@ -54086,7 +55922,13 @@
       "k5_k7_price_gap": 14.4,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 52.5,
+      "actual_turn": 0.41,
+      "actual_vol_k": 233,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6166",
@@ -54262,7 +56104,13 @@
       "k5_k7_price_gap": 6.0,
       "k5_k7_no_diff_threshold": 163.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 156.5,
+      "actual_turn": 1.12,
+      "actual_vol_k": 2441,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6173",
@@ -54443,7 +56291,13 @@
       "k5_k7_price_gap": 58.0,
       "k5_k7_no_diff_threshold": 355.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 285.0,
+      "actual_turn": 1.03,
+      "actual_vol_k": 1772,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6174",
@@ -54619,7 +56473,13 @@
       "k5_k7_price_gap": 14.3,
       "k5_k7_no_diff_threshold": 63.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 48.95,
+      "actual_turn": 2.91,
+      "actual_vol_k": 1456,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6175",
@@ -54795,7 +56655,13 @@
       "k5_k7_price_gap": 20.0,
       "k5_k7_no_diff_threshold": 126.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 110.5,
+      "actual_turn": 9.74,
+      "actual_vol_k": 14623,
+      "actual_notice": true,
+      "actual_clauses": "最近六十個營業日(含當日)起迄兩個營業日之最後成交價漲幅達147.48%(第二款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "6180",
@@ -54971,7 +56837,13 @@
       "k5_k7_price_gap": 6.3,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 50.3,
+      "actual_turn": 1.19,
+      "actual_vol_k": 2087,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6187",
@@ -55147,7 +57019,13 @@
       "k5_k7_price_gap": 265.0,
       "k5_k7_no_diff_threshold": 1410.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1170.0,
+      "actual_turn": 1.33,
+      "actual_vol_k": 1307,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6203",
@@ -55323,7 +57201,13 @@
       "k5_k7_price_gap": 19.1,
       "k5_k7_no_diff_threshold": 85.3,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 68.0,
+      "actual_turn": 0.26,
+      "actual_vol_k": 217,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6207",
@@ -55499,7 +57383,13 @@
       "k5_k7_price_gap": -0.5,
       "k5_k7_no_diff_threshold": 160.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 155.5,
+      "actual_turn": 15.77,
+      "actual_vol_k": 13749,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(自當日之前一個營業日起)之當日沖銷成交量占總成交量比率達60.26%，當日之前一個營業日當日沖銷成交量占總成交量達62.46%（第十三款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "6208",
@@ -55675,7 +57565,13 @@
       "k5_k7_price_gap": 16.0,
       "k5_k7_no_diff_threshold": 112.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 100.5,
+      "actual_turn": 3.58,
+      "actual_vol_k": 3379,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6209",
@@ -55851,7 +57747,13 @@
       "k5_k7_price_gap": 11.8,
       "k5_k7_no_diff_threshold": 105.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 90.3,
+      "actual_turn": 8.54,
+      "actual_vol_k": 15467,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6213",
@@ -56027,7 +57929,13 @@
       "k5_k7_price_gap": 28.5,
       "k5_k7_no_diff_threshold": 321.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 281.0,
+      "actual_turn": 7.88,
+      "actual_vol_k": 28641,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6215",
@@ -56203,7 +58111,13 @@
       "k5_k7_price_gap": 27.5,
       "k5_k7_no_diff_threshold": 134.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 106.0,
+      "actual_turn": 1.21,
+      "actual_vol_k": 999,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6217",
@@ -56379,7 +58293,13 @@
       "k5_k7_price_gap": 44.0,
       "k5_k7_no_diff_threshold": 308.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 273.0,
+      "actual_turn": 13.67,
+      "actual_vol_k": 16021,
+      "actual_notice": true,
+      "actual_clauses": "當日本益比為N/A、股價淨值比為10.54且為其所屬產業類別股價淨值比之2.1倍、當日週轉率達13.66%(第六款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "6223",
@@ -56555,7 +58475,13 @@
       "k5_k7_price_gap": 1680.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 6680.0,
+      "actual_turn": 1.29,
+      "actual_vol_k": 1266,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6225",
@@ -56731,7 +58657,13 @@
       "k5_k7_price_gap": 3.9,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 22.55,
+      "actual_turn": 0.06,
+      "actual_vol_k": 18,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6237",
@@ -56907,7 +58839,13 @@
       "k5_k7_price_gap": 13.55,
       "k5_k7_no_diff_threshold": 56.9,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 46.3,
+      "actual_turn": 0.65,
+      "actual_vol_k": 519,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6239",
@@ -57083,7 +59021,13 @@
       "k5_k7_price_gap": 111.5,
       "k5_k7_no_diff_threshold": 437.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 344.0,
+      "actual_turn": 6.26,
+      "actual_vol_k": 47542,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6241",
@@ -57259,7 +59203,13 @@
       "k5_k7_price_gap": 3.45,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 14.45,
+      "actual_turn": 0.64,
+      "actual_vol_k": 311,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6259",
@@ -57435,7 +59385,13 @@
       "k5_k7_price_gap": -2.8,
       "k5_k7_no_diff_threshold": 35.45,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 36.15,
+      "actual_turn": 10.84,
+      "actual_vol_k": 3041,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)累積之最後成交價漲幅達28.83%，當日週轉率達10.84%(第四款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "6261",
@@ -57611,7 +59567,13 @@
       "k5_k7_price_gap": 31.3,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 97.2,
+      "actual_turn": 1.14,
+      "actual_vol_k": 1470,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6263",
@@ -57787,7 +59749,13 @@
       "k5_k7_price_gap": 39.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 158.0,
+      "actual_turn": 0.53,
+      "actual_vol_k": 331,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6265",
@@ -57963,7 +59931,13 @@
       "k5_k7_price_gap": 15.2,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 56.6,
+      "actual_turn": 7.64,
+      "actual_vol_k": 9034,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6269",
@@ -58139,7 +60113,13 @@
       "k5_k7_price_gap": 8.7,
       "k5_k7_no_diff_threshold": 92.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 83.8,
+      "actual_turn": 9.05,
+      "actual_vol_k": 29303,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6270",
@@ -58315,7 +60295,13 @@
       "k5_k7_price_gap": 5.75,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 38.3,
+      "actual_turn": 8.96,
+      "actual_vol_k": 6467,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6271",
@@ -58491,7 +60477,13 @@
       "k5_k7_price_gap": 63.5,
       "k5_k7_no_diff_threshold": 301.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 244.5,
+      "actual_turn": 8.32,
+      "actual_vol_k": 17385,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6274",
@@ -58667,7 +60659,13 @@
       "k5_k7_price_gap": 10.0,
       "k5_k7_no_diff_threshold": 1855.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1735.0,
+      "actual_turn": 2.27,
+      "actual_vol_k": 6716,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6278",
@@ -58843,7 +60841,13 @@
       "k5_k7_price_gap": 47.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 204.0,
+      "actual_turn": 2.52,
+      "actual_vol_k": 7360,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6282",
@@ -59019,7 +61023,13 @@
       "k5_k7_price_gap": 12.7,
       "k5_k7_no_diff_threshold": 73.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 61.5,
+      "actual_turn": 7.1,
+      "actual_vol_k": 60744,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6284",
@@ -59195,7 +61205,13 @@
       "k5_k7_price_gap": 25.5,
       "k5_k7_no_diff_threshold": 126.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 101.0,
+      "actual_turn": 2.36,
+      "actual_vol_k": 3510,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6285",
@@ -59371,7 +61387,13 @@
       "k5_k7_price_gap": 65.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 254.0,
+      "actual_turn": 3.67,
+      "actual_vol_k": 17768,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6290",
@@ -59547,7 +61569,13 @@
       "k5_k7_price_gap": 77.5,
       "k5_k7_no_diff_threshold": 386.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 306.0,
+      "actual_turn": 2.75,
+      "actual_vol_k": 4661,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(自當日之前一個營業日起)之借券賣出成交量占總成交量比率達19.43%，當日之前一個營業日借券賣出成交量較最近六十個營業日(自當日之前一個營業日起)之日平均借券賣出成交量放大為5倍(第十二款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "6291",
@@ -59723,7 +61751,13 @@
       "k5_k7_price_gap": 151.0,
       "k5_k7_no_diff_threshold": 689.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 543.0,
+      "actual_turn": 3.19,
+      "actual_vol_k": 1340,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6292",
@@ -59899,7 +61933,13 @@
       "k5_k7_price_gap": 11.7,
       "k5_k7_no_diff_threshold": 76.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 62.2,
+      "actual_turn": 1.0,
+      "actual_vol_k": 465,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6405",
@@ -60075,7 +62115,13 @@
       "k5_k7_price_gap": 17.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 67.8,
+      "actual_turn": 3.36,
+      "actual_vol_k": 2211,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6409",
@@ -60251,7 +62297,13 @@
       "k5_k7_price_gap": 247.0,
       "k5_k7_no_diff_threshold": 1165.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 912.0,
+      "actual_turn": 0.7,
+      "actual_vol_k": 618,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6411",
@@ -60427,7 +62479,13 @@
       "k5_k7_price_gap": 23.0,
       "k5_k7_no_diff_threshold": 126.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 104.5,
+      "actual_turn": 4.96,
+      "actual_vol_k": 4933,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6419",
@@ -60603,7 +62661,13 @@
       "k5_k7_price_gap": 36.0,
       "k5_k7_no_diff_threshold": 185.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 155.0,
+      "actual_turn": 4.49,
+      "actual_vol_k": 591,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6426",
@@ -60779,7 +62843,13 @@
       "k5_k7_price_gap": 28.5,
       "k5_k7_no_diff_threshold": 245.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 217.0,
+      "actual_turn": 2.97,
+      "actual_vol_k": 1145,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6432",
@@ -60955,7 +63025,13 @@
       "k5_k7_price_gap": 11.2,
       "k5_k7_no_diff_threshold": 90.2,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 74.0,
+      "actual_turn": 8.61,
+      "actual_vol_k": 2958,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)之累積週轉率為91.85%，當日週轉率達8.6%(第十款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "6442",
@@ -61131,7 +63207,13 @@
       "k5_k7_price_gap": 275.0,
       "k5_k7_no_diff_threshold": 2355.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1980.0,
+      "actual_turn": 4.59,
+      "actual_vol_k": 3744,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6446",
@@ -61307,7 +63389,13 @@
       "k5_k7_price_gap": 120.0,
       "k5_k7_no_diff_threshold": 1210.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1095.0,
+      "actual_turn": 0.62,
+      "actual_vol_k": 2382,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6449",
@@ -61483,7 +63571,13 @@
       "k5_k7_price_gap": 114.71,
       "k5_k7_no_diff_threshold": 518.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 382.0,
+      "actual_turn": 3.4,
+      "actual_vol_k": 3122,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6451",
@@ -61659,7 +63753,13 @@
       "k5_k7_price_gap": 91.0,
       "k5_k7_no_diff_threshold": 640.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 596.0,
+      "actual_turn": 7.7,
+      "actual_vol_k": 8726,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6465",
@@ -61835,7 +63935,13 @@
       "k5_k7_price_gap": 7.8,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 68.5,
+      "actual_turn": 1.52,
+      "actual_vol_k": 716,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6485",
@@ -62011,7 +64117,13 @@
       "k5_k7_price_gap": 27.6,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 87.6,
+      "actual_turn": 1.81,
+      "actual_vol_k": 858,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6494",
@@ -62187,7 +64299,13 @@
       "k5_k7_price_gap": 11.1,
       "k5_k7_no_diff_threshold": 74.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 68.6,
+      "actual_turn": 4.17,
+      "actual_vol_k": 1317,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6498",
@@ -62363,7 +64481,13 @@
       "k5_k7_price_gap": 24.0,
       "k5_k7_no_diff_threshold": 126.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 101.5,
+      "actual_turn": 0.56,
+      "actual_vol_k": 265,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6510",
@@ -62539,7 +64663,13 @@
       "k5_k7_price_gap": 875.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 3665.0,
+      "actual_turn": 3.88,
+      "actual_vol_k": 1276,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6515",
@@ -62715,7 +64845,13 @@
       "k5_k7_price_gap": 2255.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 9450.0,
+      "actual_turn": 0.87,
+      "actual_vol_k": 318,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6517",
@@ -62891,7 +65027,13 @@
       "k5_k7_price_gap": 10.5,
       "k5_k7_no_diff_threshold": 86.2,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 75.1,
+      "actual_turn": 9.6,
+      "actual_vol_k": 2936,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6526",
@@ -63067,7 +65209,13 @@
       "k5_k7_price_gap": 177.0,
       "k5_k7_no_diff_threshold": 805.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 697.0,
+      "actual_turn": 0.58,
+      "actual_vol_k": 969,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6531",
@@ -63243,7 +65391,13 @@
       "k5_k7_price_gap": 190.0,
       "k5_k7_no_diff_threshold": 1180.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1050.0,
+      "actual_turn": 4.86,
+      "actual_vol_k": 7925,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6538",
@@ -63419,7 +65573,13 @@
       "k5_k7_price_gap": 1.5,
       "k5_k7_no_diff_threshold": 123.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 136.47,
+      "actual_turn": 7.96,
+      "actual_vol_k": 3027,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)累積之最後成交價漲幅達38.78%(第一款)<br>當日週轉率達7.95%(第四款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "6548",
@@ -63595,7 +65755,13 @@
       "k5_k7_price_gap": 26.3,
       "k5_k7_no_diff_threshold": 112.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 92.7,
+      "actual_turn": 3.95,
+      "actual_vol_k": 37519,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6552",
@@ -63771,7 +65937,13 @@
       "k5_k7_price_gap": 8.6,
       "k5_k7_no_diff_threshold": 38.05,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 31.7,
+      "actual_turn": 0.6,
+      "actual_vol_k": 501,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6568",
@@ -63947,7 +66119,13 @@
       "k5_k7_price_gap": 52.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 178.0,
+      "actual_turn": 1.01,
+      "actual_vol_k": 310,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6570",
@@ -64123,7 +66301,13 @@
       "k5_k7_price_gap": 12.55,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 52.8,
+      "actual_turn": 0.54,
+      "actual_vol_k": 200,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6573",
@@ -64299,7 +66483,13 @@
       "k5_k7_price_gap": 2.85,
       "k5_k7_no_diff_threshold": 18.7,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 19.55,
+      "actual_turn": 4.72,
+      "actual_vol_k": 3799,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6584",
@@ -64475,7 +66665,13 @@
       "k5_k7_price_gap": 115.0,
       "k5_k7_no_diff_threshold": 756.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 649.0,
+      "actual_turn": 1.42,
+      "actual_vol_k": 1012,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6585",
@@ -64651,7 +66847,13 @@
       "k5_k7_price_gap": 22.5,
       "k5_k7_no_diff_threshold": 172.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 144.5,
+      "actual_turn": 1.63,
+      "actual_vol_k": 1173,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6588",
@@ -64827,7 +67029,13 @@
       "k5_k7_price_gap": 25.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 101.5,
+      "actual_turn": 1.55,
+      "actual_vol_k": 539,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6603",
@@ -65003,7 +67211,13 @@
       "k5_k7_price_gap": 3.35,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 24.3,
+      "actual_turn": 1.44,
+      "actual_vol_k": 2406,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6640",
@@ -65179,7 +67393,13 @@
       "k5_k7_price_gap": 334.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1050.0,
+      "actual_turn": 0.77,
+      "actual_vol_k": 222,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6642",
@@ -65355,7 +67575,13 @@
       "k5_k7_price_gap": 19.4,
       "k5_k7_no_diff_threshold": 107.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 87.6,
+      "actual_turn": 2.22,
+      "actual_vol_k": 832,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6643",
@@ -65531,7 +67757,13 @@
       "k5_k7_price_gap": 151.0,
       "k5_k7_no_diff_threshold": 606.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 490.5,
+      "actual_turn": 0.96,
+      "actual_vol_k": 403,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6651",
@@ -65707,7 +67939,13 @@
       "k5_k7_price_gap": 24.5,
       "k5_k7_no_diff_threshold": 173.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 153.0,
+      "actual_turn": 2.56,
+      "actual_vol_k": 887,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6654",
@@ -65883,7 +68121,13 @@
       "k5_k7_price_gap": 11.0,
       "k5_k7_no_diff_threshold": 221.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 199.0,
+      "actual_turn": 0.9,
+      "actual_vol_k": 335,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6658",
@@ -66059,7 +68303,13 @@
       "k5_k7_price_gap": 36.5,
       "k5_k7_no_diff_threshold": 217.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 187.5,
+      "actual_turn": 2.29,
+      "actual_vol_k": 832,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6664",
@@ -66235,7 +68485,13 @@
       "k5_k7_price_gap": 95.0,
       "k5_k7_no_diff_threshold": 472.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 376.5,
+      "actual_turn": 0.81,
+      "actual_vol_k": 493,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6667",
@@ -66411,7 +68667,13 @@
       "k5_k7_price_gap": 53.71,
       "k5_k7_no_diff_threshold": 333.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 276.0,
+      "actual_turn": 2.36,
+      "actual_vol_k": 1161,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6669",
@@ -66587,7 +68849,13 @@
       "k5_k7_price_gap": 1075.0,
       "k5_k7_no_diff_threshold": 5920.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 4675.0,
+      "actual_turn": 1.07,
+      "actual_vol_k": 1983,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6672",
@@ -66763,7 +69031,13 @@
       "k5_k7_price_gap": 37.5,
       "k5_k7_no_diff_threshold": 280.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 249.0,
+      "actual_turn": 5.4,
+      "actual_vol_k": 4363,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6683",
@@ -66939,7 +69213,13 @@
       "k5_k7_price_gap": 395.0,
       "k5_k7_no_diff_threshold": 1855.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1765.0,
+      "actual_turn": 9.67,
+      "actual_vol_k": 2666,
+      "actual_notice": true,
+      "actual_clauses": "當日本益比為100.00、股價淨值比為16.78且為其所屬產業類別股價淨值比之2.76倍、當日週轉率達9.67%(第六款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "6691",
@@ -67115,7 +69395,13 @@
       "k5_k7_price_gap": 154.0,
       "k5_k7_no_diff_threshold": 865.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 712.0,
+      "actual_turn": 0.46,
+      "actual_vol_k": 562,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6695",
@@ -67291,7 +69577,13 @@
       "k5_k7_price_gap": 6.6,
       "k5_k7_no_diff_threshold": 63.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 62.7,
+      "actual_turn": 6.59,
+      "actual_vol_k": 7031,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6706",
@@ -67467,7 +69759,13 @@
       "k5_k7_price_gap": 46.0,
       "k5_k7_no_diff_threshold": 209.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 163.5,
+      "actual_turn": 3.11,
+      "actual_vol_k": 2444,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6725",
@@ -67643,7 +69941,13 @@
       "k5_k7_price_gap": 22.0,
       "k5_k7_no_diff_threshold": 367.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 341.0,
+      "actual_turn": 1.06,
+      "actual_vol_k": 394,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6727",
@@ -67819,7 +70123,13 @@
       "k5_k7_price_gap": 45.5,
       "k5_k7_no_diff_threshold": 517.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 450.0,
+      "actual_turn": 7.77,
+      "actual_vol_k": 2090,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6739",
@@ -67995,7 +70305,13 @@
       "k5_k7_price_gap": 305.0,
       "k5_k7_no_diff_threshold": 1490.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1120.0,
+      "actual_turn": 0.86,
+      "actual_vol_k": 201,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6742",
@@ -68171,7 +70487,13 @@
       "k5_k7_price_gap": 0.7,
       "k5_k7_no_diff_threshold": 67.1,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 70.9,
+      "actual_turn": 7.82,
+      "actual_vol_k": 5573,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6762",
@@ -68347,7 +70669,13 @@
       "k5_k7_price_gap": 29.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 165.0,
+      "actual_turn": 0.01,
+      "actual_vol_k": 2,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6770",
@@ -68523,7 +70851,13 @@
       "k5_k7_price_gap": 12.7,
       "k5_k7_no_diff_threshold": 85.3,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 78.6,
+      "actual_turn": 10.78,
+      "actual_vol_k": 504938,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6781",
@@ -68699,7 +71033,13 @@
       "k5_k7_price_gap": 300.0,
       "k5_k7_no_diff_threshold": 1445.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1170.0,
+      "actual_turn": 1.3,
+      "actual_vol_k": 1109,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6805",
@@ -68875,7 +71215,13 @@
       "k5_k7_price_gap": 455.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1765.0,
+      "actual_turn": 0.99,
+      "actual_vol_k": 681,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6806",
@@ -69051,7 +71397,13 @@
       "k5_k7_price_gap": 0.44,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": null,
+      "actual_turn": null,
+      "actual_vol_k": null,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6821",
@@ -69227,7 +71579,13 @@
       "k5_k7_price_gap": 18.8,
       "k5_k7_no_diff_threshold": 85.4,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 64.9,
+      "actual_turn": 6.68,
+      "actual_vol_k": 2289,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6829",
@@ -69403,7 +71761,13 @@
       "k5_k7_price_gap": 65.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 206.0,
+      "actual_turn": 1.16,
+      "actual_vol_k": 684,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6830",
@@ -69579,7 +71943,13 @@
       "k5_k7_price_gap": 38.0,
       "k5_k7_no_diff_threshold": 633.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 560.0,
+      "actual_turn": 1.47,
+      "actual_vol_k": 783,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6831",
@@ -69755,7 +72125,13 @@
       "k5_k7_price_gap": 107.0,
       "k5_k7_no_diff_threshold": 922.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 830.0,
+      "actual_turn": 2.27,
+      "actual_vol_k": 1529,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6861",
@@ -69931,7 +72307,13 @@
       "k5_k7_price_gap": 6.5,
       "k5_k7_no_diff_threshold": 384.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 358.0,
+      "actual_turn": 2.27,
+      "actual_vol_k": 945,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6870",
@@ -70107,7 +72489,13 @@
       "k5_k7_price_gap": 45.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 262.5,
+      "actual_turn": 0.64,
+      "actual_vol_k": 150,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6890",
@@ -70283,7 +72671,13 @@
       "k5_k7_price_gap": 35.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 238.0,
+      "actual_turn": 0.15,
+      "actual_vol_k": 382,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6899",
@@ -70459,7 +72853,13 @@
       "k5_k7_price_gap": 15.4,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 59.0,
+      "actual_turn": 0.13,
+      "actual_vol_k": 56,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6906",
@@ -70635,7 +73035,13 @@
       "k5_k7_price_gap": 21.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 88.0,
+      "actual_turn": 0.35,
+      "actual_vol_k": 116,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6907",
@@ -70811,7 +73217,13 @@
       "k5_k7_price_gap": 44.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 160.0,
+      "actual_turn": 5.24,
+      "actual_vol_k": 3273,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "6925",
@@ -70987,7 +73399,13 @@
       "k5_k7_price_gap": 16.25,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 62.6,
+      "actual_turn": 0.34,
+      "actual_vol_k": 67,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "7709",
@@ -71163,7 +73581,13 @@
       "k5_k7_price_gap": 15.8,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 95.4,
+      "actual_turn": 0.83,
+      "actual_vol_k": 326,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "7717",
@@ -71339,7 +73763,13 @@
       "k5_k7_price_gap": 100.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 497.5,
+      "actual_turn": 1.94,
+      "actual_vol_k": 481,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "7722",
@@ -71515,7 +73945,13 @@
       "k5_k7_price_gap": 70.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 306.0,
+      "actual_turn": 0.33,
+      "actual_vol_k": 223,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "7744",
@@ -71691,7 +74127,13 @@
       "k5_k7_price_gap": 112.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 454.0,
+      "actual_turn": 0.43,
+      "actual_vol_k": 139,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "7750",
@@ -71867,7 +74309,13 @@
       "k5_k7_price_gap": 510.0,
       "k5_k7_no_diff_threshold": 2795.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 2165.0,
+      "actual_turn": 0.5,
+      "actual_vol_k": 358,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "7751",
@@ -72043,7 +74491,13 @@
       "k5_k7_price_gap": 420.0,
       "k5_k7_no_diff_threshold": 1775.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1475.0,
+      "actual_turn": 0.84,
+      "actual_vol_k": 226,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "7769",
@@ -72219,7 +74673,13 @@
       "k5_k7_price_gap": 1455.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 6810.0,
+      "actual_turn": 0.34,
+      "actual_vol_k": 615,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "7788",
@@ -72395,7 +74855,13 @@
       "k5_k7_price_gap": 66.5,
       "k5_k7_no_diff_threshold": 334.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 278.5,
+      "actual_turn": 2.84,
+      "actual_vol_k": 2261,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "7828",
@@ -72571,7 +75037,13 @@
       "k5_k7_price_gap": 605.0,
       "k5_k7_no_diff_threshold": 2460.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 2240.0,
+      "actual_turn": 0.67,
+      "actual_vol_k": 271,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8021",
@@ -72752,7 +75224,13 @@
       "k5_k7_price_gap": 94.0,
       "k5_k7_no_diff_threshold": 662.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 567.0,
+      "actual_turn": 0.99,
+      "actual_vol_k": 1450,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8027",
@@ -72933,7 +75411,13 @@
       "k5_k7_price_gap": 53.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 237.0,
+      "actual_turn": 1.08,
+      "actual_vol_k": 1193,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8028",
@@ -73109,7 +75593,13 @@
       "k5_k7_price_gap": 88.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 310.0,
+      "actual_turn": 4.02,
+      "actual_vol_k": 7313,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8033",
@@ -73285,7 +75775,13 @@
       "k5_k7_price_gap": 22.5,
       "k5_k7_no_diff_threshold": 164.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 141.0,
+      "actual_turn": 5.78,
+      "actual_vol_k": 9509,
+      "actual_notice": true,
+      "actual_clauses": "06月23日之本益比為 210.45，且股價淨值比為11.16 。另當日週轉率為 6.05%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "8039",
@@ -73461,7 +75957,13 @@
       "k5_k7_price_gap": 42.0,
       "k5_k7_no_diff_threshold": 187.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 145.5,
+      "actual_turn": 2.76,
+      "actual_vol_k": 7287,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8040",
@@ -73637,7 +76139,13 @@
       "k5_k7_price_gap": 28.0,
       "k5_k7_no_diff_threshold": 122.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 114.0,
+      "actual_turn": 8.48,
+      "actual_vol_k": 8173,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8042",
@@ -73818,7 +76326,13 @@
       "k5_k7_price_gap": 35.0,
       "k5_k7_no_diff_threshold": 220.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 177.5,
+      "actual_turn": 1.14,
+      "actual_vol_k": 1481,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8043",
@@ -73994,7 +76508,13 @@
       "k5_k7_price_gap": 31.5,
       "k5_k7_no_diff_threshold": 238.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 202.0,
+      "actual_turn": 14.3,
+      "actual_vol_k": 11427,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)之累積週轉率為205.86%，當日週轉率達14.3%(第十款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "8046",
@@ -74170,7 +76690,13 @@
       "k5_k7_price_gap": 211.0,
       "k5_k7_no_diff_threshold": 1035.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 909.0,
+      "actual_turn": 5.41,
+      "actual_vol_k": 34962,
+      "actual_notice": true,
+      "actual_clauses": "06月23日之本益比為 192.58，且股價淨值比為12.58 。另當日週轉率為 5.41%，暨台灣摩根證券商成交買進金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為12.05%。單一投資人當日買進該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "8069",
@@ -74346,7 +76872,13 @@
       "k5_k7_price_gap": 51.5,
       "k5_k7_no_diff_threshold": 250.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 196.0,
+      "actual_turn": 0.42,
+      "actual_vol_k": 4886,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8070",
@@ -74522,7 +77054,13 @@
       "k5_k7_price_gap": 12.8,
       "k5_k7_no_diff_threshold": 69.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 58.6,
+      "actual_turn": 3.15,
+      "actual_vol_k": 22885,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8071",
@@ -74698,7 +77236,13 @@
       "k5_k7_price_gap": 4.45,
       "k5_k7_no_diff_threshold": 31.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 27.0,
+      "actual_turn": 5.67,
+      "actual_vol_k": 3406,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8081",
@@ -74874,7 +77418,13 @@
       "k5_k7_price_gap": 57.0,
       "k5_k7_no_diff_threshold": 360.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 318.0,
+      "actual_turn": 3.33,
+      "actual_vol_k": 2867,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8085",
@@ -75050,7 +77600,13 @@
       "k5_k7_price_gap": 3.4,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 12.25,
+      "actual_turn": 0.48,
+      "actual_vol_k": 678,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8088",
@@ -75226,7 +77782,13 @@
       "k5_k7_price_gap": 17.0,
       "k5_k7_no_diff_threshold": 79.3,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 68.2,
+      "actual_turn": 12.89,
+      "actual_vol_k": 7851,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日(含當日)之累積週轉率為83.03%，當日週轉率達12.88%(第十款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "8091",
@@ -75402,7 +77964,13 @@
       "k5_k7_price_gap": 59.5,
       "k5_k7_no_diff_threshold": 307.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 280.5,
+      "actual_turn": 3.93,
+      "actual_vol_k": 2182,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8104",
@@ -75578,7 +78146,13 @@
       "k5_k7_price_gap": 8.1,
       "k5_k7_no_diff_threshold": 48.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 40.1,
+      "actual_turn": 2.5,
+      "actual_vol_k": 2603,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8105",
@@ -75754,7 +78328,13 @@
       "k5_k7_price_gap": 6.1,
       "k5_k7_no_diff_threshold": 28.15,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 21.4,
+      "actual_turn": 3.09,
+      "actual_vol_k": 13626,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8110",
@@ -75930,7 +78510,13 @@
       "k5_k7_price_gap": 14.1,
       "k5_k7_no_diff_threshold": 69.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 58.5,
+      "actual_turn": 3.38,
+      "actual_vol_k": 17508,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8112",
@@ -76106,7 +78692,13 @@
       "k5_k7_price_gap": 24.0,
       "k5_k7_no_diff_threshold": 124.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 95.8,
+      "actual_turn": 6.12,
+      "actual_vol_k": 32163,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8114",
@@ -76282,7 +78874,13 @@
       "k5_k7_price_gap": 52.5,
       "k5_k7_no_diff_threshold": 263.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 207.0,
+      "actual_turn": 1.29,
+      "actual_vol_k": 985,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8150",
@@ -76458,7 +79056,13 @@
       "k5_k7_price_gap": 22.0,
       "k5_k7_no_diff_threshold": 123.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 106.5,
+      "actual_turn": 12.31,
+      "actual_vol_k": 86724,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8182",
@@ -76634,7 +79238,13 @@
       "k5_k7_price_gap": 9.35,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 47.3,
+      "actual_turn": 2.29,
+      "actual_vol_k": 2456,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8210",
@@ -76810,7 +79420,13 @@
       "k5_k7_price_gap": 245.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 1310.0,
+      "actual_turn": 1.09,
+      "actual_vol_k": 1372,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8227",
@@ -76986,7 +79602,13 @@
       "k5_k7_price_gap": 54.0,
       "k5_k7_no_diff_threshold": 229.5,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 186.5,
+      "actual_turn": 2.19,
+      "actual_vol_k": 866,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8277",
@@ -77162,7 +79784,13 @@
       "k5_k7_price_gap": 3.3,
       "k5_k7_no_diff_threshold": 12.85,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 10.85,
+      "actual_turn": 1.05,
+      "actual_vol_k": 959,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8289",
@@ -77338,7 +79966,13 @@
       "k5_k7_price_gap": 17.75,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 61.2,
+      "actual_turn": 4.69,
+      "actual_vol_k": 3204,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8291",
@@ -77514,7 +80148,13 @@
       "k5_k7_price_gap": 4.1,
       "k5_k7_no_diff_threshold": 54.8,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 49.8,
+      "actual_turn": 1.91,
+      "actual_vol_k": 334,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8299",
@@ -77690,7 +80330,13 @@
       "k5_k7_price_gap": 635.0,
       "k5_k7_no_diff_threshold": 2985.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 2430.0,
+      "actual_turn": 3.16,
+      "actual_vol_k": 6978,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8358",
@@ -77871,7 +80517,13 @@
       "k5_k7_price_gap": 73.0,
       "k5_k7_no_diff_threshold": 744.0,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 657.0,
+      "actual_turn": 7.16,
+      "actual_vol_k": 18089,
+      "actual_notice": true,
+      "actual_clauses": "當日本益比為126.10、股價淨值比為20.36且為其所屬產業類別股價淨值比之4.07倍、當日週轉率達7.16%、港商麥格理證券公司當日買進該有價證券之成交金額達13.23億元，且占當日該有價證券之總成交金額10.75%、單一投資人當日買進該有價證券之成交金額達13.23億元，且占當日該有價證券之總成交金額10.75%(第六款)",
+      "actual_punish": false
     },
     {
       "證券代碼": "8374",
@@ -78047,7 +80699,13 @@
       "k5_k7_price_gap": 21.5,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 90.4,
+      "actual_turn": 0.38,
+      "actual_vol_k": 424,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8438",
@@ -78223,7 +80881,13 @@
       "k5_k7_price_gap": 8.9,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 101.0,
+      "actual_turn": 3.17,
+      "actual_vol_k": 2215,
+      "actual_notice": true,
+      "actual_clauses": "最近六個營業日累積收盤價漲幅達25.27%。且06月23日凱基證券商買進之比率為55.20%﹝第五款﹞。",
+      "actual_punish": false
     },
     {
       "證券代碼": "8444",
@@ -78399,7 +81063,13 @@
       "k5_k7_price_gap": 0.99,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 5.51,
+      "actual_turn": 0.06,
+      "actual_vol_k": 64,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8454",
@@ -78575,7 +81245,13 @@
       "k5_k7_price_gap": 66.0,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 330.0,
+      "actual_turn": 0.46,
+      "actual_vol_k": 1215,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8455",
@@ -78751,7 +81427,13 @@
       "k5_k7_price_gap": 7.4,
       "k5_k7_no_diff_threshold": 38.15,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 28.0,
+      "actual_turn": 0.39,
+      "actual_vol_k": 99,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8473",
@@ -78927,7 +81609,13 @@
       "k5_k7_price_gap": 11.8,
       "k5_k7_no_diff_threshold": null,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 50.8,
+      "actual_turn": 0.7,
+      "actual_vol_k": 1276,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     },
     {
       "證券代碼": "8926",
@@ -79103,7 +81791,13 @@
       "k5_k7_price_gap": 14.9,
       "k5_k7_no_diff_threshold": 93.6,
       "k5_note": "仍需考慮當日券商資料",
-      "k7_note": "需考慮當日資券比"
+      "k7_note": "需考慮當日資券比",
+      "actual_close": 82.2,
+      "actual_turn": 1.6,
+      "actual_vol_k": 13250,
+      "actual_notice": false,
+      "actual_clauses": null,
+      "actual_punish": false
     }
   ],
   "notes": [
