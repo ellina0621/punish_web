@@ -62,6 +62,20 @@ function turnoverCell(r) {
 
 // ─── badges ─────────────────────────────────────────────────────────────────
 
+// estimate_512_attention.py exports k5_k7_price_threshold but no direction
+// column, so recover it from which side's price the chosen threshold came from.
+// Without this, a DOWN trigger gets treated as UP and priceBadge mislabels a
+// clause that needs a big drop as "跌停仍觸".
+function k57Direction(r) {
+  const thr = Number(r["k5_k7_price_threshold"]);
+  if (!Number.isFinite(thr)) return undefined;
+  const dn = Number(r["k5_k7_price_threshold_down"]);
+  if (Number.isFinite(dn) && Math.abs(thr - dn) < 1e-9) return "down";
+  const up = Number(r["k5_k7_price_threshold_up"]);
+  if (Number.isFinite(up) && Math.abs(thr - up) < 1e-9) return "up";
+  return undefined;
+}
+
 // Effective gap from current price to a threshold:
 //   0  — "跌停仍觸" (threshold ≤ limit-down, ANY tomorrow's close triggers it)
 //   0  — price already above threshold (k6 case, condition met)
@@ -237,7 +251,7 @@ function conditionCol(r) {
   const k57p = Number(r["k5_k7_price_threshold"]);
   const candidates = [
     ["①",      r["k1_price_threshold"], [], r["k1_nearest_direction"]],
-    ...(r["k2_exempt"] ? [] : [["②", r["k2_price_threshold"], []]]),
+    ...(r["k2_exempt"] ? [] : [["②", r["k2_price_threshold"], [], r["k2_nearest_direction"]]]),
     ["⑥",      r["k6_min_price_to_trigger"],
                 (Number.isFinite(k6v) && k6v > 0) ? [`量≥${fmt(k6v)}張`] : []],
     // Include ③④⑤⑦ only when their price threshold is calculable; show only easiest vol
@@ -248,9 +262,11 @@ function conditionCol(r) {
         if (has4) return [`量④≥${fmt(k4v)}張`];
         if (has3) return [`量③≥${fmt(k3v)}張`];
         return [];
-      })()]] : []),
+      })(), k57Direction(r)]] : []),
   ].map(([lbl, v, extras, dir]) => [lbl, Number(v), thresholdGap(r, v, dir), extras, dir])
-   .filter(([, v]) => Number.isFinite(v));
+   // price > 0: a DOWN threshold of 0 or below (down_abs ≥ 100%) is not a price
+   // the stock can ever reach — dropping it here keeps it out of the ranking.
+   .filter(([, v]) => Number.isFinite(v) && v > 0);
   if (!candidates.length) return "-";
   candidates.sort((a, b) => {
     if (a[2] !== b[2]) return a[2] - b[2];
@@ -481,8 +497,9 @@ function clauseThresholdDetail(r) {
   const k2p = Number(r["k2_price_threshold"]);
   if (r["k2_exempt"]) {
     lines.push({ label: `款②（豁免中）`, price: null, gap: Infinity, vols: [], notes: [r["k2_exempt_reason"] || "第3條第三款豁免"], baseDate: null, basePrice: null, isK2: true, exempt: true });
-  } else if (Number.isFinite(k2p)) {
-    lines.push({ label: `款②${r["k2_nearest_window"] ? `(${r["k2_nearest_window"]})` : ""}`, price: k2p, gap: thresholdGap(r, k2p), vols: [], notes: [], baseDate: r["k2_nearest_base_date"], basePrice: r["k2_nearest_base_price"], isK2: true });
+  } else if (Number.isFinite(k2p) && k2p > 0) {
+    const k2dir = r["k2_nearest_direction"];
+    lines.push({ label: `款②${r["k2_nearest_window"] ? `(${r["k2_nearest_window"]})` : ""}`, price: k2p, gap: thresholdGap(r, k2p, k2dir), dir: k2dir, vols: [], notes: [], baseDate: r["k2_nearest_base_date"], basePrice: r["k2_nearest_base_price"], isK2: true });
   }
 
   // 款③④⑤⑦ — 共用同一漲幅門檻，合併為一行
@@ -501,7 +518,8 @@ function clauseThresholdDetail(r) {
       notes.push(`⑤ ${r["k5_note"] || "仍需考慮當日券商資料"}`);
       notes.push(`⑦ ${r["k7_note"] || "需考慮當日資券比"}`);
     }
-    lines.push({ label: `款${ids.join("")}`, price: hasK57 ? k57p : null, gap: hasK57 ? thresholdGap(r, k57p) : Infinity, vols, notes, baseDate: k1bd, basePrice: k1bp });
+    const k57dir = k57Direction(r);
+    lines.push({ label: `款${ids.join("")}`, price: hasK57 ? k57p : null, gap: hasK57 ? thresholdGap(r, k57p, k57dir) : Infinity, dir: k57dir, vols, notes, baseDate: k1bd, basePrice: k1bp });
   }
 
   // 款⑥ k6
@@ -579,7 +597,6 @@ function k1NoDiffNote(r) {
 
 function near2CondCell(r) {
   const { k1Only } = getLeadingPath(r);
-  const close = Number(r["5_12收盤價"]);
   let _near2K1Prefix = "";
   if (k1Only) {
     const k1p = Number(r["k1_price_threshold"]);
@@ -600,12 +617,18 @@ function near2CondCell(r) {
   const k57p = Number(r["k5_k7_price_threshold"]);
   const k6p  = Number(r["k6_min_price_to_trigger"]);
   const k1dir = r["k1_nearest_direction"];
+  // Rank with thresholdGap() like condCell/clauseThresholdDetail do — the raw
+  // *_price_gap columns are plain distances, so they rank an unreachable clause
+  // ahead of a reachable one. Directions must be passed for ②/③④⑤⑦ too, or a
+  // DOWN trigger is read as UP and badged "跌停仍觸".
+  const k2dir  = r["k2_nearest_direction"];
+  const k57dir = k57Direction(r);
   const candidates = [
     { label: "款①",    price: Number(r["k1_price_threshold"]),  gap: thresholdGap(r, r["k1_price_threshold"], k1dir), dir: k1dir },
-    ...(r["k2_exempt"] ? [] : [{ label: "款②", price: Number(r["k2_price_threshold"]), gap: Number(r["k2_price_gap"]) }]),
-    { label: "款③④⑤⑦", price: k57p, gap: Number(r["k5_k7_price_gap"]) },
-    { label: "款⑥",    price: k6p,  gap: Number.isFinite(close) && Number.isFinite(k6p) ? Math.abs(close - k6p) : Infinity },
-  ].filter(c => Number.isFinite(c.price) && Number.isFinite(c.gap));
+    ...(r["k2_exempt"] ? [] : [{ label: "款②", price: Number(r["k2_price_threshold"]), gap: thresholdGap(r, r["k2_price_threshold"], k2dir), dir: k2dir }]),
+    { label: "款③④⑤⑦", price: k57p, gap: thresholdGap(r, k57p, k57dir), dir: k57dir },
+    { label: "款⑥",    price: k6p,  gap: thresholdGap(r, k6p) },
+  ].filter(c => Number.isFinite(c.price) && c.price > 0 && Number.isFinite(c.gap));
   if (!candidates.length) return `<span class="b-date">-</span>`;
   candidates.sort((a, b) => a.gap - b.gap);
   const best = candidates[0];
