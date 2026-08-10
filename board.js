@@ -8,6 +8,8 @@ const sortState = {};
 // ─── utilities ──────────────────────────────────────────────────────────────
 
 const nf = new Intl.NumberFormat("zh-TW", { maximumFractionDigits: 2 });
+const DISPOSITION_RULE_EFFECTIVE_DATE = "2026-08-10";
+const LEGACY_NORMAL_MINUTES = { first: "5分盤", second: "20分盤" };
 
 function fmt(v) {
   if (v === null || v === undefined || Number.isNaN(v) || v === "") return "-";
@@ -31,6 +33,28 @@ function nextBizDay(isoDate) {
   const m = String(d.getMonth() + 1).padStart(2, "0");
   const day = String(d.getDate()).padStart(2, "0");
   return `${y}-${m}-${day}`;
+}
+
+function expectedMinutes(r, isSecond) {
+  const exported = isSecond
+    ? r["預估第二次以上處置分盤"]
+    : r["預估第一次處置分盤"];
+  if (exported) return exported;
+  if ((payload?.eval_date || "") >= DISPOSITION_RULE_EFFECTIVE_DATE) return "2分盤";
+  return isSecond ? LEGACY_NORMAL_MINUTES.second : LEGACY_NORMAL_MINUTES.first;
+}
+
+function minutesChipClass(text) {
+  if (text === "2分盤") return "b-chip-2min";
+  if (text === "5分盤" || text === "10分盤") return "b-chip-5min";
+  return "b-chip-20min";
+}
+
+function predictedPeriodChip(r) {
+  const days = Number(r["預估處置營業日"]);
+  if (!Number.isFinite(days) || days <= 0) return "";
+  const k13 = r["處置基數含第13款"] ? " · 含第13款" : "";
+  return `<span class="b-chip b-chip-period">預估${days}日${k13}</span>`;
 }
 
 function mktTag(r) {
@@ -167,6 +191,7 @@ function reasonChip(text) {
 
 function minutesChip(text) {
   if (!text) return `<span class="b-chip b-chip-exit">-</span>`;
+  if (text === "2分盤")  return `<span class="b-chip b-chip-2min">2分盤</span>`;
   if (text === "5分盤")  return `<span class="b-chip b-chip-5min">5分盤</span>`;
   if (text === "10分盤") return `<span class="b-chip b-chip-5min">10分盤</span>`;
   if (text === "20分盤") return `<span class="b-chip b-chip-20min">20分盤</span>`;
@@ -659,12 +684,12 @@ function fastestDisp(r) {
 
   // Already triggers on eval_date → disposal = next biz day
   if (triggered && order) {
-    const dispDate = nextBizDay(payload.eval_date);
+    const dispDate = r["若5_12觸發_預估處置開始日"] || nextBizDay(payload.eval_date);
     const dateLabel = mmdd(dispDate);
     const orderShort = order.includes("第二次") ? "第2次" : "第1次";
     const minShort = minutes ? minutes.replace("分盤", "分") : "";
-    const chipCls = minutes === "20分盤" ? "b-chip-20min" : "b-chip-5min";
-    return `<span class="fastest"><span class="fastest-date">${dateLabel}</span><span class="b-chip ${chipCls}">${orderShort}${minShort}</span></span>`;
+    const chipCls = minutesChipClass(minutes);
+    return `<span class="fastest"><span class="fastest-date">${dateLabel}</span><span class="b-chip ${chipCls}">${orderShort}${minShort}</span>${predictedPeriodChip(r)}</span>`;
   }
 
   // 差 N 次：show the N-th next biz day from eval_date as earliest possible
@@ -672,9 +697,10 @@ function fastestDisp(r) {
     const d = nextBizDay(payload.eval_date); // triggers today → disposal starts next biz day
     const isSecond = r["近30天內曾處置"] || String(r["若5_12觸發_預估處置次數"] || "").includes("第二次");
     const orderShort = isSecond ? "第2次" : "第1次";
-    const minShort   = isSecond ? "20分" : "5分";
-    const chipCls    = isSecond ? "b-chip-20min" : "b-chip-5min";
-    return `<span class="fastest"><span class="fastest-date">${mmdd(d)}</span><span class="b-muted" style="font-size:10px;margin-left:3px">最快</span><span class="b-chip ${chipCls}" style="margin-left:5px">${orderShort}${minShort}</span></span>`;
+    const minutes    = expectedMinutes(r, isSecond);
+    const minShort   = minutes.replace("分盤", "分");
+    const chipCls    = minutesChipClass(minutes);
+    return `<span class="fastest"><span class="fastest-date">${mmdd(d)}</span><span class="b-muted" style="font-size:10px;margin-left:3px">最快</span><span class="b-chip ${chipCls}" style="margin-left:5px">${orderShort}${minShort}</span>${predictedPeriodChip(r)}</span>`;
   }
 
   if (remain === 2) {
@@ -683,9 +709,10 @@ function fastestDisp(r) {
     d = nextBizDay(d); // disposal start
     const isSecond = r["近30天內曾處置"];
     const orderShort = isSecond ? "第2次" : "第1次";
-    const minShort   = isSecond ? "20分" : "5分";
-    const chipCls    = isSecond ? "b-chip-20min" : "b-chip-5min";
-    return `<span class="fastest"><span class="fastest-date">${mmdd(d)}</span><span class="b-muted" style="font-size:10px;margin-left:3px">最快</span><span class="b-chip ${chipCls}" style="margin-left:5px">${orderShort}${minShort}</span></span>`;
+    const minutes    = expectedMinutes(r, isSecond);
+    const minShort   = minutes.replace("分盤", "分");
+    const chipCls    = minutesChipClass(minutes);
+    return `<span class="fastest"><span class="fastest-date">${mmdd(d)}</span><span class="b-muted" style="font-size:10px;margin-left:3px">最快</span><span class="b-chip ${chipCls}" style="margin-left:5px">${orderShort}${minShort}</span>${predictedPeriodChip(r)}</span>`;
   }
 
   return `<span class="b-date">-</span>`;
@@ -708,7 +735,8 @@ function getGroups() {
   const active    = allActive.filter(r => !near2_1.includes(r) && !near2_2.includes(r));
 
   const diff1all = rows.filter(r => Number(r["最接近類別尚差"]) === 1 && !r["處置中_5_12"] && !r["已出關"]);
-  // 20分盤: 近30天內曾被處置 (regardless of whether today's eval day triggers)
+  // Keep first/second order groups separate for collection semantics; the
+  // matching interval is date/type driven and can be identical under new rules.
   const diff1_20 = diff1all.filter(r => r["近30天內曾處置"] || String(r["若5_12觸發_預估處置次數"] || "").includes("第二次"));
   const diff1_5  = diff1all.filter(r => !r["近30天內曾處置"] && !String(r["若5_12觸發_預估處置次數"] || "").includes("第二次"));
   const diff2    = rows.filter(r => Number(r["最接近類別尚差"]) === 2 && !r["處置中_5_12"] && !r["已出關"]);
@@ -821,10 +849,15 @@ function disposalTable(secKey, groupRows, isNear2 = false) {
           </div>`;
     const nextDispOrder  = r["若5_12觸發_預估處置次數"] || "";
     const nextDispMin    = r["若5_12觸發_預估分盤"] || "";
-    const nextDispStart  = r["評估日"] ? nextBizDay(r["評估日"]) : null;
+    const nextDispStart  = r["若5_12觸發_預估處置開始日"] || (r["評估日"] ? nextBizDay(r["評估日"]) : null);
+    const nextDispEnd    = r["若5_12觸發_預估處置結束日"] || null;
+    const nextDispDays   = Number(r["預估處置營業日"]);
+    const nextDispPeriod = Number.isFinite(nextDispDays)
+      ? `，預估${nextDispDays}個營業日${r["處置基數含第13款"] ? "（含第13款）" : ""}${nextDispEnd ? `，至 ${mmdd(nextDispEnd)}` : ""}`
+      : "";
     const nextDispSection = (remain2nd != null && remain2nd <= 1 && nextDispOrder)
       ? `<div class="detail-section">
-            <span class="detail-label">🔴 若今日觸發 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispOrder}（${nextDispMin || "?"}）</span>
+            <span class="detail-label">🔴 若今日觸發 → 最快 ${nextDispStart ? mmdd(nextDispStart) : "?"} 起，${nextDispOrder}（${nextDispMin || "?"}）${nextDispPeriod}</span>
           </div>`
       : "";
 
@@ -973,9 +1006,11 @@ function section(secKey, title, count, content, variant, note = "") {
 
 function render() {
   const { active, near2_1, near2_2, diff1_5, diff1_20, diff2 } = getGroups();
+  const firstMinutes = expectedMinutes({}, false);
+  const secondMinutes = expectedMinutes({}, true);
   document.getElementById("boardContent").innerHTML = [
-    section("d1_5",    "差一次被處置 ▸ 第一次 5分盤",         diff1_5.length,  dotTable("d1_5",  diff1_5),  "first"),
-    section("d1_20",   "差一次被處置 ▸ 第二次以上 20分盤",     diff1_20.length, dotTable("d1_20", diff1_20), ""),
+    section("d1_5",    `差一次被處置 ▸ 第一次（普通交易 ${firstMinutes}）`,     diff1_5.length,  dotTable("d1_5",  diff1_5),  "first"),
+    section("d1_20",   `差一次被處置 ▸ 第二次以上（普通交易 ${secondMinutes}）`, diff1_20.length, dotTable("d1_20", diff1_20), ""),
     section("d2",      "差兩次被處置",                        diff2.length,    dotTable("d2",    diff2),    "far"),
     section("near2_1", "處置中／已出關 ▸ 差一次進第二次處置",   near2_1.length,  disposalTable("near2_1", near2_1, true), "disposal", near2_1.some(r=>r["出關期間預估k1"]) ? "❗ = 出關三天內預估觸發第1款，連三再處置風險極高" : ""),
     section("near2_2", "處置中／已出關 ▸ 差兩次進第二次處置",   near2_2.length,  disposalTable("near2_2", near2_2, true), "disposal", near2_2.some(r=>r["出關期間預估k1"]) ? "❗ = 出關三天內預估觸發第1款，連三再處置風險極高" : ""),
@@ -1114,8 +1149,8 @@ function groupLabel(r) {
   if (near2_1.includes(r))  return "處置中 ▸ 差一次進第二次";
   if (near2_2.includes(r))  return "處置中 ▸ 差兩次進第二次";
   if (active.includes(r))   return "正在處置 / 近期出關";
-  if (diff1_20.includes(r)) return "差一次 ▸ 第二次以上 20分盤";
-  if (diff1_5.includes(r))  return "差一次 ▸ 第一次 5分盤";
+  if (diff1_20.includes(r)) return `差一次 ▸ 第二次以上（普通交易 ${expectedMinutes(r, true)}）`;
+  if (diff1_5.includes(r))  return `差一次 ▸ 第一次（普通交易 ${expectedMinutes(r, false)}）`;
   if (diff2.includes(r))    return "差兩次被處置";
   return "其他注意股";
 }

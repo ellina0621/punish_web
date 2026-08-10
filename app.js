@@ -119,6 +119,7 @@ function priceMoveFromPrev(r, target, direction) {
 
 function minutesBadge(text) {
   if (!text || text === "-") return `<span class="minutes-chip minutes-chip-exit">-</span>`;
+  if (text === "2分盤")  return `<span class="minutes-chip minutes-chip-2">2分盤</span>`;
   if (text === "5分盤")  return `<span class="minutes-chip minutes-chip-5">5分盤</span>`;
   if (text === "10分盤") return `<span class="minutes-chip minutes-chip-10">10分盤</span>`;
   if (text === "20分盤") return `<span class="minutes-chip minutes-chip-20">20分盤</span>`;
@@ -128,6 +129,16 @@ function minutesBadge(text) {
   if (text === "90分盤") return `<span class="minutes-chip minutes-chip-90">90分盤</span>`;
   if (text === "已出關") return `<span class="minutes-chip minutes-chip-exit">已出關</span>`;
   return `<span class="minutes-chip minutes-chip-exit">${text}</span>`;
+}
+
+function predictedPeriodText(r) {
+  const days = Number(r["預估處置營業日"]);
+  if (!Number.isFinite(days) || days <= 0) return "-";
+  const start = r["若5_12觸發_預估處置開始日"];
+  const end = r["若5_12觸發_預估處置結束日"];
+  const range = start && end ? `（${start} ～ ${end}）` : "";
+  const k13 = r["處置基數含第13款"] ? "，含第13款" : "";
+  return `${days} 個營業日${k13}${range}`;
 }
 
 function disposalReasonBadge(text) {
@@ -335,7 +346,8 @@ function renderDetail(r) {
       ${kv("處置後連5第1-8款", `${fmt(r["處置後連5第1到8款"])} / 5`)}
       ${kv("處置後10日次數", `${fmt(r["處置後10日次數"])} / 6`)}
       ${kv("處置後30日次數", `${fmt(r["處置後30日次數"])} / 12`)}
-      ${r["若評估日成為注意_觸發處置類別"] ? kv("若今日再被注意將觸發", r["若評估日成為注意_觸發處置類別"]) : ""}
+      ${r["若評估日成為注意_觸發處置類別"] ? kv("若今日再被注意將觸發", `${r["若評估日成為注意_觸發處置類別"]} / ${r["若5_12觸發_預估分盤"] || "-"}`) : ""}
+      ${r["若評估日成為注意_觸發處置類別"] ? kv("預估處置期間", predictedPeriodText(r)) : ""}
     ` : "";
     document.getElementById("detailPanel").innerHTML = `
       <div class="detail-title">
@@ -390,6 +402,7 @@ function renderDetail(r) {
     ${kv("目前處置次數", r["目前處置次數"] || "-")}
     ${kv("網站分組", rowGroup(r))}
     ${kv("若觸發預估", r["若5_12觸發_預估處置次數"] ? `${r["若5_12觸發_預估處置次數"]} / ${r["若5_12觸發_預估分盤"]}` : "-")}
+    ${kv("預估處置期間", predictedPeriodText(r))}
 
     <div class="section-title">價格門檻</div>
     ${kv("最低價門檻", minPriceThreshold(r))}

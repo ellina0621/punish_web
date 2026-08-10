@@ -585,6 +585,7 @@ tr.selected {
   border: 2px solid currentColor;
   white-space: nowrap;
 }
+.minutes-chip-2    { background: #dff7fb; color: #0e7490; }
 .minutes-chip-5    { background: #d8eadf; color: #1a6445; }
 .minutes-chip-10   { background: #d8f0ea; color: #1a6445; }
 .minutes-chip-20   { background: #fff0ef; color: #c0392b; }

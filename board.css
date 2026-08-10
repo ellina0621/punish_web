@@ -280,9 +280,11 @@ table.bt tr:hover { background: rgba(255, 255, 255, 0.03); }
 .b-chip-10    { background: rgba(52, 211, 153, 0.15);  color: #6ee7b7; }
 .b-chip-30    { background: rgba(167, 139, 250, 0.15); color: #c4b5fd; }
 .b-chip-other { background: rgba(255, 255, 255, 0.06); color: #9ca3af; border-color: #4b5563; }
+.b-chip-2min  { background: rgba(34, 211, 238, 0.18);  color: #67e8f9; border: 1px solid rgba(34, 211, 238, 0.24); }
 .b-chip-5min  { background: rgba(52, 211, 153, 0.15);  color: #6ee7b7; }
 .b-chip-20min { background: rgba(248, 113, 113, 0.15); color: #fca5a5; }
 .b-chip-exit  { background: rgba(96, 165, 250, 0.15);  color: #93c5fd; }
+.b-chip-period { background: rgba(148, 163, 184, 0.12); color: #cbd5e1; font-weight: 700; }
 
 /* ── Fastest disposal label ─────────────────────────────── */
 .fastest {
